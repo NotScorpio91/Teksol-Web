@@ -1,0 +1,29 @@
+<svg width="146" height="20" viewBox="0 0 146 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="146" height="20" fill="#F5F5F5"/>
+<g id="Homepage" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="4942" transform="translate(-369 -705)" fill="black"/>
+<g id="Group 95">
+<path id="Line 5 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M73.4128 -709L73.4128 142L72.4128 142L72.4128 -709L73.4128 -709Z" fill="url(#paint0_linear_0_1)"/>
+</g>
+<rect id="Rectangle 6" x="-82" y="-154" width="866" height="553" rx="28" fill="#131415"/>
+<rect id="Rectangle 40" x="-29" y="-111" width="246" height="460" rx="20" fill="#222228"/>
+<g id="Group 116">
+<g id="Group 107">
+<rect id="Rectangle 47" x="40" width="74" height="6" rx="3" fill="#313139"/>
+<rect id="Rectangle 51" x="122" width="24" height="6" rx="3" fill="#313139"/>
+<rect id="Rectangle 52" x="86" y="14" width="24" height="6" rx="3" fill="#313139"/>
+<rect id="Rectangle 50" x="40" y="14" width="36" height="6" rx="3" fill="#313139"/>
+</g>
+<rect id="Rectangle 53" width="20" height="20" rx="5" fill="#313139"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="72.4128" y1="-283.5" x2="73.0673" y2="-283.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#404047"/>
+<stop offset="1" stop-color="#404047" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="4942" fill="white" transform="translate(-369 -705)"/>
+</clipPath>
+</defs>
+</svg>
