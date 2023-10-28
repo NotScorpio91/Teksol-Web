@@ -1,9 +1,9 @@
 import React from 'react'
-import Bigcard from './Components/Bigcard'
+import Infoform from './Components/infoform'
 function App() {
   return (
     <div>
-     <Bigcard/>
+     <Infoform/>
     </div>
   )
 }

@@ -18,7 +18,7 @@ function Footer() {
 
         <div className="rhs flex justify-center items-center space-x-32">
             <div className=' space-y-4 font-poppins'>
-             <h1 className='text-white font-semibold'>Sections</h1>
+             <h1 className='text-white font-semibold font-poppins'>Sections</h1>
              <p className='text-[#9E9E9E] text-sm ' >Home</p>
              <p className='text-[#9E9E9E] text-sm ' >Section One</p>
              <p className='text-[#9E9E9E] text-sm ' >Section Two</p>
@@ -26,7 +26,7 @@ function Footer() {
             </div>
             <div className=' flex justify-center items-center' >
             <div className=' space-y-4 font-poppins'>
-             <h1 className='text-white font-semibold'>Sections</h1>
+             <h1 className='text-white font-semibold font-poppins'>Sections</h1>
              <p className='text-[#9E9E9E] text-sm ' >Home</p>
              <p className='text-[#9E9E9E] text-sm ' >Section One</p>
              <p className='text-[#9E9E9E] text-sm ' >Section Two</p>
@@ -35,7 +35,7 @@ function Footer() {
             </div>
             <div className=' flex justify-center items-center' >
             <div className=' space-y-4 font-poppins'>
-             <h1 className='text-white font-semibold'>Sections</h1>
+             <h1 className='text-white font-semibold font-poppins'>Sections</h1>
              <p className='text-[#9E9E9E] text-sm ' >Home</p>
              <p className='text-[#9E9E9E] text-sm ' >Section One</p>
              <p className='text-[#9E9E9E] text-sm ' >Section Two</p>
@@ -46,7 +46,7 @@ function Footer() {
       </div>
       <hr />
       <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px] mb-20 bg-black ">
-        <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center ">
+        <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center  ">
         <p>All Rights Reservd Inkyy.com 2022</p>
         </div>
         <div className="lhs flex justify-center items-center space-x-4">
