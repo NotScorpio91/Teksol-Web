@@ -1,31 +1,16 @@
 import React from 'react'
-import cardbg from '../assets/svg/cardbg.svg'
-import card1bg from '../assets/svg/card1bg.svg'
-import card2bg from '../assets/svg/card2bg.svg'
-import card3bg from '../assets/svg/card3bg.svg'
-import card6bg from '../assets/svg/card6bg.svg'
-import card5bg from '../assets/svg/card5bg.svg'
-   
-
+import  svg  from '../assets/svg/svg.svg' 
+ 
 function Cards() {
   return (
-    <div className='flex justify-center pt-20 pl-[1000px] absolute'>
-      
-        <img src={cardbg} alt="bg" />
-        
-            <img className='relative right-[808px]' src={card1bg} alt="bg" />
-            <img className='relative right-[780px] bottom-[118px]' src={card2bg} alt="" />
-            <img className='relative right-[752px] bottom-[60px]'   src={card3bg} alt="" />
-            <img  className='relative right-[1240px] top-[120px]' src={card6bg} alt="" />
-            <img className='relative right-[1213px] top-[175px]'  src={card5bg} alt="" />
-            
-            
-
-         
-      
+    <div className='card text-white flex justify-center pt-56 ' >
+    <div className=' bg-[#18181C] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center'>
+      <img className='w-[104px] h-[104px] pb-7 mb-16' src={svg} alt="" />
+      <h1 className='font-bold relative bottom-12'>Fully Customizable</h1>
+      <p className='text-sm text-[#9E9E9E] text-center w-[303px] h-[83px]'>A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem</p>
+      </div>
     </div>
   )
 }
 
-export default Cards
-
+export default Card

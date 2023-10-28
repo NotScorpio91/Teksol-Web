@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      inter: ['Inter'],
+      poppins: ['Poppins'], 
+    },
   },
   plugins: [],
 }
