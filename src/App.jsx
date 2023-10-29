@@ -1,9 +1,10 @@
 import React from 'react'
-import Infoform from './Components/infoform'
+import Accordion from './Components/Accordion'
+
 function App() {
   return (
     <div>
-     <Infoform/>
+     <Accordion/>
     </div>
   )
 }
