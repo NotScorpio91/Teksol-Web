@@ -1,10 +1,10 @@
 import React from 'react'
-import Accordion from './Components/Accordion'
+import Home from './pages/sections/Home'
 
 function App() {
   return (
     <div>
-     <Accordion/>
+     <Home/>
     </div>
   )
 }
