@@ -18,7 +18,6 @@ function MainSection() {
                 </div>
             </div>
         </div>
-      ma
     </div>
 
   )

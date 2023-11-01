@@ -18,7 +18,7 @@ function Footer() {
         </div>
 
         <div className="rhs flex justify-center items-center space-x-32">
-             <h1 className='text-white font-semibold font-poppinsantialiased '>Sections</h1>
+             
             <div className=' space-y-4 font-poppins '>
              <h1 className='text-white font-semibold font-poppins antialiased '>Sections</h1>
              <p className='text-[#9E9E9E] text-sm ' >Home</p>
@@ -47,7 +47,7 @@ function Footer() {
         </div>
       </div>
       <hr />
-      <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px] mb-20 bg-black ">
+      <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px]  bg-black ">
         <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center antialiased  ">
         <p className='antialiased font-poppins'>All Rights Reservd Inkyy.com 2022</p>
         </div>

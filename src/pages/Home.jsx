@@ -2,9 +2,13 @@ import React from 'react'
 import Logo from '../Components/Logo'
 import Button from '../Components/Button'
 import MainSection from './sections/MainSection'
+import Infoform from '../Components/Infoform'
+import Footer from '../Components/Footer'
+import bg from '../assets/svg/bg.svg'
+import Cards from './sections/Cards'
 function Home() {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className={`flex flex-col justify-center items-center bg-[url('${bg}')]`}>
       <nav className='flex justify-between items-center w-[1200px] h-[96px]'>
         <div className="L.H.S">
         <a href="#"><Logo/></a>
@@ -25,6 +29,9 @@ function Home() {
         </div>
       </nav>
       <MainSection/>
+       <Cards/>
+      <Infoform/>
+      <Footer/>
     </div>
   )
 }
