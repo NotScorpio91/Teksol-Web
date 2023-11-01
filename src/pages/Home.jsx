@@ -1,12 +1,13 @@
 import React from 'react'
-import Logo from '../../Components/Logo'
-import Button from '../../Components/Button'
+import Logo from '../Components/Logo'
+import Button from '../Components/Button'
+import MainSection from './sections/MainSection'
 function Home() {
   return (
-    <div className='flex justify-center items-center '>
+    <div className='flex flex-col justify-center items-center'>
       <nav className='flex justify-between items-center w-[1200px] h-[96px]'>
         <div className="L.H.S">
-        <Logo/>
+        <a href="#"><Logo/></a>
         </div>
         <div className="R.H.S flex space-x-12 items-center">
           <div>
@@ -23,6 +24,7 @@ function Home() {
           </div>
         </div>
       </nav>
+      <MainSection/>
     </div>
   )
 }
