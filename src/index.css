@@ -11,3 +11,21 @@
 .bigcardbg{
     background: linear-gradient(136deg, #FF9898 14.73%, #8054FF 86.33%);
 }
+
+
+.accor{
+    animation: fadeInAnimation ease-in-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+    }
+
+    
