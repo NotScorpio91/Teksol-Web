@@ -11,7 +11,7 @@ const Accordion = () => {
 	}
 
 	return (
-		<div className="w-[540px] h-fit  pt-[12px]  rounded-[5px] bg-[#18181C] relative">
+		<div className="w-[540px] h-fit  py-3  rounded-[5px] bg-[#18181C] relative mx-5 my-3">
 			<div className='flex justify-between items-left mx-[28px] relative'>
 				<h1 className='text-[#FFF] font-poppins font-normal leading-5 text-sm antialiased '>How promote the product?</h1>
 				<button onClick={toggleFunction}><img src={show ? plus : minus} alt="plus" /></button>
