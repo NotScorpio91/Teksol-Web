@@ -4,7 +4,7 @@ import earth  from  '../assets/svg/earth.svg'
 
 function Infoform() {
     return (
-        <div className='bg-black mt-10'>
+        <div className='bg-black mt-80'>
             <div className='flex  justify-center space-x-24 '>
                 <div className="lhs">
                    <img className='' src={earth} alt="earth" /> 
@@ -14,7 +14,7 @@ function Infoform() {
                     <section >
                         <div className=" flex ">
                         <div className="">
-                            <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins ">Get In Touch</h2>
+                            <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Get In Touch</h2>
                             <p className="mb-8 lg:mb-10 font-light  text-[#9E9E9E]  w-[503px] font-poppins antialiased ">A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem </p>
                             <form action="#" className="space-y-8">
                                 <div>

@@ -3,7 +3,7 @@ import  bigcard from '../assets/svg/bigcard.svg'
 
 function Bigcard() {
   return (
-    <div className='flex justify-center  pt-64'>
+    <div className='flex justify-center '>
       <div  className=' bigcardbg  w-[1110px] h-[425px] rounded-[20px] flex justify-between  '>
 
         <div className="lhs flex flex-col  text-start justify-center items pl-16 pt-11 space-y-4">
@@ -14,7 +14,7 @@ function Bigcard() {
         </div>
        
         <div className='flex'>
-        <button className='bg-black text-white hover:text-black hover:bg-white   rounded-[5px] w-[198px] h-[44px] font-poppins font-[400px]antianalized  '>Get Started</button>
+        <button className='bg-black text-white hover:text-black hover:bg-white   rounded-[5px] w-[198px] h-[44px] font-poppins font-[400px] antianalized  '>Get Started</button>
         </div>
 
         </div>

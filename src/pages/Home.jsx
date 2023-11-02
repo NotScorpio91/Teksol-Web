@@ -6,6 +6,8 @@ import Infoform from '../Components/Infoform'
 import Footer from '../Components/Footer'
 import bg from '../assets/svg/bg.svg'
 import Cards from './sections/Cards'
+import Smcards from './sections/Smcards'
+import Faq from './sections/Faq'
 function Home() {
   return (
     <div className={`flex flex-col justify-center items-center bg-[url('${bg}')]`}>
@@ -16,11 +18,11 @@ function Home() {
         <div className="R.H.S flex space-x-12 items-center">
           <div>
             <ul className=' flex justify-center items-center space-x-12'>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF]' href="#">Home</a>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF]' href="#">About</a>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF]' href="#">Blog</a>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF]' href="#">Contact</a>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF]' href="#">Services</a>
+              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="#">Home</a>
+              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="#">About</a>
+              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="#">Blog</a>
+              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="#">Contact</a>
+              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="#">Services</a>
             </ul>
           </div>
           <div>
@@ -29,7 +31,9 @@ function Home() {
         </div>
       </nav>
       <MainSection/>
-       <Cards/>
+      <Cards/>
+      <Smcards/>
+      <Faq/>
       <Infoform/>
       <Footer/>
     </div>
