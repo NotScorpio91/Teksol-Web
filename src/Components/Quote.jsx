@@ -1,30 +1,91 @@
 import React from 'react'
-
+import Button from './Button'
+import Footer from './Footer'
+import { PiPlanetLight } from 'react-icons/pi'
+import { PiTestTubeBold } from 'react-icons/pi'
+import { FaRobot } from 'react-icons/fa'
+import {CiMobile3} from 'react-icons/ci'
+import {BiSolidPen} from 'react-icons/bi'
+import {FaWandMagicSparkles} from 'react-icons/fa6'
 function Quote() {
   return (
-    <div className='bg-black mt-80'>
-            <div className='flex  justify-center space-x-24 '>
-                <div className="lhs">
-                   <img className='' src={earth} alt="earth" /> 
-                </div>
-                <div className="rhs">
-
+    <div className='bg-black h-screen'>
+         
+            <div className='flex  justify-center mt-20 '> 
+                <div className="">
                     <section >
                         <div className=" flex ">
                         <div className="">
-                            <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Get In Touch</h2>
-                            <p className="mb-8 lg:mb-10 font-light  text-[#9E9E9E]  w-[503px] font-poppins antialiased ">A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem </p>
-                            <form action="#" className="space-y-8">
+                            <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Get a Quote?</h2>
+                            <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.</p>
+                            <form action="#" className="">
                                 <div>
-                                    <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[408px] py-[12px] px-[28px] dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your Email" required />
+                                    <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                    <label  htmlFor="">What's your name? </label>
+                                    </div>
+                                    <input type="text" id="name" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your name" required />
                                 </div>
                                 <div>
-                                    <input type="text" id="subject" className="block py-[12px] px-[28px]  w-[408px] text-sm text-[#9E9E9E] bg-[#18181C] rounded-[5px]  focus:ring-primary-500 focus:border-primary-500 placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Let us know how we can help you" required />
+                                    <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                    <label  htmlFor="">Email</label>
+                                    </div>
+                                    <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your email" required />
                                 </div>
-                                <div className="sm:col-span-2">
-                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[408px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Leave a comment..."></textarea>
+                                <div>
+                                    <div className='text-white py-3 text-base] font-poppins antialiased ' >
+                                    <label  htmlFor="">Phone</label>
+                                    </div>
+                                    <input type="number" id="phone" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your phone" required />
                                 </div>
-                                <Button />
+                                <div>
+                                    <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require? </h1>
+                                    <p className='text-gray-300 font-poppins antialiased text-sm pb-1'>Choose at least one option:</p>
+                                    <div className='grid grid-cols-2 justify-center items-center  ' >
+                                        <div className='flex justify-between items-center  my-2 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><PiPlanetLight/></i>
+                                        <span className='text-white font-poppins font-medium'> Web Development</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                        <div className='flex justify-between items-center  my-2 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><PiTestTubeBold/></i>
+                                        <span className='text-white font-poppins font-medium'>QA & Testing</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                        <div className='flex justify-between items-center  my-2 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><FaRobot/></i>
+                                        <span className='text-white font-poppins font-medium'>ML & AI</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                        <div className='flex justify-between items-center  my-2 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><CiMobile3/></i>
+                                        <span className='text-white font-poppins font-medium'>Mobile App</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                        <div className='flex justify-between items-center  my-2 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><BiSolidPen/></i>
+                                        <span className='text-white font-poppins font-medium'> UI / UX</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                        <div className='flex justify-between items-center  my-2  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px]'>
+                                        <div className='flex items-center' >
+                                        <i className='text-white antialiased mx-[6px]' ><FaWandMagicSparkles/></i>
+                                        <span className='text-white font-poppins font-medium'>Custom Solution</span> </div>
+                                        <input className='mx-3' type="checkbox" name="checkbox" id="checkbox"/>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div className="sm:col-span-2 mb-9">
+                                <div className='text-white py-3 text-base] font-poppins antialiased ' >
+                                    <label  htmlFor="">Description </label>
+                                    </div>
+                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[500px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
+                                </div>
+                                <Button title='Submit'  />
                             </form>
                         </div>
                         </div>
@@ -32,6 +93,7 @@ function Quote() {
 
                 </div>
             </div>
+           
         </div>
 
   )

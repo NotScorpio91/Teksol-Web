@@ -1,13 +1,13 @@
 import React from 'react'
-import Home from './pages/Home'
-import Quote from './Components/Quote'
+import Quoteform from './pages/sections/Quoteform'
 
 
 function App() {
   return (
     <div>
 
-     <Quote/>
+     <Quoteform/>
+     
     </div>
   )
 }
