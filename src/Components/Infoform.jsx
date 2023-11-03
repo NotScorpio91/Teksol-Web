@@ -6,8 +6,8 @@ function Infoform() {
     return (
         <div className='bg-black mt-80'>
             <div className='flex  justify-center space-x-24 '>
-                <div className="lhs">
-                   <img className='' src={earth} alt="earth" /> 
+                <div className="lhs select-none ">
+                   <img className='select-none' src={earth} alt="earth" /> 
                 </div>
                 <div className="rhs">
 

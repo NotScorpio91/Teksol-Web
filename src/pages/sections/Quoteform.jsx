@@ -2,10 +2,12 @@ import React from 'react'
 import Logo from '../../Components/Logo'
 import Button from '../../Components/Button'
 import Quote from '../../Components/Quote'
+import Footer from '../../Components/Footer'
 
 function Quoteform() {
   return (
     <div>
+    <div className='flex justify-center'>
       <nav className='flex justify-between items-center w-[1200px] h-[96px]'>
         <div className="L.H.S">
         <a href="#"><Logo/></a>
@@ -21,11 +23,14 @@ function Quoteform() {
             </ul>
           </div>
           <div>
-             <Button/>
+             <Button title='Get '/>
           </div>
         </div>
       </nav>
-
+      <div>
+      </div>
+     
+    </div>
       <Quote/>
       <Footer/>
     </div>
