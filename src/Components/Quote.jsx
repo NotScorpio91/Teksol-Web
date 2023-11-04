@@ -46,7 +46,7 @@ function Quote() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><PiPlanetLight /></i>
                                                             <p class="text-white font-poppins font-medium">Web Development</p>
                                                         </div>
@@ -60,7 +60,7 @@ function Quote() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><PiTestTubeBold /></i>
                                                             <p class="text-white font-poppins font-medium">QA & Testing</p>
                                                         </div>
@@ -80,7 +80,7 @@ function Quote() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-[18px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[16px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
@@ -91,7 +91,7 @@ function Quote() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><CiMobile3 /></i>
                                                             <p class="text-white font-poppins font-medium">Mobile App</p>
                                                         </div>
@@ -105,7 +105,7 @@ function Quote() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><BiSolidPen /></i>
                                                             <p class="text-white font-poppins font-medium">UI / UX</p>
                                                         </div>
@@ -125,7 +125,7 @@ function Quote() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-[18px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[16px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
@@ -137,9 +137,9 @@ function Quote() {
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Description </label>
                                         </div>
-                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[500px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
+                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[50px]  w-[500px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
                                     </div>
-                                    <Button title='Submit' />
+                                    <Button title='Submit'/>
                                 </form>
                             </div>
                         </div>

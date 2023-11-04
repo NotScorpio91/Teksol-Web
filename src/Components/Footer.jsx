@@ -1,8 +1,10 @@
 import React from 'react'
 import logo from '../assets/png/logo.png'
-import twitter from '../assets/svg/twitter.svg'
+import facebook from '../assets/svg/facebook.svg'
 import linkedin from '../assets/svg/linkedin.svg'
-import instagram from '../assets/svg/instagram.svg'
+import github   from '../assets/svg/github.svg'
+import discord   from '../assets/svg/discord.svg'
+
 
 function Footer() {
   return (
@@ -54,12 +56,14 @@ function Footer() {
         <hr />
         <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px]  bg-black ">
           <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center antialiased  ">
-            <p className='antialiased font-poppins'>All Rights Reservd Inkyy.com 2022</p>
+            <p className='antialiased font-poppins'>All Rights Reservd TheTeksol.com 2023</p>
           </div>
           <div className="lhs flex justify-center items-center space-x-4">
-            <img className='w-[40px] h-[40px]' src={twitter} alt="logo" />
-            <img className='w-[40px] h-[40px]' src={linkedin} alt="logo" />
-            <img className='w-[40px] h-[40px]' src={instagram} alt="logo" />
+      
+            <a href="https://www.facebook.com/theteksol/" target='_blank' ><img className='w-[40px] h-[40px] transition-all active:scale-95'  src={facebook} alt="logo" /></a>
+            <a href="https://pk.linkedin.com/company/theteksol" target='_blank'><img className='w-[40px] h-[40px] transition-all active:scale-95' src={linkedin} alt="logo" /></a>
+            <a href="https://github.com/TekSol" target='_blank'><img className='w-[40px] h-[40px] transition-all active:scale-95'  src={github} alt="logo" /></a>
+            <a href="https://discord.gg/B4QvhanbMM" target='_blank'><img className='w-[40px] h-[40px] transition-all active:scale-95'  src={discord} alt="logo" /></a>
           </div>
         </div>
 
