@@ -24,31 +24,28 @@ function Footer() {
             </div> 
           </div>
 
-          <div className="rhs flex justify-center items-center space-x-32">
+          <div className="rhs flex justify-center items-center space-x-40">
 
-            <div className=' space-y-4 font-poppins '>
-              <h1 className='text-white font-semibold font-poppins antialiased '>Sections</h1>
-              <p className='text-[#9E9E9E] text-sm antialiased' >Home</p>
-              <p className='text-[#9E9E9E] text-sm antialiased' >Section One</p>
-              <p className='text-[#9E9E9E] text-sm antialiased' >Section Two</p>
-              <p className='text-[#9E9E9E] text-sm antialiased' >Section Tree</p>
-            </div>
-            <div className=' flex justify-center items-center antialiased ' >
-              <div className=' space-y-4 font-poppins antialiased '>
-                <h1 className='text-white font-semibold font-poppins antialiased '>Sections</h1>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Home</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section One</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section Two</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section Tree</p>
+           
+            <div className=' flex justify-center items-center antialiased pb-14 pl-5 ' >
+              <div className=' space-y-3 font-poppins antialiased '>
+                <h1 className='text-white font-semibold font-poppins antialiased '>Company</h1>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Home</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >About us</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Career</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' ><a href="https://theteksol.com/blog/">Blog</a></p>
               </div>
             </div>
-            <div className=' flex justify-center items-center antialiased ' >
-              <div className=' space-y-4 font-poppins antialiased '>
-                <h1 className='text-white font-semibold font-poppins antialiased '>Sections</h1>
-                <p className='text-[#9E9E9E] text-sm antialiased  ' >Home</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section One</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section Two</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased ' >Section Tree</p>
+            <div className=' flex justify-center items-center antialiased  ' >
+              <div className=' space-y-3 font-poppins antialiased '>
+                <h1 className='text-white font-semibold font-poppins antialiased '>Services</h1>
+                <p className='text-[#9E9E9E] text-sm antialiased cursor-pointer font-poppins  ' >Web Development</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Mobile App Development</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >UI/UX Consulting</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Digital Marketing</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >AI/ML</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Custom Solutions</p>
+
               </div>
             </div>
           </div>
