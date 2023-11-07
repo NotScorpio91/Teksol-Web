@@ -11,18 +11,18 @@ import {BiLogoVuejs} from 'react-icons/bi'
 import {SiDjango} from 'react-icons/si'
 import {TbBrandNodejs} from 'react-icons/tb'
 import {SiFlutter} from 'react-icons/si'
-import {SiPytorch} from 'react-icons/si'
-import {SiMlflow} from 'react-icons/si'
-import {SiDvc} from 'react-icons/si'
-import {SiMusicbrainz} from 'react-icons/si'
+import {SiPython} from 'react-icons/si'
+import {IoLogoJavascript} from 'react-icons/io'
+import {FaJava} from 'react-icons/fa6'
+import {SiCplusplus} from 'react-icons/si'
 import {FiFigma} from 'react-icons/fi'
 import {SiAdobephotoshop} from 'react-icons/si'
 import {SiAdobeillustrator} from 'react-icons/si'
 import {SiAdobeindesign} from 'react-icons/si'
-import {TbSeo} from 'react-icons/tb'
+import {MdOutlineScreenSearchDesktop} from 'react-icons/md'
 import {MdAnalytics} from 'react-icons/md'
 import {SiVorondesign} from 'react-icons/si'
-import {BiSolidBookContent} from 'react-icons/bi'
+import {TbEdit} from 'react-icons/tb'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Cards() {
@@ -72,20 +72,20 @@ function Cards() {
       icon: <SiSololearn size={65} />,
       items: [
         {
-          title: 'REPYTORCHACT',
-          icon: <SiPytorch size={35} color='9E9E9E' />,
+          title: 'PYTHON ',
+          icon: <SiPython size={35} color='9E9E9E' />,
         },
         {
-          title: 'MLFLOW',
-          icon: <SiMlflow size={35} color='9E9E9E' />
+          title: 'JavaScript',
+          icon: <IoLogoJavascript size={35} color='9E9E9E' />
         },
         {
-          title: 'DVC',
-          icon: <SiDvc size={35} color='9E9E9E' />
+          title: 'JAVA',
+          icon: <FaJava size={35} color='9E9E9E' />
         },
         {
-          title: 'AZURE AI',
-          icon: <SiMusicbrainz size={35} color='9E9E9E' />
+          title: 'C++',
+          icon: <SiCplusplus size={35} color='9E9E9E' />
         },
       ]
     },
@@ -95,7 +95,7 @@ function Cards() {
       items: [
         {
           title: 'SEO',
-          icon: <TbSeo size={35} color='9E9E9E' />
+          icon: <MdOutlineScreenSearchDesktop size={35} color='9E9E9E' />
         },
         {
           title: 'Data analysis',
@@ -106,8 +106,8 @@ function Cards() {
           icon: <SiVorondesign size={35} color='9E9E9E' />
         },
         {
-          title: 'Content creation',
-          icon: <BiSolidBookContent  size={35} color='9E9E9E'/>
+          title: 'CMS',
+          icon: <TbEdit  size={35} color='9E9E9E'/>
         },
         
       ]
@@ -140,13 +140,10 @@ function Cards() {
       icon: <PiMagicWand size={65} />,
       items: [
         {
-          title: 'Django',
-          icon: ''
+          title: 'Tailored to fit your unique needs, our custom software solutions pave the way for innovation and efficiency, delivering exactly what your business demands.',
+          
         },
-        {
-          title: 'Laravel',
-          icon: ''
-        },
+      
         
       ]
     },
