@@ -1,15 +1,26 @@
-import React from 'react'
-import  svg  from '../assets/svg/svg.svg' 
- 
-function Card() {
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+function Card({ png, title, items, }) {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, []);
   return (
-    <div className='text-white my-5 transition-all active:scale-95' >
-    <div className=' bg-[#18181C] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-8'>
-      <img className='w-[104px] h-[104px] pb-7' src={svg} alt="" />
-             <h1 className='text-white font-semibold font-poppins antialiased '>Fully Customizable</h1>
-      
-             
-      <p className='text-sm text-[#9E9E9E] text-center w-[303px] h-[83px] font-poppins antialiased '>A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem</p>
+    <div className='text-white my-5 transition-all active:scale-95  hover:scale-105 hover:transition-all  ' >
+      <div className=' bg-[#18181C] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' data-aos="fade-up">
+        {png}
+        <h1 className='text-white font-semibold font-poppins antialiased '>{title}</h1>
+
+
+        <div className='text-sm text-[#9E9E9E] text-left w-[320px] h-[83px] font-poppins antialiased grid grid-cols-2 justify-center items-center '>{items.map(item => (
+          <p className='flex justify-center items-center  rounded-[5px]   '>
+            <div className='flex justify-center items-center mx-2'>
+              {item.icon}
+            </div>
+            {item.title}
+          </p>
+        ))}</div>
       </div>
     </div>
   )

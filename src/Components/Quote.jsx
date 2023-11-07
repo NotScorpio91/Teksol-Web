@@ -7,7 +7,12 @@ import { CiMobile3 } from 'react-icons/ci'
 import { BiSolidPen } from 'react-icons/bi'
 import { FaWandMagicSparkles } from 'react-icons/fa6'
 import { BsCheckCircle } from 'react-icons/bs'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Quote() {
+    useEffect(()=>{
+        AOS.init({duration:2000})
+      },[])
     return (
         <div className='bg-black h-screen'>
 
@@ -16,7 +21,7 @@ function Quote() {
                     <section >
                         <div className=" flex ">
                             <div className="">
-                                <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Get a Quote?</h2>
+                                <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased "data-aos="fade-up">Get a Quote?</h2>
                                 <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.</p>
                                 <form action="#" className="">
                                     <div>

@@ -9,6 +9,8 @@ import Cards from './sections/Cards'
 import Smcards from './sections/Smcards'
 import Faq from './sections/Faq'
 function Home() {
+
+ 
   return (
     <div className={`flex flex-col justify-center items-center bg-[url('${bg}')]`}>
       <nav className='flex justify-between items-center w-[1200px] h-[96px]'>

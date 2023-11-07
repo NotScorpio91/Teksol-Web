@@ -19,7 +19,7 @@ function Footer() {
            
               <h1 className='text-[#9E9E9E] font-poppins antialiased'><b className='text-[#FFF] font-poppins antialiased '>Ph: </b>Ph: +1 (609) 631-3330 / +92 304-2823804</h1>
           
-              <h1 className=' text-[#FFF] font-poppins antialiased '> © 2023 Teksol | <span className='bg-gradient-to-r from-[#FF9898] to-[#8054FF] text-transparent bg-clip-text antialiased'>Sitemap</span></h1>
+              <h1 className=' text-[#FFF] font-poppins antialiased '> © 2023 Teksol | <span className='bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text antialiased'>Sitemap</span></h1>
 
             </div> 
           </div>
@@ -56,7 +56,7 @@ function Footer() {
         <hr />
         <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px]  bg-black ">
           <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center antialiased  ">
-            <p className='antialiased font-poppins'>All Rights Reservd TheTeksol.com 2023</p>
+            <p className='antialiased font-poppins'>All Rights Reservd © 2023 Teksol 2023</p>
           </div>
           <div className="lhs flex justify-center items-center space-x-4">
       
