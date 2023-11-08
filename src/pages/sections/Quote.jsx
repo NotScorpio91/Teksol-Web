@@ -1,10 +1,10 @@
 import React from 'react'
 import Logo from '../../Components/Logo'
 import Button from '../../Components/Button'
-import Quote from '../../Components/Quote'
 import Footer from '../../Components/Footer'
+import QuoteForm from '../../Components/QuoteForm'
 
-function Quoteform() {
+function Quote() {
   return (
     <div>
     <div className='flex justify-center'>
@@ -31,10 +31,10 @@ function Quoteform() {
       </div>
      
     </div>
-      <Quote/>
+      <QuoteForm/>
       <Footer/>
     </div>
   )
 }
 
-export default Quoteform
+export default Quote

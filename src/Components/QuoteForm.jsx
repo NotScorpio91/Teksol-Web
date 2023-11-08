@@ -9,7 +9,7 @@ import { FaWandMagicSparkles } from 'react-icons/fa6'
 import { BsCheckCircle } from 'react-icons/bs'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-function Quote() {
+function QuoteForm() {
     useEffect(()=>{
         AOS.init({duration:2000})
       },[])
@@ -158,4 +158,4 @@ function Quote() {
     )
 }
 
-export default Quote
+export default QuoteForm

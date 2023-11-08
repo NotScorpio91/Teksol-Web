@@ -1,7 +1,7 @@
 import React from 'react'
 import BigCard from '../../Components/Bigcard'
 
-function Smcards() {
+function Meeting() {
   return (
     <div className=' '>
         <div className='w-[1440px] h-[725px] bg-[#18181C] flex flex-col justify-center items-center rounded-md 'data-aos="fade-up" >
@@ -23,4 +23,4 @@ function Smcards() {
   )
 }
 
-export default Smcards
+export default Meeting

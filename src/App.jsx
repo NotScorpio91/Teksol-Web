@@ -1,13 +1,28 @@
 import React from 'react'
-import  Home from './pages/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  Home,
+  Quote,
+  PageNotfound,
+}
+  from './pages/Index'
 
 
 function App() {
   return (
     <div>
 
-     <Home/>
      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Quote" element={<Quote />} />
+          <Route path='*' exact element={<PageNotfound />} />
+
+        </Routes>
+      </Router>
+      
+
     </div>
   )
 }

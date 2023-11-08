@@ -1,15 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import logo from '../assets/png/logo.png'
 import facebook from '../assets/svg/facebook.svg'
 import linkedin from '../assets/svg/linkedin.svg'
 import github   from '../assets/svg/github.svg'
 import discord   from '../assets/svg/discord.svg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Footer() {
+  useEffect(()=>{
+		AOS.init({duration:2000})
+	  },[])
   return (
     <div ClassName='flex justify-center items-center '>
-      <div className=' flex flex-col justify-center items-center pt-40'>
+      <div className=' flex flex-col justify-center items-center pt-40'data-aos="fade-up">
 
         <div className="top w-[1440px] h-[268px] bg-[#18181C] flex justify-center space-x-80 rounded-xl">
           <div className="lhs flex flex-col justify-between mt-[60px] ">
@@ -17,7 +22,7 @@ function Footer() {
             <div className='mb-[42px]'>
               <h1 className='text-[#9E9E9E] font-poppins antialiased'><b className='text-[#FFF] font-poppins antialiased'>Address: </b> JH6X+FJ8, Jampur Road, Dera Ghazi Khan, Pakistan</h1>
            
-              <h1 className='text-[#9E9E9E] font-poppins antialiased'><b className='text-[#FFF] font-poppins antialiased '>Ph: </b>Ph: +1 (609) 631-3330 / +92 304-2823804</h1>
+              <h1 className='text-[#9E9E9E] font-poppins antialiased'><b className='text-[#FFF] font-poppins antialiased '>Ph: </b>+1 (609) 631-3330 / +92 304-2823804</h1>
           
               <h1 className=' text-[#FFF] font-poppins antialiased '> © 2023 Teksol | <span className='bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text antialiased'>Sitemap</span></h1>
 

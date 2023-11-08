@@ -141,7 +141,7 @@ function Cards() {
       items: [
         {
           title: 'Tailored to fit your unique needs, our custom software solutions pave the way for innovation and efficiency, delivering exactly what your business demands.',
-          
+          titleClass: ''
         },
       
         
