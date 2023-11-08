@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 function Footer() {
   useEffect(()=>{
-		AOS.init({duration:1000})
+		AOS.init({duration:500})
 	  },[])
   return (
     <div className='flex justify-center items-center '>
@@ -29,27 +29,27 @@ function Footer() {
             </div> 
           </div>
 
-          <div className="rhs flex justify-center items-center space-x-40">
+          <div className="rhs flex justify-center items-center space-x-32 ">
 
            
-            <div className=' flex justify-center items-center antialiased pb-14 pl-5 ' >
+            <div className=' flex justify-center items-center antialiased  ' >
               <div className=' space-y-3 font-poppins antialiased '>
-                <h1 className='text-white font-semibold font-poppins antialiased '>Company</h1>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Home</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >About us</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Career</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' ><a href="https://theteksol.com/blog/">Blog</a></p>
+                <h1 className='text-white font-semibold font-poppins antialiased cursor-pointer '>Company</h1>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Home</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >About us</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Career</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' ><a href="https://theteksol.com/blog/">Blog</a></p>
               </div>
             </div>
             <div className=' flex justify-center items-center antialiased  ' >
               <div className=' space-y-3 font-poppins antialiased '>
-                <h1 className='text-white font-semibold font-poppins antialiased '>Services</h1>
-                <p className='text-[#9E9E9E] text-sm antialiased cursor-pointer font-poppins  ' >Web Development</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Mobile App Development</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >UI/UX Consulting</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Digital Marketing</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >AI/ML</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins ' >Custom Solutions</p>
+                <h1 className='text-white font-semibold font-poppins antialiased  cursor-pointe hover:text-whiter '>Services</h1>
+                <p className='text-[#9E9E9E] text-sm antialiased cursor-pointer font-poppins  hover:text-white ' >Web Development</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Mobile App Development</p> 
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Digital Marketing</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >More</p>
+               
+               
 
               </div>
             </div>

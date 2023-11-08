@@ -5,23 +5,29 @@ import 'aos/dist/aos.css';
 
 function Faq() {
   useEffect(()=>{
-		AOS.init({duration:1000})
+		AOS.init({duration:500})
 	  },[])
   return (
     <div className='mt-72'>
       <h1 className='text-[#FFF] font-poppins text-5xl  leading-[80px] font-semibold antialiased pl-5 pb-16'data-aos="fade-up" >Freqfently Asked Questions</h1>
-      <span className='grid grid-cols-2'>
+<div className='flex '>
+
+          <div>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
+          </div>
+        <div>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
-      </span>
+        </div>
+</div>
+   
     </div>
   )
 }

@@ -12,7 +12,7 @@ const Accordion = () => {
 		setShow(!show)
 	}
 	useEffect(()=>{
-		AOS.init({duration:1000})
+		AOS.init({duration:500})
 	  },[])
 
 	return (

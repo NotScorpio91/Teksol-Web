@@ -27,7 +27,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Cards() {
   useEffect(()=>{
-    AOS.init({duration:1000})
+    AOS.init({duration:500})
   },[])
   const cards = [
     {

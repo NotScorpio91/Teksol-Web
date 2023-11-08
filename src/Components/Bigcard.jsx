@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 function Bigcard() {
   useEffect(()=>{
-    AOS.init({duration:1000})
+    AOS.init({duration:500})
   },[])
   return (
     <div className='flex justify-center 'data-aos="fade-up">

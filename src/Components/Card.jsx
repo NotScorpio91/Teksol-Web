@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 function Card({ png, title, items, }) {
   useEffect(() => {
-    AOS.init({ duration: 1000 })
+    AOS.init({ duration: 500 })
   }, []);
   return (
     <div className='text-white my-5 transition-all active:scale-95  hover:scale-105 hover:transition-all  ' >

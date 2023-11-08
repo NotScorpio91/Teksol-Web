@@ -11,7 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function QuoteForm() {
     useEffect(()=>{
-        AOS.init({duration:1000})
+        AOS.init({duration:500})
       },[])
     return (
         <div className='bg-black h-screen'>
