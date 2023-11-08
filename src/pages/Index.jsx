@@ -1,9 +1,4 @@
 export { default as Home } from './Home';
-export { default as Main } from './sections/Main';
 export { default as Quote } from './sections/Quote';
-export { default as Cards } from './sections/Cards';
-export { default as Meeting } from '../Components/Bigcard';
-export { default as Faq } from './sections/Faq';
-export { default as InTouch } from '../Components/InTouch'  
-export { default as Footer } from '../Components/Footer'  
+export { default as HireDev } from './sections/HireDev';  
 export { default as PageNotfound } from './sections/Pnf';

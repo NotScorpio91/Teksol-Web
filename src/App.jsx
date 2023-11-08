@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   Home,
   Quote,
+  HireDev,
   PageNotfound,
 }
   from './pages/Index'
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Quote" element={<Quote />} />
+          <Route path="/HireDev" element={<HireDev/>}/>
           <Route path='*' exact element={<PageNotfound />} />
 
         </Routes>
