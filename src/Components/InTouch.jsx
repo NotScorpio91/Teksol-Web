@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 function InTouch() {
     useEffect(()=>{
-		AOS.init({duration:2000})
+		AOS.init({duration:1000})
 	  },[])
 
     return (
@@ -32,7 +32,10 @@ function InTouch() {
                                 <div className="sm:col-span-2"data-aos="fade-up">
                                     <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[408px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Leave a comment..."></textarea>
                                 </div>
+                                <div className='flex'data-aos="fade-up">
                                 <Button title='Get In Touch'/>
+
+                                </div>
                             </form>
                         </div>
                         </div>

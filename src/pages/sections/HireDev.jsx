@@ -10,7 +10,7 @@ function HireDev() {
       <NavBar />
       </div>
       <HireDevForm/>
-      <div className='mt-20'>
+      <div className='mt-40'>
       <Footer />
       </div>
     </div>
