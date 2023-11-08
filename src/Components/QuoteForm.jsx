@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Button from './Button'
 import { PiPlanetLight } from 'react-icons/pi'
 import { PiTestTubeBold } from 'react-icons/pi'
@@ -22,46 +22,46 @@ function QuoteForm() {
                         <div className=" flex ">
                             <div className="">
                                 <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased "data-aos="fade-up">Get a Quote?</h2>
-                                <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.</p>
+                                <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  "data-aos="fade-up">Your answer will help us better understanding your situation.</p>
                                 <form action="#" className="">
                                     <div>
-                                        <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                        <div className='text-white py-3 text-base] font-poppins antialiased  ' data-aos="fade-up">
                                             <label htmlFor="">What's your name? </label>
                                         </div>
-                                        <input type="text" id="name" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your name" required />
+                                        <input type="text" id="name" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your name" required data-aos="fade-up" />
                                     </div>
                                     <div>
-                                        <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                        <div className='text-white py-3 text-base] font-poppins antialiased  ' data-aos="fade-up">
                                             <label htmlFor="">Email</label>
                                         </div>
-                                        <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your email" required />
+                                        <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your email" required data-aos="fade-up" />
                                     </div>
                                     <div>
-                                        <div className='text-white py-3 text-base] font-poppins antialiased ' >
+                                        <div className='text-white py-3 text-base] font-poppins antialiased 'data-aos="fade-up" >
                                             <label htmlFor="">Phone</label>
                                         </div>
-                                        <input type="search" id="phone" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your phone" required />
+                                        <input type="search" id="phone" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your phone" required data-aos="fade-up" />
                                     </div>
-                                    <div>
+                                    <div data-aos="fade-up">
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require? </h1>
-                                        <p className='text-gray-300 font-poppins antialiased text-sm pb-1'>Choose at least one option:</p>
+                                        <p className='text-gray-300 font-poppins antialiased text-sm pb-1' >Choose at least one option:</p>
                                         <div className='flex  justify-between  items-center my-10'>
                                             <div className="L.H.S ">
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer "data-aos="fade-up" >
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
                                                         <div className='my-3  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><PiPlanetLight /></i>
-                                                            <p class="text-white font-poppins font-medium">Web Development</p>
+                                                            <p class="text-white font-poppins font-medium" >Web Development</p>
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-6 right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[29px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer " data-aos="fade-up">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
@@ -75,7 +75,7 @@ function QuoteForm() {
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer " data-aos="fade-up">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
@@ -85,14 +85,14 @@ function QuoteForm() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-[16px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[18px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
                                             </div>
 
                                             <div className='R.H.S' >
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer "data-aos="fade-up">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
@@ -102,11 +102,11 @@ function QuoteForm() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-6 right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[29px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer "data-aos="fade-up">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
@@ -116,11 +116,11 @@ function QuoteForm() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-4 right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[18px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
-                                                <label class="relative cursor-pointer ">
+                                                <label class="relative cursor-pointer "data-aos="fade-up">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
@@ -130,7 +130,7 @@ function QuoteForm() {
                                                         </div>
 
                                                     </div>
-                                                    <span class="absolute top-[16px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
+                                                    <span class="absolute top-[18px] right-3 z-10 opacity-0 transition-all peer-checked:opacity-100 text-white ">
                                                         <BsCheckCircle />
                                                     </span>
                                                 </label>
@@ -138,7 +138,7 @@ function QuoteForm() {
 
                                         </div>
                                     </div>
-                                    <div className="sm:col-span-2 mb-9">
+                                    <div className="sm:col-span-2 mb-9" data-aos="fade-up">
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Description </label>
                                         </div>

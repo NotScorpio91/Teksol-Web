@@ -7,7 +7,7 @@ import Footer from '../Components/Footer'
 import bg from '../assets/svg/bg.svg'
 import Cards from './sections/Cards'
 import Faq from './sections/Faq'
-import { Meeting } from './Index'
+import Meeting  from './sections/Meeting'
 function Home() {
 
  

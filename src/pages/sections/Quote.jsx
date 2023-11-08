@@ -10,7 +10,7 @@ function Quote() {
     <div className='flex justify-center'>
       <nav className='flex justify-between items-center w-[1200px] h-[96px]'>
         <div className="L.H.S">
-        <a href="#"><Logo/></a>
+        <a href="/"><Logo/></a>
         </div>
         <div className="R.H.S flex space-x-12 items-center">
           <div>
@@ -27,12 +27,14 @@ function Quote() {
           </div>
         </div>
       </nav>
-      <div>
-      </div>
+     
      
     </div>
       <QuoteForm/>
+      <div className='mt-20'>
+
       <Footer/>
+      </div>
     </div>
   )
 }
