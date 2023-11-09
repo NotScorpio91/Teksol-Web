@@ -38,8 +38,8 @@ export default function Company() {
         leaveFrom="opacity-100 translate-y-0"
         leaveTo="opacity-0 translate-y-1"
       >
-        <Popover.Panel className="absolute top-20  z-10 mt-5 flex -ml-[222px]  px-4">
-          <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-gray-800 backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-800">
+        <Popover.Panel className="absolute top-[69px]  z-10  flex -ml-[222px]  px-4 backdrop:blur-lg">
+          <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-black bg-opacity-95 text-base leading-6 shadow-lg ring-1 ring-gray-800">
             <div className="p-4 grid grid-cols-2">
               {solutions.map((item) => (
                 <div key={item.name} className="group relative flex items-center gap-x-6 rounded-[5px] p-4 hover:text-white ">
