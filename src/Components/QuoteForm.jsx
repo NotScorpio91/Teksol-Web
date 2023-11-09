@@ -16,7 +16,7 @@ function QuoteForm() {
     return (
         <div className='bg-black h-screen'>
 
-            <div className='flex  justify-center mt-20 '>
+            <div className='flex  justify-center mt-60 '>
                 <div className="">
                     <section >
                         <div className=" flex ">

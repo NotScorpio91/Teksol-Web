@@ -1,26 +1,24 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon, } from '@heroicons/react/20/solid'
-import {
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-} from '@heroicons/react/24/outline'
+import {FaBookBookmark} from 'react-icons/fa6'
+import {BiMessageDetail} from 'react-icons/bi'
+import {ImOffice} from 'react-icons/im'
 
 
 
 const solutions = [
 
-  { name: 'About us',  href: '/', icon: ChartPieIcon },
-  { name: 'Contact',  href: '/', icon: CursorArrowRaysIcon },
-  { name: 'Career',  href: '/', icon: FingerPrintIcon },
+  { name: 'About us',  href: '/', icon: FaBookBookmark },
+  { name: 'Contact',  href: '/', icon: BiMessageDetail },
+  { name: 'Career',  href: '/', icon: ImOffice },
 ]
 
 
 export default function Company() {
   return (
-    <Popover >
-      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none ">
+    <Popover  >
+      <Popover.Button className="inline-flex items-center  gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none ">
         <span>Company</span>
         <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
       </Popover.Button>
@@ -34,9 +32,9 @@ export default function Company() {
         leaveFrom="opacity-100 translate-y-0"
         leaveTo="opacity-0 translate-y-1"
       >
-        <Popover.Panel className="absolute top-20 right-[530px] z-10 mt-5 flex w-screen max-w-max  px-4">
-          <div className="w-60 flex-auto  overflow-hidden rounded-[5px] bg-black backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-500">
-            <div className="p-4">
+        <Popover.Panel className="absolute  top-20  z-10 mt-5 flex -ml-[130px]  px-4">
+          <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-gray-800 backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-800">
+            <div className="p-4 grid grid-cols-2 ">
               {solutions.map((item) => (
                 <div key={item.name} className="group relative flex items-center gap-x-6 rounded-[5px] p-4 hover:text-white ">
                   <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg  group-hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:transition-all">

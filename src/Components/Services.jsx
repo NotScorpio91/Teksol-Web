@@ -26,7 +26,7 @@ export default function Company() {
     <Popover >
       <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none  group">
         <span>Services</span>
-        <ChevronDownIcon className="h-5 w-5 group-focus:active:rotate-180 transition-all " aria-hidden="true" />
+        <ChevronDownIcon className="h-5 w-5  " aria-hidden="true" />
       </Popover.Button>
 
       <Transition
@@ -38,9 +38,9 @@ export default function Company() {
         leaveFrom="opacity-100 translate-y-0"
         leaveTo="opacity-0 translate-y-1"
       >
-        <Popover.Panel className="absolute top-20 right-[400px] z-10 mt-5 flex w-screen max-w-max  px-4">
-          <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-black backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-500">
-            <div className="p-4">
+        <Popover.Panel className="absolute top-20  z-10 mt-5 flex -ml-[222px]  px-4">
+          <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-gray-800 backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-800">
+            <div className="p-4 grid grid-cols-2">
               {solutions.map((item) => (
                 <div key={item.name} className="group relative flex items-center gap-x-6 rounded-[5px] p-4 hover:text-white ">
                   <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg  group-hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:transition-all">

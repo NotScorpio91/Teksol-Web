@@ -8,7 +8,7 @@ function Main() {
     AOS.init({duration:500})
   },[])
   return (
-    <div className='Blackbg flex flex-col justify-center items-center pt-32'>
+    <div className='Blackbg flex flex-col justify-center items-center pt-80'>
       <div className='w-[1200px]'>
         <div className="T.S flex flex-col justify-center items-center space-y-1 ">
           <h1 className='text-[#FFF] font-poppins text-8xl leading-[80px] font-black cursor-text  h-[160px] text-center antialiased' >
