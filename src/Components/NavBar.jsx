@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <div className='flex justify-center items-center ' >
     
-          <nav className='flex justify-center items-center space-x-[700px]  w-[100vw] h-[85px] bg-transparent ring-1 ring-gray-500 fixed top-0  backdrop-blur-md z-50'>
+          <nav className='flex justify-center items-center space-x-[700px]  w-[100vw] h-[85px] bg-transparent ring-1 ring-gray-950 fixed top-0  backdrop-blur-md z-50'>
         <div className="L.H.S">
         <a href="/"><Logo/></a>
         </div>

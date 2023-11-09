@@ -7,7 +7,7 @@ import {
   PageNotfound,
 }
   from './pages/Index'
-import Testing from './Components/Company'
+
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <div>
 
      
-      <Testing />
+    
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
