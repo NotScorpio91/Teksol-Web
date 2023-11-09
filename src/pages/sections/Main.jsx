@@ -34,7 +34,7 @@ function Main() {
 
         </div>
         <div className="B.S flex justify-center items-center my-[85px]">
-          <div className='w-[866px] h-[553px] rounded-[28px] bg-[#131415] grid items-center'data-aos="fade-up">
+          <div className='w-[866px] h-[553px] rounded-[28px] bg-[#0A0A0A] grid items-center'data-aos="fade-up">
 
           </div>
         </div>

@@ -16,7 +16,7 @@ function Footer() {
     <div className='flex justify-center items-center '>
       <div className=' flex flex-col justify-center items-center pt-40'data-aos="fade-up">
 
-        <div className="top w-[1440px] h-[268px] bg-[#18181C] flex justify-center space-x-80 rounded-xl">
+        <div className="top w-[1440px] h-[268px] bg-[#0A0A0A] flex justify-center space-x-80 rounded-xl">
           <div className="lhs flex flex-col justify-between mt-[60px] ">
             <img className='w-[134px] ' src={logo} alt="logo" />
             <div className='mb-[42px]'>

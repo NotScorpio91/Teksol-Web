@@ -17,7 +17,7 @@ function NavBar() {
         <div className="R.H.S flex space-x-12 items-center">
       
           <div>
-            <ul className=' flex justify-center items-center space-x-12'>
+            <ul className=' flex justify-center items-center space-x-12 '>
               
               <Company/>
               <Services />

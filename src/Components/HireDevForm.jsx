@@ -28,19 +28,19 @@ function HireDevForm() {
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' data-aos="fade-up">
                                             <label htmlFor="">Your Name </label>
                                         </div>
-                                        <input type="text" id="name" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your name" required data-aos="fade-up" />
+                                        <input type="text" id="name" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your name" required data-aos="fade-up" />
                                     </div>
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' data-aos="fade-up">
                                             <label htmlFor="">Your Email</label>
                                         </div>
-                                        <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your email" required data-aos="fade-up" />
+                                        <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your email" required data-aos="fade-up" />
                                     </div>
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased 'data-aos="fade-up" >
                                             <label htmlFor="">Contact number</label>
                                         </div>
-                                        <input type="search" id="phone" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your contact number" required data-aos="fade-up" />
+                                        <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your contact number" required data-aos="fade-up" />
                                     </div>
                                     <div data-aos="fade-up">
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require?</h1>
@@ -50,7 +50,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-3 pl-4  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><PiPlanetLight /></i>
                                                             <p class="text-white font-poppins font-medium" >Web Development</p>
                                                         </div>
@@ -64,7 +64,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-3 pl-4  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><PiTestTubeBold /></i>
                                                             <p class="text-white font-poppins font-medium">QA & Testing</p>
                                                         </div>
@@ -78,7 +78,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2 pl-4  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-2 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><FaRobot /></i>
                                                             <p class="text-white font-poppins font-medium">ML & AI</p>
                                                         </div>
@@ -95,7 +95,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-3 pl-4 antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><CiMobile3 /></i>
                                                             <p class="text-white font-poppins font-medium">Mobile App</p>
                                                         </div>
@@ -109,7 +109,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-3 pl-4  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-3 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><BiSolidPen /></i>
                                                             <p class="text-white font-poppins font-medium">UI / UX</p>
                                                         </div>
@@ -123,7 +123,7 @@ function HireDevForm() {
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
 
-                                                        <div className='my-2 pl-4  antialiased bg-[#18181c] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
+                                                        <div className='my-2 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-[245px] py-[12px] text-white flex items-center '>
                                                             <i className='text-white antialiased mx-[6px]'><FaWandMagicSparkles /></i>
                                                             <p class="text-white font-poppins font-medium">Custom Solution</p>
                                                         </div>
@@ -141,7 +141,7 @@ function HireDevForm() {
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Description </label>
                                         </div>
-                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[150px]  w-[500px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
+                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[150px]  w-[500px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
                                     </div>
                                     <div className='flex' data-aos='fade-up'>
                                     <Button title='Submit'/>

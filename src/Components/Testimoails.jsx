@@ -6,7 +6,7 @@ function Testimoails() {
   return (
     <div className='flex justify-center'>
       <div >
-        <div className=' w-[540px] h-[337px] rounded-[20px] bg-[#18181c] pl-9 pt-5'>
+        <div className=' w-[540px] h-[337px] rounded-[20px] bg-[#0A0A0A] pl-9 pt-5'>
             <p className='text-[#FFF] font-poppins w-[450px] h-[186px]
             text-lg text-left leading-[38px] scale-[0.9] mb-3 antialiased '>Designers need to have a strong understanding of the principles of design in order to create effective solutions. They must also be aware of the latest trends and technologies so that they can stay ahead of the curve.</p>
             <div className=' pl- ml-5 w-[400px] h-1 border-t border-[#404047] pt-4' >

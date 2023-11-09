@@ -34,10 +34,10 @@ export default function Company() {
       >
         <Popover.Panel className="absolute  top-[69px]  z-10  flex -ml-[130px]  px-4">
           <div className="w-fit flex-auto  overflow-hidden rounded-[5px] bg-black bg-opacity-90  backdrop-blur-sm text-base leading-6 shadow-lg ring-1 ring-gray-800">
-            <div className="p-4 grid grid-cols-2 ">
-              {solutions.map((item) => (
-                <div key={item.name} className="group relative flex items-center gap-x-6 rounded-[5px] p-4 hover:text-white ">
-                  <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg  group-hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:transition-all">
+            <div className="p-4 grid grid-cols-2  ">
+              {solutions.map((item) => (           
+                <div key={item.name} className="group relative flex   items-center gap-x-6 rounded-[5px] px-4 py-2 mb-1 hover:text-white  ">
+                  <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg  group-hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:transition-all ">
                     <item.icon className="h-6 w-6 text-[#9E9E9E] group-hover:text-black" aria-hidden="true" />
                   </div>
                   <div>

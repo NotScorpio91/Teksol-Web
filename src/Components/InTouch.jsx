@@ -24,13 +24,13 @@ function InTouch() {
                             <p className="mb-8 lg:mb-10 font-light  text-[#9E9E9E]  w-[503px] font-poppins antialiased " data-aos="fade-up">A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem </p>
                             <form action="#" className="space-y-8">
                                 <div data-aos="fade-up">
-                                    <input type="email" id="email" className="shadow-sm bg-[#18181C] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[408px] py-[12px] px-[28px] dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your Email" required />
+                                    <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[408px] py-[12px] px-[28px] dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your Email" required />
                                 </div>
                                 <div data-aos="fade-up">
-                                    <input type="text" id="subject" className="block py-[12px] px-[28px]  w-[408px] text-sm text-[#9E9E9E] bg-[#18181C] rounded-[5px]  focus:ring-primary-500 focus:border-primary-500 placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Let us know how we can help you" required />
+                                    <input type="text" id="subject" className="block py-[12px] px-[28px]  w-[408px] text-sm text-[#9E9E9E] bg-[#0A0A0A] rounded-[5px]  focus:ring-primary-500 focus:border-primary-500 placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Let us know how we can help you" required />
                                 </div>
                                 <div className="sm:col-span-2"data-aos="fade-up">
-                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[408px] bg-[#18181c] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Leave a comment..."></textarea>
+                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[156px] w-[408px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Leave a comment..."></textarea>
                                 </div>
                                 <div className='flex'data-aos="fade-up">
                                 <Button title='Get In Touch'/>

@@ -19,7 +19,7 @@ function Bigcard() {
         </div>
        
         <div className='flex ' data-aos="fade-up">
-        <button className='bg-black text-white hover:text-black hover:bg-white   rounded-[5px] w-[198px] h-[44px] font-poppins font-[400px] antialiased transition-all active:scale-95  '>Get Started</button>
+        <button className='bg-[#0A0A0A] text-white hover:text-black hover:bg-white   rounded-[5px] w-[198px] h-[44px] font-poppins font-[400px] antialiased transition-all active:scale-95  '>Get Started</button>
         </div>
 
         </div>
