@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../Components/Logo'
 import Button from '../Components/Button'
 import {BsCaretDownFill} from 'react-icons/bs'
-
+import Company from './Company'
 function NavBar() {
   const Mouseover = (()=>{
     
@@ -18,12 +18,8 @@ function NavBar() {
       
           <div>
             <ul className=' flex justify-center items-center space-x-12'>
-              <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased flex justify-center items-center group  ' href="/">Company
-              <BsCaretDownFill className='hover:rotate-180 hover:transition-all hover:hidden group-hover:rotate-180 '  />
-              <div className='w-96 h-40 bg-white group-hover:flex hidden absolute top-40 ' >
-
-              </div>
-              </a>
+              
+              <Company/>
               <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="/">Services</a>
               <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="/HireDev">Hire developers</a>
               <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="https://theteksol.com/blog/">Blog</a>

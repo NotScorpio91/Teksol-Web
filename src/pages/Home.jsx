@@ -7,7 +7,6 @@ import bg from '../assets/svg/bg.svg'
 import Cards from './sections/Cards'
 import Faq from './sections/Faq'
 import Meeting  from './sections/Meeting'
-import Testing from '../Components/Testing'
 function Home() {
 
  

@@ -7,6 +7,7 @@ import {
   PageNotfound,
 }
   from './pages/Index'
+import Testing from './Components/Company'
 
 
 function App() {
@@ -14,17 +15,15 @@ function App() {
     <div>
 
      
+      <Testing />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Quote" element={<Quote />} />
           <Route path="/HireDev" element={<HireDev/>}/>
           <Route path='*' exact element={<PageNotfound />} />
-
         </Routes>
       </Router>
-      
-
     </div>
   )
 }
