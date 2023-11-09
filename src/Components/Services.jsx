@@ -1,31 +1,32 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon, } from '@heroicons/react/20/solid'
-import {
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-} from '@heroicons/react/24/outline'
+import {IoEarth} from 'react-icons/io5'
+import {CiMobile3} from 'react-icons/ci'
+import {SiSololearn} from 'react-icons/si'
+import {BsFillJournalBookmarkFill} from 'react-icons/bs'
+import {FaPenFancy} from 'react-icons/fa6'
+import {PiMagicWand} from 'react-icons/pi'
 
 
 
 const solutions = [
 
-  { name: 'Web Development ',  href: '/', icon: ChartPieIcon },
-  { name: 'Mobile App Development',  href: '/', icon: CursorArrowRaysIcon },
-  { name: 'UI/UX Consulting',  href: '/', icon: FingerPrintIcon },
-  { name: 'Digital Marketing',  href: '/', icon: ChartPieIcon },
-  { name: 'AI/ML',  href: '/', icon: CursorArrowRaysIcon },
-  { name: 'Custom Solutions',  href: '/', icon: FingerPrintIcon },
+  { name: 'Web Development ',  href: '/', icon: IoEarth },
+  { name: 'Mobile App Development',  href: '/', icon: CiMobile3 },
+  { name: 'UI/UX Consulting',  href: '/', icon: SiSololearn },
+  { name: 'Digital Marketing',  href: '/', icon: BsFillJournalBookmarkFill },
+  { name: 'AI/ML',  href: '/', icon: FaPenFancy },
+  { name: 'Custom Solutions',  href: '/', icon: PiMagicWand },
 ]
 
 
 export default function Company() {
   return (
     <Popover >
-      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none ">
+      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none  group">
         <span>Services</span>
-        <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
+        <ChevronDownIcon className="h-5 w-5 group-focus:active:rotate-180 transition-all " aria-hidden="true" />
       </Popover.Button>
 
       <Transition
