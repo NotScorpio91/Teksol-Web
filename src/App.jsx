@@ -19,8 +19,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Quote" element={<Quote />} />
-          <Route path="/HireDev" element={<HireDev/>}/>
+          <Route path="/quote" element={<Quote />} />
+          <Route path="/hire-dev" element={<HireDev/>}/>
           <Route path='*' exact element={<PageNotfound />} />
         </Routes>
       </Router>

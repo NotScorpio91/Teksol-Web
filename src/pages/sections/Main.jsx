@@ -26,7 +26,7 @@ function Main() {
           <p className='text-gray-300 font-poppins text-xl font-medium leading-7 w-[577px] pb-14 text-center antialiased'>We’re a team of professionals supporting startups to scale up their businesses online.
           </p>
           
-          <a href="/Quote">
+          <a href="/quote">
 
           <Button title='Get Quote' className='font-poppins font-extrabold text-xl' />
           </a>
