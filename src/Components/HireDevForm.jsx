@@ -23,7 +23,7 @@ function HireDevForm() {
                             <div className=""data-aos="fade-up">
                                 <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Hire Developers</h2>
                                 <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.</p>
-                                <form action="#" className="">
+                                <form action="#" className="" data-aos="fade-up">
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' >
                                             <label htmlFor="">Your Name </label>
@@ -143,10 +143,10 @@ function HireDevForm() {
                                         </div>
                                         <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[150px]  w-[500px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
                                     </div>
-                                    <div className='flex'data-aos="fade-up">
+                                  
                                     <Button title='Submit'/>
 
-                                    </div>
+                                    
                                 </form>
                             </div>
                         </div>
