@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Button from '../../Components/Button'
+import Slider from '../../Components/Slider';
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,10 +34,8 @@ function Main() {
            
 
         </div>
-        <div className="B.S flex justify-center items-center my-[85px]">
-          <div className='w-[866px] h-[553px] rounded-[28px] bg-[#0A0A0A] grid items-center'data-aos="fade-up">
-
-          </div>
+        <div className="B.S flex justify-center items-center my-[85px] ">
+         <Slider />
         </div>
       </div>
     </div>
