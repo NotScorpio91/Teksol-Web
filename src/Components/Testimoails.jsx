@@ -1,6 +1,6 @@
 import React from 'react'
-import star from '../assets/svg/star.svg'
 import pfp  from  '../assets/png/pfp.png'
+import { FaStar } from "react-icons/fa6";
 
 function Testimoails() {
   return (
@@ -18,13 +18,13 @@ function Testimoails() {
                 <p className='text-[#9E9E9E] font-poppins leading-7 text-[14px] an* antialiased   '>CEO of Inkyy.com</p>
                 </div>
                 </div>
-                <div className="rhs flex space-x-2">
-                    <img src={star} alt="" /> 
-                    <img src={star} alt="" /> 
-                    <img src={star} alt="" /> 
-                    <img src={star} alt="" /> 
-                    <img src={star} alt="" /> 
-                    
+                <div className="rhs flex space-x-2 items-center">
+                <FaStar color={'#c4aa37'} size={22}/>
+                <FaStar color={'#c4aa37'} size={22}/>
+                <FaStar color={'#c4aa37'} size={22}/>
+                <FaStar color={'#c4aa37'} size={22}/>
+                <FaStar color={'#c4aa37'} size={22}/>
+                
                 </div>
             </div>
             </div>
