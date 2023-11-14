@@ -43,11 +43,17 @@ function Footer() {
             </div>
             <div className=' flex justify-center items-center antialiased  ' >
               <div className=' space-y-3 font-poppins antialiased '>
-                <h1 className='text-white font-semibold font-poppins antialiased  cursor-pointe hover:text-whiter '>Services</h1>
-                <p className='text-[#9E9E9E] text-sm antialiased cursor-pointer font-poppins  hover:text-white ' >Web Development</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Mobile App Development</p> 
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Digital Marketing</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >More</p>
+              
+                <h1 className='text-white font-semibold font-poppins antialiased  cursor-pointe hover:text-whiter '>
+                <a href="/services">Services</a></h1>
+                <p className='text-[#9E9E9E] text-sm antialiased cursor-pointer font-poppins  hover:text-white ' >
+                <a href="/services">Web Development</a></p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >
+                <a href="/services">Mobile App Development</a></p> 
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >
+                <a href="/services">Digital Marketing</a></p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >
+                <a href="/services">More</a></p>
                
                
 

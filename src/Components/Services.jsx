@@ -12,12 +12,12 @@ import {PiMagicWand} from 'react-icons/pi'
 
 const solutions = [
 
-  { name: 'Web Development ',  href: '/', icon: IoEarth },
-  { name: 'Mobile App Development',  href: '/', icon: CiMobile3 },
-  { name: 'UI/UX Consulting',  href: '/', icon: SiSololearn },
-  { name: 'Digital Marketing',  href: '/', icon: BsFillJournalBookmarkFill },
-  { name: 'AI/ML',  href: '/', icon: FaPenFancy },
-  { name: 'Custom Solutions',  href: '/', icon: PiMagicWand },
+  { name: 'Web Development ',  href: '/services', icon: IoEarth },
+  { name: 'Mobile App Development',  href: '/services', icon: CiMobile3 },
+  { name: 'UI/UX Consulting',  href: '/services', icon: SiSololearn },
+  { name: 'Digital Marketing',  href: '/services', icon: BsFillJournalBookmarkFill },
+  { name: 'AI/ML',  href: '/service', icon: FaPenFancy },
+  { name: 'Custom Solutions',  href: '/service', icon: PiMagicWand },
 ]
 
 
