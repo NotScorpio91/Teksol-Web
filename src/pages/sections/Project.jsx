@@ -3,7 +3,7 @@ import NavBar from '../../Components/NavBar'
 import ProjectCard from '../../Components/ProjectCard'
 import Footer from '../../Components/Footer'
 
-function Pc() {
+function Project() {
   return (
     <div>
       <NavBar />
@@ -13,4 +13,4 @@ function Pc() {
   )
 }
 
-export default Pc
+export default Project
