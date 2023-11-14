@@ -1,5 +1,6 @@
 import React from 'react'
-import ProjectCard from './Components/ProjectCard'
+
+import Pc from './pages/sections/Pc'
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import {
 //   Home,
@@ -15,7 +16,7 @@ function App() {
   return (
     <div>
 
-     <ProjectCard />
+     <Pc />
     
       {/* <Router>
         <Routes>

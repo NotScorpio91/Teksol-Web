@@ -1,16 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import one from '../assets/testing/one.jpg'
 import two from '../assets/testing/two.jpg'
 import three from '../assets/testing/three.jpg'
 import four from '../assets/testing/four.jpg'
-import five from '../assets/testing/five.jpg'
-import six from '../assets/testing/six.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function ProjectCard() {
+
+  useEffect(()=>{
+		AOS.init({duration:500})
+	  },[])
   return (
-    <div className=' flex justify-center mt-40 '>
+    <div className=' flex justify-center mt-40 'data-aos="fade-up">
       <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md'>
         <div>
-          <div className="L.H.S flex justify-between items-center pl-[150px] my-6 ">
+          <div className="L.H.S flex justify-between items-center mx-10 my-6 ">
             <div className='flex justify-center items-center gap-6 '>
               <img className='rounded-full w-[150px] h-36 ' src={one} alt="" />
               <div>
@@ -22,7 +26,7 @@ function ProjectCard() {
         </div>
 
         <div className='border-t-[1px]  border-black '>
-          <div className='flex justify-between my-4 mx-40 '>
+          <div className='flex justify-between my-4 mx-12 '>
             <div className='flex  flex-col '>
               <h1 className='text-white  font-poppins antialiased '>Start Date</h1>
               <p className='text-lg text-[#9E9E9E] font-semibold   font-poppins antialiased'>Nov 1, 2023 </p>
@@ -63,6 +67,56 @@ function ProjectCard() {
         <div>
           <div className='flex flex-col-2 justify-between mx-10 mt-20'>
             
+
+
+
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt=""/>
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt=""/>
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+
 
           </div>
         </div>

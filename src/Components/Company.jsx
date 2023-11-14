@@ -19,7 +19,7 @@ export default function Company() {
   return (
     <Popover >
       <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#9E9E9E] hover:text-white outline-none  group  ">
-        <span>Services</span>
+        <span>Company</span>
         <ChevronDownIcon className="h-5 w-5  " aria-hidden="true" />
       </Popover.Button>
 
