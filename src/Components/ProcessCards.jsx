@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Card from './Card'
+import ProCard from './ProCard'
 import Requirement from  '../assets/svg/requirement.svg'
 import Design from  '../assets/svg/design.svg'
 import Prototype from  '../assets/svg/pototype.svg'
@@ -102,7 +102,7 @@ function ProcessCards() {
       </div>
         <div className='grid grid-cols-3 gap-10  cursor-pointer pb-52 '>
             {cards.map(card => (
-              <Card title={card.title} png={card.icon} items={card.items} />
+              <ProCard title={card.title} png={card.icon} items={card.items} />
             ))}
         </div>
 
