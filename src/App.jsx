@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from './Components/AboutUs';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
@@ -16,9 +17,9 @@ import {
 function App() {
   return (
     <div>
-
-    
-      <Router>
+     
+      <AboutUs />
+      {/* <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quote" element={<Quote />} />
@@ -27,7 +28,7 @@ function App() {
           <Route path="/services" element={<ServicesPage/>}/>
           <Route path='*' exact element={<PageNotfound />} />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   )
 }
