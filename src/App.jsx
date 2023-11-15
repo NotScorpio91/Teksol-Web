@@ -1,5 +1,5 @@
 import React from 'react'
-import Tab from './Components/Tab';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   Home,
@@ -17,8 +17,8 @@ function App() {
   return (
     <div>
 
-      <Tab />
-      {/* <Router>
+    
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quote" element={<Quote />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/services" element={<ServicesPage/>}/>
           <Route path='*' exact element={<PageNotfound />} />
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer'
 import one from '../../assets/testing/one.jpg'
 import two from '../../assets/testing/two.jpg'
 import three from '../../assets/testing/three.jpg'
+import Tab from '../../Components/Tab'
 
 
 
@@ -38,6 +39,7 @@ function ServicesPage() {
               img2={servicecard.img2} img3={servicecard.img3}
               distitle={servicecard.distitle} dis={servicecard.dis} />
             ))}
+      <Tab/>
       <Footer />
     </div>
   )
