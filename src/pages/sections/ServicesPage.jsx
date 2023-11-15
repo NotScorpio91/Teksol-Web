@@ -1,11 +1,12 @@
 import React from 'react'
 import NavBar from '../../Components/NavBar'
 import ServiceCard from '../../Components/ServiceCard'
+import Tab from '../../Components/Tab'
+import ProcessCards from '../../Components/ProcessCards'
 import Footer from '../../Components/Footer'
 import one from '../../assets/testing/one.jpg'
 import two from '../../assets/testing/two.jpg'
 import three from '../../assets/testing/three.jpg'
-import Tab from '../../Components/Tab'
 
 
 
@@ -40,6 +41,7 @@ function ServicesPage() {
               distitle={servicecard.distitle} dis={servicecard.dis} />
             ))}
       <Tab/>
+      <ProcessCards/>
       <Footer />
     </div>
   )
