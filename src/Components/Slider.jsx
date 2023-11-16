@@ -31,7 +31,7 @@ function Slider(className) {
             >
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={one} alt="" />
                         <div className="p-5">
@@ -46,7 +46,7 @@ function Slider(className) {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={two} alt="" />
                         <div className="p-5">
@@ -62,7 +62,7 @@ function Slider(className) {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={three} alt="" />
                         <div className="p-5">
@@ -78,7 +78,7 @@ function Slider(className) {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all  ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={four} alt="" />
                         <div className="p-5">
@@ -94,7 +94,7 @@ function Slider(className) {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all  ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={three} alt="" />
                         <div className="p-5">
@@ -110,7 +110,7 @@ function Slider(className) {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={six} alt="" />
                         <div className="p-5">

@@ -44,7 +44,7 @@ function HireDevForm() {
                                     </div>
                                     <div data-aos="fade-up" >
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require?</h1>
-                                        <div className='flex  justify-between  items-center my-10'>
+                                        <div className='flex  justify-between  items-center my-10 select-none'>
                                             <div className="L.H.S " data-aos="fade-up">
                                                 <label class="relative cursor-pointer " >
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />

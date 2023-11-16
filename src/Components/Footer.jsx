@@ -13,7 +13,7 @@ function Footer() {
 		AOS.init({duration:500})
 	  },[])
   return (
-    <div className='flex justify-center items-center '>
+    <div className='flex justify-center items-center select-none '>
       <div className=' flex flex-col justify-center items-center pt-40'data-aos="fade-up">
 
         <div className="top w-[1440px] h-[268px] bg-[#0A0A0A] flex justify-center space-x-80 rounded-xl">
@@ -32,7 +32,7 @@ function Footer() {
           <div className="rhs flex justify-center items-center space-x-32 ">
 
            
-            <div className=' flex justify-center items-center antialiased  ' >
+            <div className=' flex justify-center items-center antialiased select-none ' >
               <div className=' space-y-3 font-poppins antialiased '>
                 <h1 className='text-white font-semibold font-poppins antialiased cursor-pointer '>Company</h1>
                 <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Home</p>
@@ -41,7 +41,7 @@ function Footer() {
                 <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' ><a href="https://theteksol.com/blog/">Blog</a></p>
               </div>
             </div>
-            <div className=' flex justify-center items-center antialiased  ' >
+            <div className=' flex justify-center items-center antialiased select-none  ' >
               <div className=' space-y-3 font-poppins antialiased '>
               
                 <h1 className='text-white font-semibold font-poppins antialiased  cursor-pointe hover:text-whiter '>
@@ -62,7 +62,7 @@ function Footer() {
           </div>
         </div>
         <hr />
-        <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px]  bg-black ">
+        <div className="bottom w-[1440px] h-[92px] flex justify-center space-x-[730px]  bg-black select-none ">
           <div className="rhs text-[#9E9E9E] font-poppins flex justify-center items-center antialiased  ">
             <p className='antialiased font-poppins'>All Rights Reservd © 2023 Teksol 2023</p>
           </div>

@@ -7,7 +7,7 @@ function NavBar() {
     
   },[]);
   return (
-    <div className='flex justify-center items-center ' >
+    <div className='flex justify-center items-center select-none' >
     
           <nav className='flex justify-center items-center space-x-[700px]  w-[100vw] h-[64px] bg-black bg-opacity-50 ring-1 ring-gray-950 fixed top-0  backdrop-blur-[12px] z-50'>
         <div className="L.H.S">

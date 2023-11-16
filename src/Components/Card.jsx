@@ -7,7 +7,7 @@ function Card({ png, title, items, }) {
     AOS.init({ duration: 500 })
   }, []);
   return (
-    <div className='text-white my-5 transition-all active:scale-95  hover:scale-105 hover:transition-all  ' >
+    <div className='text-white my-5 transition-all   hover:scale-105 hover:transition-all select-none ' >
       <div className=' bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' data-aos="fade-up">
          {png} 
         <h1 className='text-white font-semibold font-poppins antialiased '>{title}</h1>

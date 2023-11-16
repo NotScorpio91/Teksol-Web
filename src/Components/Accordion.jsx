@@ -16,8 +16,8 @@ const Accordion = ({bgtclassName,titleclassName,bgbclassName,disclassName}) => {
 	  },[])
 
 	return (
-		<div className={`w-[540px] h-fit  py-3  rounded-[5px] bg-[#0A0A0A] relative mx-5 my-3 ${bgtclassName}`}>
-			<div className='flex justify-between items-left  mx-7 relative'>
+		<div onClick={toggleFunction} className={`w-[540px] h-fit  py-3  rounded-[5px] bg-[#0A0A0A] relative mx-5 my-3 select-none ${bgtclassName}`}>
+			<div className='flex justify-between items-left  mx-7 relative cursor-pointer'>
 				<h1 className={`text-[#FFF] font-poppins font-normal leading-5 text-sm antialiased ${titleclassName} `}>How promote the product?</h1>
 				<button onClick={toggleFunction}><img src={show ? plus : minus} alt="plus" /></button>
 			</div>
