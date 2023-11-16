@@ -1,9 +1,11 @@
 import React from 'react'
 import About from '../assets/svg/about.svg'
+import Talking from '../assets/svg/talking.svg'
+import Accordion from './Accordion'
 
 function AboutUs() {
   return (
-    <div className='flex justify-center items-center mt-40 mb-40 '>
+    <div className='flex justify-center items-center mt-40  '>
         <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md'>
         <div className="flex  justify-center items-center">
             <div className="LHS flex flex-col gap-7 py-4 pl-16 w-[80%]">
@@ -14,7 +16,7 @@ function AboutUs() {
             
            <div className="RHS w-full">
             
-            <img src={About} alt="" />
+            <img  src={About} alt="" />
 
             </div> 
         </div>
@@ -40,11 +42,25 @@ function AboutUs() {
                 <p className='  text-[#9E9E9E] text-sm font-poppins hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:text-transparent hover:bg-clip-text transition-all cursor-pointer  '>React Native • Flutter</p>
         </div>
         </div>
-        <div className="flex justify-around">
-            <div className="">
-                
+        <div className="flex justify-around pb-5 pt-20">
+            <div className="w-full  ">
+                <img src={Talking} alt="" />
             </div>
-            <div className=""></div>
+            <div className="w-full flex flex-col justify-centert gap-4 ">
+            <h3 className=' text-sm font-poppins bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text transition-all cursor-pointer  pl-6'>WHY CHOOSE US</h3>
+            <h1 className='text-white font-poppins text-3xl font-semibold cursor-pointer pl-6'>FAQs</h1>
+            <div className="flex  flex-col">
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            <Accordion bgtclassName='bg-black' bgbclassName='bg-black'/>
+            
+            </div>
+            </div>
         </div>
 
 

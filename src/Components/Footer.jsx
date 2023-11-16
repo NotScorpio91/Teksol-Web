@@ -36,7 +36,7 @@ function Footer() {
               <div className=' space-y-3 font-poppins antialiased '>
                 <h1 className='text-white font-semibold font-poppins antialiased cursor-pointer '>Company</h1>
                 <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Home</p>
-                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >About us</p>
+                <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' ><a href="/about">About us</a></p>
                 <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' >Career</p>
                 <p className='text-[#9E9E9E] text-sm  antialiased cursor-pointer font-poppins hover:text-white ' ><a href="https://theteksol.com/blog/">Blog</a></p>
               </div>

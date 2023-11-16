@@ -9,7 +9,7 @@ import {ImOffice} from 'react-icons/im'
 
 const solutions = [
 
-  { name: 'About us',  href: '/', icon: FaBookBookmark },
+  { name: 'About us',  href: '/about"', icon: FaBookBookmark },
   { name: 'Contact',  href: '/', icon: BiMessageDetail },
   { name: 'Career',  href: '/', icon: ImOffice },
 ]
