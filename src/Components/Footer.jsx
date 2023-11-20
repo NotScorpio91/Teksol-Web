@@ -16,8 +16,8 @@ function Footer() {
     <div className='flex justify-center items-center select-none px-4 '>
       <div className=' flex flex-col justify-center items-center pt-40'data-aos="fade-up">
 
-        <div className="top w-full h-full sm:w-[1440px] sm:h-[268px] bg-[#0A0A0A] flex  justify-center sm:space-x-80 rounded-xl  px-5 py-5 ">
-          <div className="lhs flex flex-col sm:justify-between sm:mt-[60px] space-y-4  ">
+        <div className="top w-full h-full sm:w-[1440px] sm:h-[268px] bg-[#0A0A0A] flex  justify-center sm:space-x-80 rounded-xl  px-5 py-5  ">
+          <div className="lhs flex flex-col sm:justify-between justify-center  sm:mt-[60px] space-y-4 pb-5  ">
             <img className='sm:w-[134px] w-[70px] ' src={logo} alt="logo" />
             <div className='sm:mb-[42px] space-y-1 '>
               <h1 className='text-[#9E9E9E] font-poppins antialiased text-xs sm:text-base'><span className='text-[#FFF] font-poppins antialiased '>Address: </span> JH6X+FJ8, Jampur Road, Dera Ghazi Khan, Pakistan</h1>
