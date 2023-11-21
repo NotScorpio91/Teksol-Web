@@ -82,7 +82,7 @@ function AboutUs() {
     </div>
         </div>
         <div className="flex justify-around pb-5 pt-40">
-            <div className="w-full border-l ">
+            <div className="w-full  ">
                 <img src={Talking} alt="" />
             </div>
             <div className="w-full flex flex-col justify-centert gap-4 ">
