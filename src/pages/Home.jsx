@@ -5,21 +5,22 @@ import InTouch from '../Components/InTouch'
 import Footer from '../Components/Footer'
 import Cards from './sections/Cards'
 import Faq from './sections/Faq'
-import Meeting  from './sections/Meeting'
+import Meeting from './sections/Meeting'
+import AppLayout from '../Components/AppLayout'
 function Home() {
 
- 
+
   return (
-    <div className='flex flex-col justify-center items-center '>
+    <AppLayout>
       <NavBar />
-      <Main/>
+      <Main />
       {/* <Cards/>
-      <Meeting/>
-      <Faq/>
-      <InTouch/> */}
-      <Footer/>
-    
-    </div>
+        <Meeting/>
+        <Faq/>
+        <InTouch/> */}
+      <Footer />
+
+    </AppLayout>
   )
 }
 

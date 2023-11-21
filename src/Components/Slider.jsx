@@ -13,9 +13,10 @@ import six from '../assets/testing/six.jpg'
 
 function Slider(className) {
     return (
-        <div>
+        <div className='w-full'>
             <Swiper
-                slidesPerView={3}
+
+                slidesPerView={1}
                 spaceBetween={20}
                 cssMode={true}
                 loop={true}
@@ -24,23 +25,45 @@ function Slider(className) {
                 autoplay={{
                     delay: 5000,
                     disableOnInteraction: false,
+
+                }}
+                breakpoints={{
+                    1200: {
+                        width: 1200,
+                        slidesPerView: 3,
+                    },
                 }}
                 modules={[Autoplay, Mousewheel, Keyboard]}
 
-                className={`mySwiper  w-[1200px]  ${className}  `}
+                className={`mySwiper mx-4 sm:mx-0       ${className}  `}
             >
                 <SwiperSlide>
 
                     <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={one} alt="" />
-                        <div className="p-5">
-                          
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
-                           
-                            <p className="mb-3 font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            
-                        </div>
+                            <div className="p-5">
+
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all  ">
+                        <a href="/project">
+                            <img className="rounded-t-lg" src={six} alt="" />
+                            <div className="p-5">
+
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
                         </a>
                     </div>
                 </SwiperSlide>
@@ -49,14 +72,13 @@ function Slider(className) {
                     <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={two} alt="" />
-                        <div className="p-5">
-                          
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white  font-poppins antialiased ">Noteworthy technology acquisitions 2021</h5>
-                         
-                            <p className="mb-3 font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            
-                            
-                        </div>
+                            <div className="p-5">
+
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
                         </a>
                     </div>
                 </SwiperSlide>
@@ -65,64 +87,47 @@ function Slider(className) {
                     <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={three} alt="" />
-                        <div className="p-5">
-                          
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
-                          
-                            <p className="mb-3 font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            
-                            
-                        </div>
+                            <div className="p-5">
+
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
                         </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
                             <img className="rounded-t-lg" src={four} alt="" />
-                        <div className="p-5">
-                           
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-poppins antialiased ">Noteworthy technology acquisitions 2021</h5>
-                        
-                            <p className="mb-3 font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            
-                            
-                        </div>
+                            <div className="p-5">
+
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
                         </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all  ">
+                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow  active:scale-95  active:transition-all ">
                         <a href="/project">
-                            <img className="rounded-t-lg" src={three} alt="" />
-                        <div className="p-5">
-                            
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
-                            
-                            <p className="mb-3 font-normal text-[#9E9E9E] antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                           
-                            
-                        </div>
-                        </a>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                            <img className="rounded-t-lg" src={five} alt="" />
+                            <div className="p-5">
 
-                    <div className="w-full bg-[#0A0A0A] border border-[#0A0A0A] rounded-lg shadow active:scale-95  active:transition-all ">
-                        <a href="/project">
-                            <img className="rounded-t-lg" src={six} alt="" />
-                        <div className="p-5">
-                         
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white font-poppins antialiased ">Noteworthy technology acquisitions 2021</h5>
-                            
-                            <p className="mb-3 font-normal text-[#9E9E9E] font-poppins antialiased ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                               
-                        </div>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+                            </div>
                         </a>
                     </div>
                 </SwiperSlide>
+
             </Swiper>
         </div>
     )
