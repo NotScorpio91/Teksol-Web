@@ -14,7 +14,7 @@ function Footer() {
 	  },[])
   return (
     <div className='flex justify-center items-center select-none px-4 '>
-      <div className=' flex flex-col justify-center items-center pt-40'data-aos="fade-up">
+      <div className=' flex flex-col justify-center items-center pt-10 sm:pt-40'data-aos="fade-up">
 
         <div className="top w-full h-full sm:w-[1440px] sm:h-[268px] bg-[#0A0A0A] flex  justify-center sm:space-x-80 rounded-xl  px-5 py-5  ">
           <div className="lhs flex flex-col sm:justify-around justify-center  sm:mt-[60px] space-y-4 pb-10  ">

@@ -13,10 +13,10 @@ function Home() {
     <div className='flex flex-col justify-center items-center '>
       <NavBar />
       <Main/>
-      <Cards/>
+      {/* <Cards/>
       <Meeting/>
       <Faq/>
-      <InTouch/>
+      <InTouch/> */}
       <Footer/>
     
     </div>
