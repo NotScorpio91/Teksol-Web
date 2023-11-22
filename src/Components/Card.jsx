@@ -2,23 +2,25 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Card({ png, title, items, }) {
+function Card({ png, title, items, classNameForText = '' }) {
   useEffect(() => {
     AOS.init({ duration: 500 })
   }, []);
   return (
-    <div className='text-white my-5 transition-all   hover:scale-105 hover:transition-all select-none ' >
-      <div className=' bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' data-aos="fade-up">
+    <div className='text-white my-5 transition-all w-full  sm:hover:scale-105 sm:hover:transition-all select-none ' >
+      <div className=' bg-[#0A0A0A] w-full  sm:w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' data-aos="fade-up">
          {png} 
-        <h1 className='text-white font-semibold font-poppins antialiased '>{title}</h1>
+        <h1 className='text-white font-semibold font-poppins antialiased text-base '>{title}</h1>
 
 
-        <div className='text-sm text-[#9E9E9E] text-left w-[320px] h-[83px] font-poppins antialiased grid grid-cols-2 justify-center items-center '>{items.map(item => (
-          <p className={`flex ml-2 my-3 items-center rounded-md w-[320px] ${item?.titleClass}`}>
-            <div className='flex justify-center items-center mx-2'>
+        <div className={`text-sm text-[#9E9E9E] text-left w-full  font-poppins antialiased grid grid-cols-2 justify-center items-center ${classNameForText}`}>{items.map(item => (
+          <p className={`flex flex-col  my-3 items-center rounded-md text-xs sm:text-sm w-full justify-center    ${item?.titleClass}`}>
+            <div className={`${item?.iconClass}`}>
+
               {item.icon}
             </div>
             {item.title}
+           
           </p>
         ))}</div>
       </div>
