@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../../Components/Footer'
-import HireDevForm from '../../Components/HireDevForm'
-import NavBar from '../../Components/NavBar'
+import Footer from '../Components/Footer'
+import HireDevForm from '../Components/HireDevForm'
+import NavBar from '../Components/NavBar'
 
 function HireDev() {
   return (

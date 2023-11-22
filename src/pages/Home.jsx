@@ -14,10 +14,10 @@ function Home() {
     <AppLayout>
       <NavBar />
       <Main />
-      {/* <Cards/>
+      <Cards/>
         <Meeting/>
         <Faq/>
-        <InTouch/> */}
+        <InTouch/>
       <Footer />
 
     </AppLayout>

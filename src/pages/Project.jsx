@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from '../../Components/NavBar'
-import ProjectCard from '../../Components/ProjectCard'
-import Footer from '../../Components/Footer'
+import NavBar from '../Components/NavBar'
+import ProjectCard from '../Components/ProjectCard'
+import Footer from '../Components/Footer'
 
 function Project() {
   return (
