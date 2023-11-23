@@ -10,7 +10,7 @@ import { BsCheckCircle } from 'react-icons/bs'
 
 function QuoteForm() {
     return (
-        <div className='bg-black h-screen'>
+        <div className='bg-black h-screen mt-24 mb-80 sm:mb-52'>
 
             <div className='flex  justify-center sm:mt-60  '>
                 <div className="mx-4">
