@@ -15,7 +15,7 @@ function Home() {
        <NavBar />
       <Main /> 
        <Cards/>
-        {/* <Meeting/>  */}
+        <Meeting/> 
         <Faq/>
         <InTouch/> 
       <Footer />

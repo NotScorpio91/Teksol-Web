@@ -10,7 +10,7 @@ function Quote() {
     <div className='flex justify-center items-center'>
       
           <div>
-           <NavBar />
+           {/* <NavBar /> */}
           </div>
         
     
@@ -19,7 +19,7 @@ function Quote() {
       <QuoteForm/>
       <div className='mt-20'>
 
-      <Footer/>
+      {/* <Footer/> */}
       </div>
     </div>
   )
