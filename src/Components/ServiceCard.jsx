@@ -1,13 +1,8 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react'
 
 function ServiceCard({heading,title,img1,img2,img3,distitle,dis}) {
-    useEffect(()=>{
-        AOS.init({duration:500})
-      },[])
     return (
-        <div className='flex justify-center items-center mt-40 'data-aos="fade-up">
+        <div className='flex justify-center items-center mt-40 '>
             <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md flex flex-col'>
 
                 <div className="Heading flex flex-col gap-4 py-6 px-4 ">

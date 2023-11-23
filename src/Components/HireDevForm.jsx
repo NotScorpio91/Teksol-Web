@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Button from './Button'
 import { PiPlanetLight } from 'react-icons/pi'
 import { PiTestTubeBold } from 'react-icons/pi'
@@ -7,23 +7,20 @@ import { CiMobile3 } from 'react-icons/ci'
 import { BiSolidPen } from 'react-icons/bi'
 import { FaWandMagicSparkles } from 'react-icons/fa6'
 import { BsCheckCircle } from 'react-icons/bs'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-function HireDevForm() {
-    useEffect(()=>{
-        AOS.init({duration:500})
-      },[])
-    return (
-        <div className='bg-black h-screen'data-aos="fade-up">
 
-            <div className='flex  justify-center mt-60 'data-aos="fade-up">
+function HireDevForm() {
+   
+    return (
+        <div className='bg-black h-screen'>
+
+            <div className='flex  justify-center mt-60 '>
                 <div className="">
                     <section >
                         <div className=" flex ">
-                            <div className=""data-aos="fade-up">
+                            <div className="">
                                 <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Hire Developers</h2>
                                 <p className="mb-9 font-light  text-gray-300  w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.</p>
-                                <form action="#" className="" data-aos="fade-up">
+                                <form action="#" className="" >
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' >
                                             <label htmlFor="">Your Name </label>
@@ -42,10 +39,10 @@ function HireDevForm() {
                                         </div>
                                         <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your contact number" required  />
                                     </div>
-                                    <div data-aos="fade-up" >
+                                    <div  >
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require?</h1>
                                         <div className='flex  justify-between  items-center my-10 select-none'>
-                                            <div className="L.H.S " data-aos="fade-up">
+                                            <div className="L.H.S " >
                                                 <label class="relative cursor-pointer " >
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
@@ -90,7 +87,7 @@ function HireDevForm() {
                                                 </label>
                                             </div>
 
-                                            <div className='R.H.S' data-aos="fade-up">
+                                            <div className='R.H.S' >
                                                 <label class="relative cursor-pointer ">
                                                     <input type="checkbox" class="peer sr-only" name="size-choice" />
                                                     <div class=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
@@ -137,7 +134,7 @@ function HireDevForm() {
 
                                         </div>
                                     </div>
-                                    <div className="sm:col-span-2 mb-9" data-aos="fade-up" >
+                                    <div className="sm:col-span-2 mb-9"  >
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Description </label>
                                         </div>

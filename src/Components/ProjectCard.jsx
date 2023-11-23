@@ -1,17 +1,14 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import one from '../assets/testing/one.jpg'
 import two from '../assets/testing/two.jpg'
 import three from '../assets/testing/three.jpg'
 import four from '../assets/testing/four.jpg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 function ProjectCard() {
 
-  useEffect(()=>{
-		AOS.init({duration:500})
-	  },[])
+ 
   return (
-    <div className=' flex justify-center mt-40 'data-aos="fade-up">
+    <div className=' flex justify-center mt-40 '>
       <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md'>
         <div>
           <div className="L.H.S flex justify-between items-center mx-10 my-6 ">

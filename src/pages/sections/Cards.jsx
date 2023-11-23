@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "../../Components/Card";
 import { IoEarth } from "react-icons/io5";
 import { CiMobile3 } from "react-icons/ci";
@@ -25,12 +25,7 @@ import { SiVorondesign } from "react-icons/si";
 import { TbEdit } from "react-icons/tb";
 import { TbBrandKotlin } from "react-icons/tb";
 import { SiSwift } from "react-icons/si";
-import AOS from "aos";
-import "aos/dist/aos.css";
 function Cards() {
-  useEffect(() => {
-    AOS.init({ duration: 500 });
-  }, []);
   const cards = [
     {
       title: "Web App Development",
@@ -181,19 +176,19 @@ function Cards() {
         <div className="flex flex-col justify-center items-center sm:pb-36 pb-5  text-center">
           <h1
             className="text-[#FFF] font-poppins sm:text-lg text-xs sm:w-fit sm:pb-20 pb-8  cursor-text antialiased bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text hover: "
-            data-aos="fade-up"
+            
           >
             HOW CAN HELP YOU
           </h1>
           <h1
             className="text-[#FFF] font-poppins sm:text-[42px] text-base  font-semibold sm:leading-[80px] sm:w-fit sm:h-fit cursor-text antialiased mb-7 "
-            data-aos="fade-up"
+            
           >
             We Provide Best Web & Mobile Applications In Low Rates
           </h1>
           <p
             className="text-[#9E9E9E] font-poppins text-xs sm:text-[18px]  font-normal sm:leading-[28px] sm:w-[980px] sm:h-[66px] cursor-text antialiased"
-            data-aos="fade-up"
+            
           >
             <span className="font-bold font-poppins">At TEKSOL,</span> we
             combine our technical prowess with a customer-centric approach to

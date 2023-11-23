@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ProCard from './ProCard'
 import Requirement from  '../assets/svg/requirement.svg'
 import Design from  '../assets/svg/design.svg'
@@ -8,14 +8,7 @@ import quality from  '../assets/svg/quality.svg'
 import deployment from  '../assets/svg/deployment.svg'
 import support from '../assets/svg/support.svg'
 
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 function ProcessCards() {
-  useEffect(()=>{
-    AOS.init({duration:500})
-  },[])
   const cards = [
     {
       title: '1. Requirement Gathering',
@@ -98,7 +91,7 @@ function ProcessCards() {
     <div className='flex justify-center items-center pt-24'>
       <div className='w-[1200px] space-y-8'> 
       <div className='flex flex-col justify-center items-center pb-6'>
-        <h1 className='text-[#FFF] font-poppins text-[42px]  font-semibold leading-[80px] w-fit h-fit cursor-text antialiased mb-7 'data-aos="fade-up">Process We Follow</h1>
+        <h1 className='text-[#FFF] font-poppins text-[42px]  font-semibold leading-[80px] w-fit h-fit cursor-text antialiased mb-7 '>Process We Follow</h1>
       </div>
         <div className='grid grid-cols-3 gap-10  cursor-pointer pb-52 '>
             {cards.map(card => (

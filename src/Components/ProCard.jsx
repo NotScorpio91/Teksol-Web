@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react'
 
 function ProCard({ png, title, items, }) {
-  useEffect(() => {
-    AOS.init({ duration: 500 })
-  }, []);
   return (
     <div className='text-white my-5 transition-all   hover:scale-105 hover:transition-all  ' >
-      <div className=' bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' data-aos="fade-up">
+      <div className=' bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' >
          <img src={png} alt="" />
         <h1 className='text-white font-semibold font-poppins antialiased '>{title}</h1>
 

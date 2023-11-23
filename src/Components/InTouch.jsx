@@ -1,28 +1,24 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Button from './Button'
 import earth  from  '../assets/svg/earth.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function InTouch() {
-    useEffect(()=>{
-		AOS.init({duration:500})
-	  },[])
+
 
     return (
         <div className='bg-black mt-80'>
             <div className='flex  justify-center space-x-24 '>
                 <div className="lhs select-none ">
-                   <img className='select-none' src={earth} alt="earth" data-aos="fade-up"/> 
+                   <img className='select-none' src={earth} alt="earth" /> 
                 </div>
-                <div className="rhs" data-aos="fade-up">
+                <div className="rhs" >
 
                     <section  >
                         <div className=" flex ">
                         <div className="">
                             <h2 className="mb-4 text-5xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased " >Get In Touch</h2>
                             <p className="mb-8 lg:mb-10 font-light  text-[#9E9E9E]  w-[503px] font-poppins antialiased " >A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem </p>
-                            <form action="#" className="space-y-8"data-aos="fade-up">
+                            <form action="#" className="space-y-8">
                                 <div >
                                     <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-[408px] py-[12px] px-[28px] dark:placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your Email" required />
                                 </div>

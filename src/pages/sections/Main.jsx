@@ -1,15 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Button from '../../Components/Button'
 import Slider from '../../Components/Slider';
-
-
 import Typewriter from 'typewriter-effect';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 function Main() {
-  useEffect(() => {
-    AOS.init({ duration: 500 })
-  }, [])
   return (
 
     <div className='Blackbg flex flex-col justify-center items-center sm:pt-80 pt-28  sm:mx-0 mx-4 '>

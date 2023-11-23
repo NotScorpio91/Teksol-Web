@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import  bigcard from '../assets/svg/bigcard.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Bigcard() {
-  useEffect(()=>{
-    AOS.init({duration:500})
-  },[])
   return (
-    <div className='flex justify-center select-none 'data-aos="fade-up">
+    <div className='flex justify-center select-none '>
       <div  className=' bigcardbg  w-[1110px] h-[425px] rounded-[20px] flex justify-between  '>
 
         <div className="lhs flex flex-col  text-start justify-center items pl-16 pt-11 space-y-4">
