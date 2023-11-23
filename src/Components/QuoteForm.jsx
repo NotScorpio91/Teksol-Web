@@ -42,7 +42,7 @@ function QuoteForm() {
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require? </h1>
                                         <p className='text-gray-300 font-poppins antialiased text-sm pb-1' >Choose at least one option:</p>
                                         <div className='flex justify-around flex-col sm:flex-row  sm:justify-between  items-center my-10 select-none'>
-                                            <div className="L.H.S w-full">
+                                            <div className="L.H.S w-full sm:w-[245px]">
                                                 <label className="relative cursor-pointer " >
                                                     <input type="checkbox" className="peer sr-only" name="size-choice" />
                                                     <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
@@ -87,7 +87,7 @@ function QuoteForm() {
                                                 </label>
                                             </div>
 
-                                            <div className='R.H.S w-full sm:w-'  >
+                                            <div className='R.H.S w-full sm:w-[245px]'  >
                                                 <label className="relative cursor-pointer ">
                                                     <input type="checkbox" className="peer sr-only" name="size-choice" />
                                                     <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
