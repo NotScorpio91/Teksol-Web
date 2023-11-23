@@ -198,7 +198,7 @@ function Cards() {
             innovative ideas to life.
           </p>
         </div>
-        <div className="flex flex-col sm:grid sm:grid-cols-3  justify-center items-center container   cursor-pointer pb-52 ">
+        <div className="flex flex-col sm:grid sm:grid-cols-3  justify-center items-center container   cursor-pointer pb-10 sm:pb-52 ">
           {cards.map((card) => (
             <Card title={card.title} png={card.icon} items={card.items}   />
           ))}

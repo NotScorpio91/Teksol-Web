@@ -6,7 +6,7 @@ function InTouch() {
 
 
     return (
-        <div className='bg-black mt-80 mx-4 sm:mx-0'>
+        <div className='bg-black mt-20 sm:mt-80 mx-4 sm:mx-0'>
             <div className='flex flex-col sm:flex-row  justify-center sm:space-x-24 '>
                 <div className="lhs select-none w-full ">
                    <img className='select-none w-full pb-20 sm:pb-0' src={earth} alt="earth" /> 
