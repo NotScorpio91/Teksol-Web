@@ -12,13 +12,13 @@ function Home() {
 
   return (
     <AppLayout>
-       <NavBar />
+       {/* <NavBar />
       <Main /> 
        <Cards/>
         <Meeting/> 
-        <Faq/>
+        <Faq/> */}
         <InTouch/> 
-      <Footer />
+      {/* <Footer /> */}
 
     </AppLayout>
   )
