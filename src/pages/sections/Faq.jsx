@@ -8,24 +8,25 @@ function Faq() {
 		AOS.init({duration:500})
 	  },[])
   return (
-    <div className='mt-72'data-aos="fade-up">
-      <h1 className='text-[#FFF] font-poppins text-5xl  leading-[80px] font-semibold antialiased pl-5 pb-16' >Freqfently Asked Questions</h1>
-<div className='flex '>
+    <div className='  w-full sm:w-[1200px] 'data-aos="fade-up ">
+      <h1 className='text-[#FFF] font-poppins sm:text-5xl  sm:leading-[80px] font-semibold antialiased mx-4 sm:text-left  sm:pl-5 pb-16' >Freqfently Asked Questions</h1>
+<div className='flex flex-col sm:flex-row justify-center items-center mx-4 '>
 
-          <div data-aos="fade-up">
+          <div className='flex justify-center flex-col w-full' data-aos="fade-up">
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
           </div>
-        <div data-aos="fade-up">
+             <div className='flex justify-center flex-col w-full' data-aos="fade-up">
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
         <Accordion/>
-        </div>
+          </div>
+    
 </div>
    
     </div>

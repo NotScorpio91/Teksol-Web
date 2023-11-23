@@ -1,4 +1,5 @@
 import React, { useState, useEffect }  from 'react'
+import AppLayout from './AppLayout'
 import plus from '../assets/svg/plus.svg'
 import minus from '../assets/svg/minus.svg'
 import AOS from 'aos';
@@ -16,15 +17,19 @@ const Accordion = ({bgtclassName,titleclassName,bgbclassName,disclassName}) => {
 	  },[])
 
 	return (
-		<div onClick={toggleFunction} className={`w-[540px] h-fit  py-3  rounded-[5px] bg-[#0A0A0A] relative mx-5 my-3 select-none ${bgtclassName}`}>
-			<div className='flex justify-between items-left  mx-7 relative cursor-pointer'>
+		<AppLayout>
+
+		<div onClick={toggleFunction} className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none ${bgtclassName}`}>
+			<div className='flex justify-between items-center px-[30px] relative cursor-pointer '>
 				<h1 className={`text-[#FFF] font-poppins font-normal leading-5 text-sm antialiased ${titleclassName} `}>How promote the product?</h1>
 				<button onClick={toggleFunction}><img src={show ? plus : minus} alt="plus" /></button>
 			</div>
-			<div className={`relative h-[130px] bg-[#0A0A0A]  rounded-md flex items-center   ${show ? 'hidden' : 'flex-1'} ${bgbclassName}`}>
-				<p className={`text-sm leading-7 font-poppins font-normal text-[#9E9E9E] mx-7 pt-3 border-t border-[#404047]  antialiased ${disclassName} `} >A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem  good design is not only aesthetically pleasing, but also functional. </p>
+			<div className={` h-full bg-[#0A0A0A] sm:w-full  flex-col justify-evenly rounded-md flex items-center   ${show ? 'hidden' : 'flex-1'} ${bgbclassName}`}>
+				<span className='border-t border-[#404047] w-[90%]   mt-5   '></span>
+				<p className={`  sm:text-sm text-xs leading-7 font-poppins font-normal text-[#9E9E9E] mx-7  py-3 antialiased ${disclassName} `} >A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem  good design is not only aesthetically pleasing, but also functional. </p>
 			</div>
 		</div>
+		</AppLayout>
 	)
 }
 
