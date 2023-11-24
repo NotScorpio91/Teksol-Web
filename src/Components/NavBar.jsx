@@ -44,9 +44,9 @@ export default function NavBAR() {
 
     return (
         <header className="flex justify-center   items-center select-none">
-            <nav className="flex flex-row justify-between px-4 sm:px-10   sm:justify-around items-center w-full  sm:w-[1536px] h-[64px] bg-black bg-opacity-50 border-b border-1 border-gray-950 fixed top-0  backdrop-blur-[12px] z-10   ">
+            <nav className="flex flex-row justify-between px-4 sm:px-10   sm:justify-around items-center w-full  sm:w-[1536px] h-[64px] bg-black bg-opacity-50 fixed top-0  backdrop-blur-[12px] z-10   ">
                 <div className="flex lg:flex-1 z-50">
-                    <a href="/"><Logo className='w-20 sm:w-[134px]' /></a>
+                    <a href="/"><Logo className='w-20 sm:w-[110px]' /></a>
                 </div>
                 <div className="flex lg:hidden ">
                     <button
@@ -61,7 +61,7 @@ export default function NavBAR() {
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     <Popover className="relative">
                         <Popover.Button className="flex items-center gap-x-1 text-sm 
-            text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased active:text-white outline-none ">
+                        text-white font-poppins  leading-[28px] text-[14px] cursor-pointer text-center hover:font-semibold antialiased active:text-white outline-none ">
                             Company
                             <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                         </Popover.Button>
@@ -99,7 +99,7 @@ export default function NavBAR() {
                     <Popover.Group className="hidden lg:flex lg:gap-x-12">
                         <Popover className="relative">
                             <Popover.Button className="flex items-center gap-x-1 text-sm 
-            text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased active:text-white outline-none">
+                            text-white font-poppins  leading-[28px] text-[14px] cursor-pointer text-center hover:font-semibold antialiased active:text-white outline-none">
                                 Services
                                 <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                             </Popover.Button>
@@ -142,12 +142,12 @@ export default function NavBAR() {
                             </Transition>
                         </Popover>
                     </Popover.Group>
-                    <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="/hire-dev">Hire developers</a>
-                    <a className='text-[#9E9E9E] font-poppins font-bold leading-[28px] text-[14px] cursor-pointer text-center hover:text-[#FFF] antialiased' href="https://theteksol.com/blog/">Blog</a>
+                    <a className='text-white font-poppins  leading-[28px] text-[14px] cursor-pointer text-center hover:font-semibold antialiased' href="/hire-dev">Hire developers</a>
+                    <a className='text-white font-poppins  leading-[28px] text-[14px] cursor-pointer text-center hover:font-semibold antialiased' href="https://theteksol.com/blog/">Blog</a>
 
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end transition-all active:scale-95">
-                <a className='text-black bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:opacity-100 opacity-80  font-medium rounded-md text-sm px-8 py-3 text-center transition-all active:scale-95 font-poppins antialiased ' href="https://calendly.com/darkcoderse/30min?month=2023-11">Schedule Meeting </a>
+                <a className='text-black bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:opacity-100 opacity-80  font-medium rounded-md text-sm px-4 py-2 text-center transition-all active:scale-95 font-poppins antialiased ' href="https://calendly.com/darkcoderse/30min?month=2023-11">Schedule Meeting </a>
         </div>
                 <Dialog as="div" className="lg:hidden " open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-10" />

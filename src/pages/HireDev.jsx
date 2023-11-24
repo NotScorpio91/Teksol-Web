@@ -6,13 +6,9 @@ import NavBar from '../Components/NavBar'
 function HireDev() {
   return (
     <div>
-      <div>
-      <NavBar />
-      </div>
-      <HireDevForm/>
-      <div className='mt-40'>
-      <Footer />
-      </div>
+      <NavBar /> 
+      <HireDevForm/>     
+      <Footer />    
     </div>
   )
 }

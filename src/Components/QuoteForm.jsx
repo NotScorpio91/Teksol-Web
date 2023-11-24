@@ -10,7 +10,7 @@ import { BsCheckCircle } from 'react-icons/bs'
 
 function QuoteForm() {
     return (
-        <div className='bg-black h-screen mt-24 mb-80 sm:mb-52'>
+        <div className='bg-black h-screen mt-32 mb-96 sm:mb-52'>
 
             <div className='flex  justify-center sm:mt-60  '>
                 <div className="mx-4">
@@ -24,19 +24,19 @@ function QuoteForm() {
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' >
                                             <label htmlFor="">What's your name? </label>
                                         </div>
-                                        <input type="text" id="name" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your name" required  />
+                                        <input type="text" id="name" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-white text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your name" required  />
                                     </div>
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased  ' >
                                             <label htmlFor="">Email</label>
                                         </div>
-                                        <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your email" required  />
+                                        <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-white text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your email" required  />
                                     </div>
                                     <div>
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Phone</label>
                                         </div>
-                                        <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your phone" required  />
+                                        <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-white text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Your phone" required  />
                                     </div>
                                     <div >
                                         <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require? </h1>
@@ -138,7 +138,7 @@ function QuoteForm() {
                                         <div className='text-white py-3 text-base] font-poppins antialiased ' >
                                             <label htmlFor="">Description </label>
                                         </div>
-                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[50px] w-full sm:w-[500px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
+                                        <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[50px] w-full sm:w-[500px] bg-[#0A0A0A] text-white rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
                                     </div>
                                   
 

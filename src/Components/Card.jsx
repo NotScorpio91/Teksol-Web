@@ -5,7 +5,7 @@ function Card({ png, title, items, classNameForText = '' }) {
 
   return (
     <div className='text-white my-5 transition-all w-full  sm:hover:scale-105 sm:hover:transition-all select-none ' >
-      <div className=' bg-[#0A0A0A] w-full  sm:w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7 '>
+      <div className=' bg-gray-950 w-full  sm:w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7 '>
          {png} 
         <h1 className='text-white font-semibold font-poppins antialiased text-base '>{title}</h1>
 
