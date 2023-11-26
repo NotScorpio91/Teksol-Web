@@ -30,6 +30,7 @@ function Cards() {
     const cards = [
         {
             title: 'Web Development',
+            slug: '/work/web-development',
             icon: <IoEarth size={40} />,
 			text: 'Multi-functional web platforms, customized for your business needs',
             items: [
@@ -57,6 +58,7 @@ function Cards() {
         },
         {
             title: 'React Native',
+            slug: '/work/react-native',
             icon: <CiMobile3 size={40} />,
 			text: 'Build apps at an affordable rate and in rapidly. (Android & IOS)',
             items: [
@@ -84,6 +86,7 @@ function Cards() {
         },
         {
             title: 'ML & AI',
+            slug: '/work/ai',
             icon: <SiSololearn size={40} />,
 			text: 'Both out of the box as well as custom-made to boost your application with Generative AI',
             items: [
@@ -110,6 +113,7 @@ function Cards() {
         },
         {
             title: 'Digital Marketing',
+            slug: '/work/digital-marketing',
             icon: <BsFillJournalBookmarkFill size={40} />,
 			text: 'Need help running value-for-money ads? Let our experts do the work',
             items: [
@@ -142,6 +146,7 @@ function Cards() {
         },
         {
             title: 'UI/UX',
+            slug: '/work/ui-ux',
             icon: <FaPenFancy size={40} />,
 			text: 'Re-brand your website with the on-the-edge design with the latest UX-UI to improve your brand...',
             items: [
@@ -169,6 +174,7 @@ function Cards() {
         },
         {
             title: 'Custom Solutions',
+            slug: '/work/custom-solutions',
             icon: <PiMagicWand size={40} />,
 			text: 'Tailored to fit your unique needs, our custom software solutions pave the way for innovation and efficiency, delivering exactly what your business demands.',
             classNameForText: !'flex',
@@ -201,6 +207,7 @@ function Cards() {
                             png={card.icon}
                             items={card.items}
 							text={card.text}
+                            slug={card.slug}
                         />
                     ))}
                 </div>

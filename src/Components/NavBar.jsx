@@ -105,7 +105,7 @@ export default function NavBAR() {
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end transition-all active:scale-95">
                     <a
-                        className="text-white bg-gradient-to-r from-blue-light to-blue-dark font-medium rounded-md text-sm px-4 py-2 text-center transition-all active:scale-95 font-poppins antialiased "
+                        className="text-white bg-gradient-to-r from-blue-light to-blue-dark font-medium rounded-none text-sm px-4 py-2 text-center transition-all active:scale-95 font-poppins antialiased "
                         href="https://calendly.com/darkcoderse/30min?month=2023-11">
                         Schedule Meeting{' '}
                     </a>

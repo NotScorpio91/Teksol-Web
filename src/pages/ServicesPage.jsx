@@ -4,6 +4,8 @@ import Footer from '../Components/Footer'
 import AppLayout from '../Components/AppLayout'
 import Container from '../Components/Container'
 import { useParams } from 'react-router-dom'
+import { MdArrowForward } from 'react-icons/md'
+import Button from '../Components/Button'
 
 import pI_sc_logo from '../assets/work-images/projects/socialcurrant_logo.svg'
 import pI_sc_image from '../assets/work-images/projects/socialcurrant_image.png'
@@ -20,9 +22,9 @@ const services = [
         tagline: 'We are Web Development Experts.',
         projects: [
             {
-				textColor: 'text-white',
+                textColor: 'text-white',
                 class: 'col-span-2 !bg-[#242532]',
-				imageClass: 'absolute w-[400px] right-6 -bottom-12',
+                imageClass: 'absolute w-[400px] right-6 -bottom-12',
                 title: 'Social Currant',
                 slug: 'social-currant',
                 image: pI_sc_image,
@@ -50,9 +52,9 @@ const services = [
                 ],
             },
             {
-				textColor: '!text-black',
+                textColor: '!text-black',
                 class: '!bg-blue-100',
-				imageClass: 'absolute w-[400px] right-6 -bottom-12',
+                imageClass: 'absolute w-[400px] right-6 -bottom-12',
                 title: 'Kikboss',
                 slug: 'kikboss',
                 image: '',
@@ -77,9 +79,9 @@ const services = [
                 ],
             },
             {
-				textColor: 'text-white',
+                textColor: 'text-white',
                 class: '',
-				imageClass: 'absolute w-[230px] right-10 -bottom-20',
+                imageClass: 'absolute w-[230px] right-10 -bottom-20',
                 title: 'DentiNect',
                 slug: 'dentinect',
                 image: '',
@@ -104,9 +106,9 @@ const services = [
                 ],
             },
             {
-				textColor: 'text-white',
+                textColor: 'text-white',
                 class: 'col-span-2 !bg-gray-800',
-				imageClass: 'absolute w-[230px] right-16 -bottom-36',
+                imageClass: 'absolute w-[230px] right-16 -bottom-36',
                 title: 'Earnfluencers',
                 slug: 'earnfluencers',
                 image: pI_ef_image,
@@ -131,9 +133,10 @@ const services = [
                 ],
             },
             {
-				textColor: 'text-white',
+                textColor: 'text-white',
                 class: 'col-span-3 bg-gradient-to-r from-[#302b63] to-[#24243e]',
-				imageClass: 'absolute w-[600px] right-16 bottom-0 !rounded-t-xl overflow-hidden',
+                imageClass:
+                    'absolute w-[600px] right-16 bottom-0 !rounded-t-3xl overflow-hidden border-t-[10px] border-x-[10px] border-black',
                 title: 'Thingtrax',
                 slug: 'thingtrax',
                 image: pI_tt_image,
@@ -158,6 +161,21 @@ const services = [
                 ],
             },
         ],
+        techstacks: [
+            'NextJS',
+            'ReactJS',
+            'VueJS',
+            'ExpressJS',
+            'Django',
+            'Laravel',
+            'Bootstrap',
+            'jQuery',
+            'Docusign',
+            'AWS',
+            'Netlify',
+            'Vercel',
+            'TailwindCSS',
+        ],
     },
 ]
 
@@ -166,17 +184,21 @@ function Card({ item }) {
         <div
             className={`bg-primary-black overflow-hidden relative text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-row items-start p-10 gap-5 ${item.class} ${item.textColor}`}>
             <div className="flex flex-col gap-4 w-[400px]">
-                <h1 className={`text-white font-bold font-poppins antialiased text-2xl ${item.textColor}`}>
+                <h1
+                    className={`text-white font-bold font-poppins antialiased text-2xl ${item.textColor}`}>
                     {item.title}
                 </h1>
-				<div
+                <div
                     className={`text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3`}>
                     {item.tech &&
                         item.tech.map(tech => (
-                            <div className={`bg-black/30 text-white px-4 py-2`}>{tech.name}</div>
+                            <div className={`bg-black/30 text-white px-4 py-2`}>
+                                {tech.name}
+                            </div>
                         ))}
                 </div>
-                <p className={`text-white font-light font-poppins antialiased text-lg ${item.textColor}`}>
+                <p
+                    className={`text-white font-light font-poppins antialiased text-lg ${item.textColor}`}>
                     {item.description}
                 </p>
 
@@ -188,33 +210,14 @@ function Card({ item }) {
                                 target="_blank"
                                 className={`underline text-white underline-offset-[5px] flex flex-row gap-2 items-center ${item.textColor}`}
                                 rel="noreferrer">
-                                {link.name}{' '}
-                                <svg
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M4.25 12H19"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        strokeLinecap="square"
-                                        strokeLinejoin="round"></path>
-                                    <path
-                                        d="M15 7.25L19.75 12L15 16.75"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        strokeLinecap="square"
-                                        strokeLinejoin="round"></path>
-                                </svg>
+                                {link.name} <MdArrowForward />
                             </a>
                         ))}
                 </div>
             </div>
-			<div className={item.imageClass}>
-				<img src={item.image} className='w-full' />
-			</div>
+            <div className={item.imageClass}>
+                <img src={item.image} className="w-full" />
+            </div>
         </div>
     )
 }
@@ -251,7 +254,34 @@ function ServicesPage() {
                         ))}
                 </div>
             </Container>
-            <Footer />
+
+            <div className="w-full h-[400px] mt-16 bg-gradient-to-tr from-gray-800 to-slate-800">
+                <Container className="h-full !justify-center">
+                    <div className="flex flex-col gap-8 text-center items-center justify-center">
+                        <h1 className="text-[2rem] font-extralight text-white">
+                            Ready to start your {service.title} project?
+                        </h1>
+                        <p className="text-2xl font-extralight text-white">
+                            We can help you with:
+                        </p>
+
+                        <div
+                            className={`text-sm flex flex-row text-gray-700 text-center items-center justify-center w-[800px] flex-wrap font-poppins antialiased gap-3`}>
+                            {service.techstacks &&
+                                service.techstacks.map(techstack => (
+                                    <div
+                                        className={`bg-black/30 text-white px-4 py-2`}>
+                                        {techstack}
+                                    </div>
+                                ))}
+                        </div>
+
+                        <Button title="Hire Us" />
+                    </div>
+                </Container>
+            </div>
+
+            <Footer container='!mt-0' />
         </AppLayout>
     )
 }
