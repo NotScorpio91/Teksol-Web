@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
+import MobileNavBar from '../Components/MobileNavBar'
 import ServiceCard from '../Components/ServiceCard'
 import Tab from '../Components/Tab'
 import ProcessCards from '../Components/ProcessCards'
@@ -34,7 +34,7 @@ function ServicesPage() {
 
   return (
     <div>
-      <NavBar />
+      <MobileNavBar />
       {services.map( (servicecard, index) => (
               <ServiceCard key={index} heading={servicecard.heading} title={servicecard.title} img1={servicecard.img1}  
               img2={servicecard.img2} img3={servicecard.img3}

@@ -47,7 +47,7 @@ function HireDevForm() {
                                         <div className="L.H.S w-full sm:w-[245px]">
                                             <label className="relative cursor-pointer " >
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><PiPlanetLight /></i>
@@ -61,7 +61,7 @@ function HireDevForm() {
                                             </label>
                                             <label className="relative cursor-pointer " >
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><PiTestTubeBold /></i>
@@ -75,7 +75,7 @@ function HireDevForm() {
                                             </label>
                                             <label className="relative cursor-pointer " >
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-2 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><FaRobot /></i>
@@ -92,7 +92,7 @@ function HireDevForm() {
                                         <div className='R.H.S w-full sm:w-[245px]'  >
                                             <label className="relative cursor-pointer ">
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><CiMobile3 /></i>
@@ -106,7 +106,7 @@ function HireDevForm() {
                                             </label>
                                             <label className="relative cursor-pointer ">
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><BiSolidPen /></i>
@@ -120,7 +120,7 @@ function HireDevForm() {
                                             </label>
                                             <label className="relative cursor-pointer ">
                                                 <input type="checkbox" className="peer sr-only" name="size-choice" />
-                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                                <div className=" rounded-[5px]  shadow-md ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
         
                                                     <div className='my-2 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><FaWandMagicSparkles /></i>

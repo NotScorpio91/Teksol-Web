@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
+import MobileNavBar from '../Components/MobileNavBar'
 import Main from './sections/Main'
 import SliderSec from './sections/SliderSec'
 import InTouch from '../Components/InTouch'
@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <AppLayout>
-       <NavBar />
+       <MobileNavBar />
       <Main /> 
       <SliderSec />
        <Cards/>
