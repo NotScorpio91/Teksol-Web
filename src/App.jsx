@@ -19,7 +19,7 @@ function App() {
                     <Route path="/quote" element={<Quote />} />
                     <Route path="/hire-dev" element={<HireDev />} />
                     <Route path="/project" element={<Project />} />
-                    <Route path="/services" element={<ServicesPage />} />
+                    <Route path="/work/:slug" element={<ServicesPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="*" exact element={<PageNotfound />} />
                 </Routes>

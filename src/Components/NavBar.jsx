@@ -84,22 +84,22 @@ export default function NavBAR() {
 
                     <Link
                         className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        href="/blog">
+                        to="/blog">
                         Blog
                     </Link>
                     <Link
                         className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        href="/hire-dev">
+                        to="/hire-dev">
                         Hire developers
                     </Link>
                     <Link
                         className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        href="/career">
+                        to="/career">
                         Career
                     </Link>
                     <Link
                         className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        href="/contact">
+                        to="/contact">
                         Contact
                     </Link>
                 </div>
@@ -117,14 +117,14 @@ export default function NavBAR() {
                     <div className="relative w-full bg-primary-black opacity-80 text-white">
                         <div className="flex flex-row gap-1 sm:max-w-screen-xl mx-auto py-6">
                             {featuredWork.map(item => (
-                                <div className="flex flex-col w-full text-center gap-3 items-center justify-center hover:bg-gray-800 p-4">
+                                <Link to={item.link} className="flex flex-col w-full text-center gap-3 items-center justify-center hover:bg-gray-800 p-4">
                                     <p>{item.title}</p>
                                     <img
                                         src={item.image}
                                         alt=""
                                         className="w-full"
                                     />
-                                </div>
+                                </Link>
                             ))}
                         </div>
                     </div>
