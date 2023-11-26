@@ -106,7 +106,7 @@ const services = [
             {
 				textColor: 'text-white',
                 class: 'col-span-2 !bg-gray-800',
-				imageClass: 'absolute w-[400px] right-16 -bottom-36',
+				imageClass: 'absolute w-[230px] right-16 -bottom-36',
                 title: 'Earnfluencers',
                 slug: 'earnfluencers',
                 image: pI_ef_image,
