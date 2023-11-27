@@ -185,14 +185,14 @@ function Cards() {
     ]
 
     return (
-        <div className="flex justify-center items-center pt-24 mx-4 sm:px-4">
+        <div className="flex justify-center items-center sm:pt-24 mx-4 sm:px-4">
             <div className="sm:w-[1280px]  space-y-8">
                 <div className=" pb-6  text-left">
                     <h1 className="text-[#FFF] uppercase font-poppins sm:text-3xl text-lg sm:w-fit cursor-text antialiased bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text hover: ">
                         What we do
                     </h1>
                     <p className="text-white font-poppins text-xs sm:text-[18px] font-extralight sm:leading-[28px] sm:w-[980px] mt-6 sm:h-[66px] cursor-text antialiased">
-                        <span className="font-semibold font-poppins">
+                        <span className="sm:font-semibold font-medium font-poppins">
                             At TEKSOL,
                         </span>{' '}
                         Our range of services are all built on our core
@@ -200,7 +200,7 @@ function Cards() {
                         framework with expertise in Javascript development.
                     </p>
                 </div>
-                <div className="flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer pb-10">
+                <div className="flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer sm:pb-10">
                     {cards.map(card => (
                         <Card
                             title={card.title}

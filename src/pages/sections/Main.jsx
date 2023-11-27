@@ -13,12 +13,13 @@ function Main() {
                 <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
             </div>
             <div className="T.S flex flex-col justify-center items-center space-y-1 max-w-screen-xl">
-                <h1 className="text-[#FFF] font-poppins sm:text-8xl text-3xl leading-[80px] font-black cursor-text sm:pb-20 text-center antialiased ">
+                <h1 className="text-[#FFF] font-poppins sm:text-8xl text-4xl leading-[80px] font-black cursor-text sm:pb-20 text-center antialiased ">
                     <Typewriter
                         options={{
                             strings: ['Scale up online.'],
                             autoStart: true,
                             loop: true,
+                            pauseFor:60000
                         }}
                     />
                 </h1>
