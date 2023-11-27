@@ -1,7 +1,8 @@
 import React from 'react'
+import NavBar from '../Components/NavBar'
+import MobileNavBar from '../Components/MobileNavBar'
 import Footer from '../Components/Footer'
 import QuoteForm from '../Components/QuoteForm'
-import MobileNavBar from '../Components/MobileNavBar'
 
 
 function Quote() {
@@ -10,6 +11,7 @@ function Quote() {
     <div className='flex justify-center items-center'>
       
           <div>
+            <NavBar />
            <MobileNavBar />
           </div>
         

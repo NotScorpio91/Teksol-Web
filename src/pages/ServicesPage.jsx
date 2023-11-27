@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from '../Components/NavBar'
+import MobileNavBar from '../Components/MobileNavBar'
 import Footer from '../Components/Footer'
 import AppLayout from '../Components/AppLayout'
 import Container from '../Components/Container'
@@ -236,6 +237,7 @@ function ServicesPage() {
     return (
         <AppLayout>
             <NavBar />
+            <MobileNavBar />
             <div className="w-full h-72 mt-16 bg-gray-800">
                 <Container className="h-full !justify-start">
                     <h1 className="text-[3.5rem] text-white">

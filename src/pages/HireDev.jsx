@@ -1,11 +1,13 @@
 import React from 'react'
+import NavBar from '../Components/NavBar'
+import MobileNavBar from '../Components/MobileNavBar'
 import Footer from '../Components/Footer'
 import HireDevForm from '../Components/HireDevForm'
-import MobileNavBar from '../Components/MobileNavBar'
 
 function HireDev() {
   return (
     <div>
+      <NavBar />
       <MobileNavBar/> 
       <HireDevForm/>     
       <Footer />    

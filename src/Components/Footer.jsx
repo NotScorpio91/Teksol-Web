@@ -9,7 +9,7 @@ function Footer({container = ''}) {
     return (
         <div className={`flex flex-col justify-center items-center select-none bg-primary-black w-full mt-20 ${container}`}>
             <div className="top w-full h-full sm:max-w-screen-xl sm:h-[268px] flex justify-center py-5">
-                <div className="lhs w-full flex flex-col sm:justify-around justify-center sm:mt-[60px] space-y-4 pb-10">
+                <div className="lhs w-full flex flex-col sm:justify-around justify-center sm:mt-[60px] space-y-4 pb-10 px-4 sm:px-0">
                     <img
                         className="sm:w-[134px] w-[70px] pb-5 "
                         src={logo}
@@ -81,7 +81,7 @@ function Footer({container = ''}) {
                 </div>
             </div>
             <div className="bottom w-full h-full sm:h-[92px] flex sm:flex-row flex-col justify-center bg-black select-none ">
-                <div className="lhs flex justify-center items-center space-x-4">
+                <div className="lhs flex justify-center items-center space-x-4 sm:py-0 py-4 ">
                     <a
                         href="https://www.facebook.com/theteksol/"
                         target="_blank">

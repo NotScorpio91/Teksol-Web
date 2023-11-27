@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../../Components/Button'
 import Typewriter from 'typewriter-effect'
 import LinkButton from '../../Components/LinkButton'
 
@@ -30,6 +29,7 @@ function Main() {
 
                 <LinkButton href="/quote">Get Free Quote</LinkButton>
             </div>
+            
         </div>
     )
 }

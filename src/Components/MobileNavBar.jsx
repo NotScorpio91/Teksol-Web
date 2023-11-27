@@ -39,7 +39,7 @@ export default function MobileNavBar() {
         <header className="flex justify-center   items-center select-none sm:hidden">
             <nav className="flex flex-row justify-between px-4 sm:px-10   sm:justify-around items-center w-full  sm:w-[1536px] h-[64px] bg-black bg-opacity-50 fixed top-0  backdrop-blur-[12px] z-10   ">
                 <div className="flex lg:flex-1 z-50">
-                    <a href="/"><Logo className='w-20 sm:w-[110px]' /></a>
+                    <a href="/"><Logo className='w-[80px]' /></a>
                 </div>
                 <div className="flex lg:hidden ">
                     <button
@@ -56,7 +56,7 @@ export default function MobileNavBar() {
                     <div className="fixed inset-0 z-10" />
                     <Dialog.Panel className="fixed inset-y-0  right-0 z-10 w-full overflow-y-auto bg-black px-4 py-[18px] sm:max-w-sm sm:ring-1 ">
                         <div className="flex items-center justify-between">
-                            <a href="/"><Logo className='w-20 ' /></a>
+                            <a href="/"><Logo className='w-[80px] ' /></a>
                             <button
                                 type="button"
                                 className="-m-2.5 rounded-md p-2.5 text-white"

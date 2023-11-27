@@ -52,23 +52,15 @@ export default function NavBAR() {
     }
 
     return (
-        <header className="flex justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full">
+        <header className="sm:flex hidden justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full">
             <nav className="flex flex-row justify-between sm:justify-between items-center w-full sm:max-w-screen-xl h-[64px] backdrop-blur-[12px]">
                 <div className="flex lg:flex-1 z-50">
                     <a href="/">
                         <Logo className="w-20 sm:w-[110px]" />
                     </a>
                 </div>
-                <div className="flex lg:hidden ">
-                    <button
-                        type="button"
-                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
-                        onClick={() => setMobileMenuOpen(true)}>
-                        <span className="sr-only">Open main menu</span>
-                        <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-                    </button>
-                </div>
-                <div className="hidden lg:flex lg:gap-x-12">
+            
+                <div className="hidden sm:flex lg:gap-x-12">
                     <span
                         onClick={handleOcModal}
                         className="flex items-center gap-x-1
