@@ -1,28 +1,35 @@
 import React from 'react'
+import { MdArrowForward } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
+function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
+    return (
+        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5">
+            {png}
+            <h1 className="text-white font-light font-poppins antialiased text-xl">
+                {title}
+            </h1>
+            <p className="text-white font-light font-poppins antialiased text-base">
+                {text}
+            </p>
 
-function Card({ png, title, items, classNameForText = '' }) {
-
-  return (
-    <div className='text-white my-5 transition-all w-full  sm:hover:scale-105 sm:hover:transition-all select-none ' >
-      <div className=' bg-gray-950 w-full  sm:w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7 '>
-         {png} 
-        <h1 className='text-white font-semibold font-poppins antialiased text-base '>{title}</h1>
-
-
-        <div className={`text-sm text-[#9E9E9E] text-left w-full  font-poppins antialiased grid grid-cols-2 justify-center items-center ${classNameForText}`}>{items.map(item => (
-          <p className={`flex flex-col  my-3 items-center rounded-md text-xs sm:text-sm w-full justify-center    ${item?.titleClass}`}>
-            <div className={`${item?.iconClass}`}>
-
-              {item.icon}
+            <div
+                className={`text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3 ${classNameForText}`}>
+                {items &&
+                    items.map(item => (
+                        <div className={`${item?.iconClass}`}>{item.icon}</div>
+                    ))}
             </div>
-            {item.title}
-           
-          </p>
-        ))}</div>
-      </div>
-    </div>
-  )
+
+            <Link
+                to={slug}
+                target="_blank"
+                className={`underline text-white underline-offset-[5px] flex flex-row gap-2 items-center`}
+                rel="noreferrer">
+                More <MdArrowForward />
+            </Link>
+        </div>
+    )
 }
 
 export default Card
