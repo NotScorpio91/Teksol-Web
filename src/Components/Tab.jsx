@@ -46,7 +46,7 @@ export default function Example() {
   })
 
   return (
-    <div className="  flex justify-center items-center flex-col px-2 py-16 sm:px-0 font-inter ">
+    <div className="  flex justify-center items-center flex-col px-2 py-16 sm:px-0 font-poppins ">
       <Tab.Group>
         <Tab.List className="flex justify-center items-center space-x-1 rounded-xl bg-[#0A0A0A] p-1 w-[600px]">
           {Object.keys(categories).map((category) => (

@@ -52,7 +52,7 @@ export default function NavBAR() {
     }
 
     return (
-        <header className="sm:flex hidden justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full font-inter">
+        <header className="sm:flex hidden justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full font-poppins ">
             <nav className="flex flex-row justify-between sm:justify-between items-center w-full sm:max-w-screen-xl h-[64px] backdrop-blur-[12px]">
                 <div className="flex lg:flex-1 z-50">
                     <a href="/">

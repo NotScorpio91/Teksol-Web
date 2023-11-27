@@ -7,7 +7,7 @@ import discord from '../assets/svg/discord.svg'
 
 function Footer({container = ''}) {
     return (
-        <div className={`flex flex-col justify-center items-center select-none bg-primary-black w-full mt-20 font-inter ${container}`}>
+        <div className={`flex flex-col justify-center items-center select-none bg-primary-black w-full mt-20 font-poppins  ${container}`}>
             <div className="top w-full h-full sm:max-w-screen-xl sm:h-[268px] flex justify-center py-5">
                 <div className="lhs w-full flex flex-col sm:justify-around justify-center sm:mt-[60px] space-y-4 pb-10 px-4 sm:px-0">
                     <img

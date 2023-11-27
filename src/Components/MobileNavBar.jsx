@@ -36,7 +36,7 @@ export default function MobileNavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="flex justify-center   items-center select-none sm:hidden font-inter">
+        <header className="flex justify-center   items-center select-none sm:hidden font-poppins ">
             <nav className="flex flex-row justify-between px-4 sm:px-10   sm:justify-around items-center w-full  sm:w-[1536px] h-[64px] bg-black bg-opacity-50 fixed top-0  backdrop-blur-[12px] z-10   ">
                 <div className="flex lg:flex-1 z-50">
                     <a href="/"><Logo className='w-[80px]' /></a>

@@ -8,7 +8,7 @@ import { BiMessageDetail } from "react-icons/bi";
 
 function AboutUs() {
   return (
-    <div className="flex justify-center items-center mt-16 font-inter ">
+    <div className="flex justify-center items-center mt-16 font-poppins  ">
       <div className=" w-[1200px] px-1 rounded-md">
         <div className="flex  justify-center items-center">
           <div className="LHS flex flex-col gap-7 py-4  w-[100%]">

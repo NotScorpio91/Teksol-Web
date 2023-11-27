@@ -13,7 +13,7 @@ import six from '../assets/testing/six.jpg'
 
 function Slider(className) {
     return (
-        <div className='w-full font-inter'>
+        <div className='w-full font-poppins'>
             <Swiper
 
                 slidesPerView={1}

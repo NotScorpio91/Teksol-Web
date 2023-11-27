@@ -4,7 +4,7 @@ import { IoStar } from "react-icons/io5";
 function Testimonaials() {
   return (
     <section
-  className="rounded-md sm:p-6 text-center shadow-lg md:p-12 md:text-left mt-40 font-inter">
+  className="rounded-md sm:p-6 text-center shadow-lg md:p-12 md:text-left mt-40 font">
   <div className="flex justify-center">
     <div className="max-w-3xl">
       <div

@@ -88,7 +88,7 @@ function ProcessCards() {
   ];
 
   return (
-    <div className='flex justify-center items-center pt-24 font-inter'>
+    <div className='flex justify-center items-center pt-24 font-poppins '>
       <div className='w-[1200px] space-y-8'> 
       <div className='flex flex-col justify-center items-center pb-6'>
         <h1 className='text-[#FFF]  text-[42px]  font-semibold leading-[80px] w-fit h-fit cursor-text antialiased mb-7 '>Process We Follow</h1>

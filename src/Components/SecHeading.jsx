@@ -2,7 +2,7 @@ import React from 'react'
 
 function SecHeading() {
   return (
-    <div className="w-full my-32 font-inter">
+    <div className="w-full my-32 font-poppins ">
     <div className="flex sm:flex-row flex-col items-center justify-around gap-5 max-w-screen-xl mx-auto">
         <div className="flex flex-row items-center justify-center gap-4">
             <span className="sm:text-[4.5rem] text-5xl text-white">6</span>

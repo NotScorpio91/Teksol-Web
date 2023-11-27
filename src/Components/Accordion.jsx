@@ -20,7 +20,7 @@ const Accordion = ({
     <AppLayout>
       <div
         onClick={toggleFunction}
-        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none font-inter ${bgtclassName}`}
+        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none font-poppins  ${bgtclassName}`}
       >
         <div className="flex justify-between items-center px-[30px] relative cursor-pointer ">
           <h1

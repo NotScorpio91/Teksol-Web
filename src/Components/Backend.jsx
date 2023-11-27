@@ -21,7 +21,7 @@ import Parse from '../assets/svg/parse.svg'
 function Backend() {
     return (
         <div>
-            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white font-inter'>
+            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white font-poppins '>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px] ' src={PHP} alt="" />

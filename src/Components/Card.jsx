@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
     return (
-        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-inter">
+        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins ">
             {png}
             <h1 className="text-white font-light  antialiased text-xl">
                 {title}

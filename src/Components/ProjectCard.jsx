@@ -8,7 +8,7 @@ function ProjectCard() {
 
  
   return (
-    <div className=' flex justify-center mt-40 font-inter '>
+    <div className=' flex justify-center mt-40 font-poppins  '>
       <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md'>
         <div>
           <div className="L.H.S flex justify-between items-center mx-10 my-6 ">

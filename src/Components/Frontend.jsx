@@ -11,7 +11,7 @@ function Frontend() {
     return (
         <div>
             <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white'>
-                <div className='flex flex-col justify-center items-center gap-2 font-inter '>
+                <div className='flex flex-col justify-center items-center gap-2 font-poppins  '>
 
                     <img className='w-[50px] h-[50px] ' src={Senchatouch} alt="" />
                     <h1 className='text-white  text-base'>Senchatouch</h1>

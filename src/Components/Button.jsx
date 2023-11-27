@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button({ title = 'Text', className, props }) {
     return (
-        <div className="flex font-inter">
+        <div className="flex font-poppins ">
             <button
                 {...props}
                 type="button"

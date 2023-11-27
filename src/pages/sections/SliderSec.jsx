@@ -3,12 +3,12 @@ import Slider from '../../Components/Slider'
 
 function SliderSec() {
     return (
-        <div className="flex flex-col justify-center items-center h-full pb-5 text-center font-inter">
-            <h1 className="text-white  sm:text-[42px] text-base font-semibold sm:leading-[80px] sm:w-fit sm:h-fit cursor-text antialiased mb-7 ">
+        <div className="flex flex-col justify-center items-center h-full pb-5 text-center">
+            <h1 className="text-white font-poppins sm:text-[42px] text-base font-semibold sm:leading-[80px] sm:w-fit sm:h-fit cursor-text antialiased mb-7 ">
                 Project Innovation, Functionality, and Impact.
             </h1>
-            <p className="text-[#9E9E9E]  text-xs sm:text-[18px]  font-normal sm:leading-[28px] sm:w-[980px] h-full cursor-text antialiased">
-                <span className="font-bold  h-full ">
+            <p className="text-[#9E9E9E] font-poppins text-xs sm:text-[18px]  font-normal sm:leading-[28px] sm:w-[980px] h-full cursor-text antialiased">
+                <span className="font-bold font-poppins h-full ">
                     At TEKSOL,
                 </span>
                 Embark on a journey of innovation with our latest project, where

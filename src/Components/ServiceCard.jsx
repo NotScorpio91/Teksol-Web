@@ -2,7 +2,7 @@ import React from 'react'
 
 function ServiceCard({heading,title,img1,img2,img3,distitle,dis}) {
     return (
-        <div className='flex justify-center items-center mt-40 font-inter'>
+        <div className='flex justify-center items-center mt-40 font-poppins '>
             <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md flex flex-col'>
 
                 <div className="Heading flex flex-col gap-4 py-6 px-4 ">

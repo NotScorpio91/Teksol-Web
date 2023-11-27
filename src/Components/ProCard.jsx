@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProCard({ png, title, items, }) {
   return (
-    <div className='text-white my-5 transition-all   hover:scale-105 hover:transition-all font-inter' >
+    <div className='text-white my-5 transition-all   hover:scale-105 hover:transition-all font-poppins ' >
       <div className=' bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ' >
          <img src={png} alt="" />
         <h1 className='text-white font-semibold  antialiased '>{title}</h1>

@@ -23,6 +23,7 @@ export default {
         },
         fontFamily: {
             inter: ['Inter'],
+            poppins: ['Poppins'],
         },
     },
     plugins: [],
