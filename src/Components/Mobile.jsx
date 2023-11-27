@@ -19,47 +19,47 @@ import AppceleratorTitanium from '../assets/svg/appcelerator-titanium.svg'
 function Mobile() {
     return (
         <div>
-            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white'>
+            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white font-inter'>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px] ' src={Android} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Android</h1>
+                    <h1 className='text-white  text-base'>Android</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]'  src={IOS} alt="" />
-                    <h1 className='text-white font-poppins text-base'>IOS</h1>
+                    <h1 className='text-white  text-base'>IOS</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Flutter} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Flutter</h1>
+                    <h1 className='text-white  text-base'>Flutter</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={ReactNative} alt="" />
-                    <h1 className='text-white font-poppins text-base'>React Native</h1>
+                    <h1 className='text-white  text-base'>React Native</h1>
 
                     </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Kotlin} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Kotlin</h1>
+                    <h1 className='text-white  text-base'>Kotlin</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Ionic} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Ionic</h1>
+                    <h1 className='text-white  text-base'>Ionic</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Swift} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Swift</h1>
+                    <h1 className='text-white  text-base'>Swift</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
@@ -71,49 +71,49 @@ function Mobile() {
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Ipad} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Ipad</h1>
+                    <h1 className='text-white  text-base'>Ipad</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Windows} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Windows</h1>
+                    <h1 className='text-white  text-base'>Windows</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={PhoneGap} alt="" />
-                    <h1 className='text-white font-poppins text-base'>PhoneGap</h1>
+                    <h1 className='text-white  text-base'>PhoneGap</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={AugmentedReality} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Augmented Reality</h1>
+                    <h1 className='text-white  text-base'>Augmented Reality</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={VirtualReality} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Virtual Reality</h1>
+                    <h1 className='text-white  text-base'>Virtual Reality</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center  gap-2'>
 
                     <img className='w-[50px] h-[50px]' src={Beacon} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Beacon</h1>
+                    <h1 className='text-white  text-base'>Beacon</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Wearables} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Wearables</h1>
+                    <h1 className='text-white  text-base'>Wearables</h1>
 
                     </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={AppceleratorTitanium} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Appcelerator Titanium</h1>
+                    <h1 className='text-white  text-base'>Appcelerator Titanium</h1>
 
                 </div>
             </div>

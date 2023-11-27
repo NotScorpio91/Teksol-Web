@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom'
 
 function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
     return (
-        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5">
+        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-inter">
             {png}
-            <h1 className="text-white font-light font-poppins antialiased text-xl">
+            <h1 className="text-white font-light  antialiased text-xl">
                 {title}
             </h1>
-            <p className="text-white font-light font-poppins antialiased text-base">
+            <p className="text-white font-light  antialiased text-base">
                 {text}
             </p>
 
             <div
-                className={`text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3 ${classNameForText}`}>
+                className={`text-sm flex flex-row text-gray-700 text-left w-full  antialiased gap-3 ${classNameForText}`}>
                 {items &&
                     items.map(item => (
                         <div className={`${item?.iconClass}`}>{item.icon}</div>

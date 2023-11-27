@@ -13,7 +13,7 @@ import six from '../assets/testing/six.jpg'
 
 function Slider(className) {
     return (
-        <div className='w-full'>
+        <div className='w-full font-inter'>
             <Swiper
 
                 slidesPerView={1}
@@ -44,9 +44,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={one} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>
@@ -59,9 +59,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={six} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>
@@ -74,9 +74,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={two} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>
@@ -89,9 +89,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={three} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>
@@ -104,9 +104,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={four} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>
@@ -119,9 +119,9 @@ function Slider(className) {
                             <img className="rounded-t-lg" src={five} alt="" />
                             <div className="p-5">
 
-                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white font-poppins antialiased  ">Noteworthy technology acquisitions 2021</h5>
+                                <h5 className="mb-2 sm:text-2xl text-lg font-semibold sm:font-bold tracking-tight text-white  antialiased  ">Noteworthy technology acquisitions 2021</h5>
 
-                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E] font-poppins antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <p className="mb-3 text-xs sm:text-base font-normal text-[#9E9E9E]  antialiased  ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 
                             </div>
                         </a>

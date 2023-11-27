@@ -52,7 +52,7 @@ export default function NavBAR() {
     }
 
     return (
-        <header className="sm:flex hidden justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full">
+        <header className="sm:flex hidden justify-center items-center select-none bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full font-inter">
             <nav className="flex flex-row justify-between sm:justify-between items-center w-full sm:max-w-screen-xl h-[64px] backdrop-blur-[12px]">
                 <div className="flex lg:flex-1 z-50">
                     <a href="/">
@@ -64,7 +64,7 @@ export default function NavBAR() {
                     <span
                         onClick={handleOcModal}
                         className="flex items-center gap-x-1
-                            text-white font-poppins  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased active:text-white outline-none ">
+                            text-white   leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased active:text-white outline-none ">
                         Our Work
                         <ChevronDownIcon
                             className={`h-5 w-5 flex-none text-white ${
@@ -75,29 +75,29 @@ export default function NavBAR() {
                     </span>
 
                     <Link
-                        className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
+                        className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
                         to="/blog">
                         Blog
                     </Link>
                     <Link
-                        className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
+                        className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
                         to="/hire-dev">
                         Hire developers
                     </Link>
                     <Link
-                        className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
+                        className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
                         to="/career">
                         Career
                     </Link>
                     <Link
-                        className="text-white font-poppins leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
+                        className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
                         to="/contact">
                         Contact
                     </Link>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end transition-all active:scale-95">
                     <a
-                        className="text-white bg-gradient-to-r from-blue-light to-blue-dark font-medium rounded-none text-sm px-4 py-2 text-center transition-all active:scale-95 font-poppins antialiased "
+                        className="text-white bg-gradient-to-r from-blue-light to-blue-dark font-medium rounded-none text-sm px-4 py-2 text-center transition-all active:scale-95  antialiased "
                         href="https://calendly.com/darkcoderse/30min?month=2023-11">
                         Schedule Meeting{' '}
                     </a>

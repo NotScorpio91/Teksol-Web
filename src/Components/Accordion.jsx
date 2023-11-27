@@ -20,11 +20,11 @@ const Accordion = ({
     <AppLayout>
       <div
         onClick={toggleFunction}
-        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none ${bgtclassName}`}
+        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none font-inter ${bgtclassName}`}
       >
         <div className="flex justify-between items-center px-[30px] relative cursor-pointer ">
           <h1
-            className={`text-[#FFF] font-poppins font-normal leading-5 text-sm antialiased ${titleclassName} `}
+            className={`text-[#FFF]  font-normal leading-5 text-sm antialiased ${titleclassName} `}
           >
             How promote the product?
           </h1>
@@ -39,7 +39,7 @@ const Accordion = ({
         >
           <span className="border-t border-[#404047] w-[90%]   mt-5   "></span>
           <p
-            className={`  sm:text-sm text-xs leading-7 font-poppins font-normal text-[#9E9E9E] mx-7  py-3 antialiased ${disclassName} `}
+            className={`  sm:text-sm text-xs leading-7  font-normal text-[#9E9E9E] mx-7  py-3 antialiased ${disclassName} `}
           >
             A good design is not only aesthetically pleasing, but also
             functional. It should be able to solve the problem good design is

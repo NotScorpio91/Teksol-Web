@@ -11,40 +11,40 @@ function Frontend() {
     return (
         <div>
             <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white'>
-                <div className='flex flex-col justify-center items-center gap-2 '>
+                <div className='flex flex-col justify-center items-center gap-2 font-inter '>
 
                     <img className='w-[50px] h-[50px] ' src={Senchatouch} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Senchatouch</h1>
+                    <h1 className='text-white  text-base'>Senchatouch</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]'  src={TypeScript} alt="" />
-                    <h1 className='text-white font-poppins text-base'>TypeScript</h1>
+                    <h1 className='text-white  text-base'>TypeScript</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Angular} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Angular JS</h1>
+                    <h1 className='text-white  text-base'>Angular JS</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Golang} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Golang</h1>
+                    <h1 className='text-white  text-base'>Golang</h1>
 
                     </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={JavaScript} alt="" />
-                    <h1 className='text-white font-poppins text-base'>JavaScript</h1>
+                    <h1 className='text-white  text-base'>JavaScript</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={ReactNative} alt="" />
-                    <h1 className='text-white font-poppins text-base'>ReactJS</h1>
+                    <h1 className='text-white  text-base'>ReactJS</h1>
 
                 </div>
             </div>

@@ -11,38 +11,38 @@ import { BsCheckCircle } from 'react-icons/bs'
 function HireDevForm() {
    
     return (
-        <div className='bg-black h-screen mt-32 mb-96 sm:mb-52'>
+        <div className='bg-black h-screen mt-32 mb-96 sm:mb-52 font-inter'>
 
         <div className='flex  justify-center sm:mt-60  '>
             <div className="mx-4">
                 <section >
                     <div className=" flex ">
                         <div className="">
-                            <h2 className="mb-4 sm:text-5xl text-3xl tracking-tight font-normal  text-[#FFF] font-poppins antialiased ">Hire Developers</h2>
-                            <p className="mb-9 font-light  text-gray-300 text-sm sm:text-base  w-full sm:w-[500px] font-poppins antialiased  ">Your answer will help us better understanding your situation.
+                            <h2 className="mb-4 sm:text-5xl text-3xl tracking-tight font-normal  text-[#FFF]  antialiased ">Hire Developers</h2>
+                            <p className="mb-9 font-light  text-gray-300 text-sm sm:text-base  w-full sm:w-[500px]  antialiased  ">Your answer will help us better understanding your situation.
         
         </p>
                             <form action="#" className="" >
                                 <div>
-                                    <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                    <div className='text-white py-3 text-base]  antialiased  ' >
                                         <label htmlFor="">Your Name</label>
                                     </div>
-                                    <input type="text" id="name" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your name" required  />
+                                    <input type="text" id="name" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E]  antialiased " placeholder="Enter your name" required  />
                                 </div>
                                 <div>
-                                    <div className='text-white py-3 text-base] font-poppins antialiased  ' >
+                                    <div className='text-white py-3 text-base]  antialiased  ' >
                                         <label htmlFor="">Your Email</label>
                                     </div>
-                                    <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your email" required  />
+                                    <input type="email" id="email" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E]  antialiased " placeholder="Enter your email" required  />
                                 </div>
                                 <div>
-                                    <div className='text-white py-3 text-base] font-poppins antialiased ' >
+                                    <div className='text-white py-3 text-base]  antialiased ' >
                                         <label htmlFor="">Contact number</label>
                                     </div>
-                                    <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] font-poppins antialiased " placeholder="Enter your phone contact number" required  />
+                                    <input type="search" id="phone" className="shadow-sm bg-[#0A0A0A] border-gray-300 text-[#9E9E9E] text-sm rounded-[5px] focus:ring-primary-500 focus:border-primary-500 block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E]  antialiased " placeholder="Enter your phone contact number" required  />
                                 </div>
                                 <div >
-                                    <h1 className='text-white py-3 text-base] font-poppins text-lg pt-12 antialiased ' >What service do you require? </h1>
+                                    <h1 className='text-white py-3 text-base]  text-lg pt-12 antialiased ' >What service do you require? </h1>
                                     <div className='flex justify-around flex-col sm:flex-row  sm:justify-between  items-center my-10 select-none'>
                                         <div className="L.H.S w-full sm:w-[245px]">
                                             <label className="relative cursor-pointer " >
@@ -51,7 +51,7 @@ function HireDevForm() {
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><PiPlanetLight /></i>
-                                                        <p className="text-white font-poppins font-medium" >Web Development</p>
+                                                        <p className="text-white  font-medium" >Web Development</p>
                                                     </div>
         
                                                 </div>
@@ -65,7 +65,7 @@ function HireDevForm() {
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><PiTestTubeBold /></i>
-                                                        <p className="text-white font-poppins font-medium">QA & Testing</p>
+                                                        <p className="text-white  font-medium">QA & Testing</p>
                                                     </div>
         
                                                 </div>
@@ -79,7 +79,7 @@ function HireDevForm() {
         
                                                     <div className='my-2 pl-4  antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><FaRobot /></i>
-                                                        <p className="text-white font-poppins font-medium">ML & AI</p>
+                                                        <p className="text-white  font-medium">ML & AI</p>
                                                     </div>
         
                                                 </div>
@@ -96,7 +96,7 @@ function HireDevForm() {
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><CiMobile3 /></i>
-                                                        <p className="text-white font-poppins font-medium">Mobile App</p>
+                                                        <p className="text-white  font-medium">Mobile App</p>
                                                     </div>
         
                                                 </div>
@@ -110,7 +110,7 @@ function HireDevForm() {
         
                                                     <div className='my-3 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><BiSolidPen /></i>
-                                                        <p className="text-white font-poppins font-medium">UI / UX</p>
+                                                        <p className="text-white  font-medium">UI / UX</p>
                                                     </div>
         
                                                 </div>
@@ -124,7 +124,7 @@ function HireDevForm() {
         
                                                     <div className='my-2 pl-4 antialiased bg-[#0A0A0A] rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center '>
                                                         <i className='text-white antialiased mx-[6px]'><FaWandMagicSparkles /></i>
-                                                        <p className="text-white font-poppins font-medium">Custom Solution</p>
+                                                        <p className="text-white  font-medium">Custom Solution</p>
                                                     </div>
         
                                                 </div>
@@ -137,10 +137,10 @@ function HireDevForm() {
                                     </div>
                                 </div>
                                 <div className="sm:col-span-2 mb-9" >
-                                    <div className='text-white py-3 text-base] font-poppins antialiased ' >
+                                    <div className='text-white py-3 text-base]  antialiased ' >
                                         <label htmlFor="">Description </label>
                                     </div>
-                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[150px]  w-full sm:w-[500px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E] font-poppins antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
+                                    <textarea id="message" rows="6" className="block  py-[12px] px-[28px] h-[150px]  w-full sm:w-[500px] bg-[#0A0A0A] text-[#9E9E9E] rounded-[5PX] focus:ring-primary-500 focus:border-primary-50 placeholder-[#9E9E9E]  antialiased text-sm " placeholder="Write a quick overview of your project"></textarea>
                                 </div>
                               
         

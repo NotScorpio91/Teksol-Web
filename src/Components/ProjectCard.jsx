@@ -8,15 +8,15 @@ function ProjectCard() {
 
  
   return (
-    <div className=' flex justify-center mt-40 '>
+    <div className=' flex justify-center mt-40 font-inter '>
       <div className='bg-[#0A0A0A] w-[1200px] px-1 rounded-md'>
         <div>
           <div className="L.H.S flex justify-between items-center mx-10 my-6 ">
             <div className='flex justify-center items-center gap-6 '>
               <img className='rounded-full w-[150px] h-36 ' src={one} alt="" />
               <div>
-                <h1 className='text-white font-semibold font-poppins antialiased '>Project Listing Card | Project Management Tool</h1>
-                <p className='text-sm text-[#9E9E9E]   font-poppins antialiased'>Learn how to grow your business.</p>
+                <h1 className='text-white font-semibold  antialiased '>Project Listing Card | Project Management Tool</h1>
+                <p className='text-sm text-[#9E9E9E]    antialiased'>Learn how to grow your business.</p>
               </div>
             </div>
           </div>
@@ -25,12 +25,12 @@ function ProjectCard() {
         <div className='border-t-[1px]  border-black '>
           <div className='flex justify-between my-4 mx-12 '>
             <div className='flex  flex-col '>
-              <h1 className='text-white  font-poppins antialiased '>Start Date</h1>
-              <p className='text-lg text-[#9E9E9E] font-semibold   font-poppins antialiased'>Nov 1, 2023 </p>
+              <h1 className='text-white   antialiased '>Start Date</h1>
+              <p className='text-lg text-[#9E9E9E] font-semibold    antialiased'>Nov 1, 2023 </p>
             </div>
             <div>
-              <h1 className='text-white  font-poppins antialiased '>Due Date</h1>
-              <p className='text-lg text-[#9E9E9E] font-semibold   font-poppins antialiased'>Nov 13, 2023 </p>
+              <h1 className='text-white   antialiased '>Due Date</h1>
+              <p className='text-lg text-[#9E9E9E] font-semibold    antialiased'>Nov 13, 2023 </p>
             </div>
             <div>
 
@@ -50,7 +50,7 @@ function ProjectCard() {
 
             </div>
             <div>
-              <h1 className='font-poppins text-white'>Members</h1>
+              <h1 className=' text-white'>Members</h1>
               <div className="flex -space-x-4 rtl:space-x-reverse">
                 <img className="w-10 h-10 border-2 border-white rounded-full " src={two} alt="" />
                 <img className="w-10 h-10 border-2 border-white rounded-full " src={three} alt="" />

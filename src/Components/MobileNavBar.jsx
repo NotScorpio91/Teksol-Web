@@ -36,7 +36,7 @@ export default function MobileNavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="flex justify-center   items-center select-none sm:hidden">
+        <header className="flex justify-center   items-center select-none sm:hidden font-inter">
             <nav className="flex flex-row justify-between px-4 sm:px-10   sm:justify-around items-center w-full  sm:w-[1536px] h-[64px] bg-black bg-opacity-50 fixed top-0  backdrop-blur-[12px] z-10   ">
                 <div className="flex lg:flex-1 z-50">
                     <a href="/"><Logo className='w-[80px]' /></a>
@@ -73,7 +73,7 @@ export default function MobileNavBar() {
                                         {({ open }) => (
                                             <>
                                                 <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7
-                      text-white font-poppins focus:bg-[#0A0A0A] antialiased">
+                      text-white  focus:bg-[#0A0A0A] antialiased">
                                                     Company
                                                     <ChevronDownIcon
                                                         className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -86,7 +86,7 @@ export default function MobileNavBar() {
                                                             key={item.name}
                                                             as="a"
                                                             href={item.href}
-                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white font-poppins  antialiased"
+                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white   antialiased"
                                                         >
                                                             {item.name}
                                                         </Disclosure.Button>
@@ -101,7 +101,7 @@ export default function MobileNavBar() {
                                                 <Disclosure as="div" className="-mx-3">
                                                     {({ open }) => (
                                                         <>
-                                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white font-poppins focus:bg-[#0A0A0A] antialiased">
+                                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white  focus:bg-[#0A0A0A] antialiased">
                                                                 Services
                                                                 <ChevronDownIcon
                                                                     className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -114,7 +114,7 @@ export default function MobileNavBar() {
                                                                         key={item.name}
                                                                         as="a"
                                                                         href={item.href}
-                                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white font-poppins  antialiased "
+                                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white   antialiased "
                                                                     >
                                                                         {item.name}
                                                                     </Disclosure.Button>
@@ -129,19 +129,19 @@ export default function MobileNavBar() {
                                     </div>
                                     <a
                                         href="/hire-dev"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white font-poppins focus:bg-[#0A0A0A] antialiased"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white  focus:bg-[#0A0A0A] antialiased"
                                     >
                                         Hire developers
                                     </a>
                                     <a
                                         href="https://theteksol.com/blog/"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white font-poppins focus:bg-[#0A0A0A] antialiased"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white  focus:bg-[#0A0A0A] antialiased"
                                     >
                                         Blog
                                     </a>
                                     <a
                                         href="https://calendly.com/darkcoderse/30min?month=2023-11"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white font-poppins focus:bg-[#0A0A0A] antialiased"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white  focus:bg-[#0A0A0A] antialiased"
                                     >
                                         Schedule Meeting
                                     </a>

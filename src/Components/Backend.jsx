@@ -21,41 +21,41 @@ import Parse from '../assets/svg/parse.svg'
 function Backend() {
     return (
         <div>
-            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white'>
+            <div className='grid grid-cols-6 justify-center items-center text-center gap-14 text-white font-inter'>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px] ' src={PHP} alt="" />
-                    <h1 className='text-white font-poppins text-base'>PHP</h1>
+                    <h1 className='text-white  text-base'>PHP</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Yii} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Yii</h1>
+                    <h1 className='text-white  text-base'>Yii</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={CakePHP} alt="" />
-                    <h1 className='text-white font-poppins text-base'>CakePHP</h1>
+                    <h1 className='text-white  text-base'>CakePHP</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Java} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Java</h1>
+                    <h1 className='text-white  text-base'>Java</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={WindowsDotNet} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Windows DotNet</h1>
+                    <h1 className='text-white  text-base'>Windows DotNet</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={CSharp} alt="" />
-                    <h1 className='text-white font-poppins text-base'>C sharp</h1>
+                    <h1 className='text-white  text-base'>C sharp</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
@@ -67,62 +67,62 @@ function Backend() {
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Codeelgniter} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Codeelgniter</h1>
+                    <h1 className='text-white  text-base'>Codeelgniter</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Python} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Python</h1>
+                    <h1 className='text-white  text-base'>Python</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Laravel} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Laravel</h1>
+                    <h1 className='text-white  text-base'>Laravel</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Scala} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Scala</h1>
+                    <h1 className='text-white  text-base'>Scala</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Symfony} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Symfony</h1>
+                    <h1 className='text-white  text-base'>Symfony</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Zend} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Zend</h1>
+                    <h1 className='text-white  text-base'>Zend</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={NodeJS} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Node JS</h1>
+                    <h1 className='text-white  text-base'>Node JS</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Django} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Django</h1>
+                    <h1 className='text-white  text-base'>Django</h1>
 
                 </div>
 
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={GraphQL} alt="" />
-                    <h1 className='text-white font-poppins text-base'>GraphQL API</h1>
+                    <h1 className='text-white  text-base'>GraphQL API</h1>
 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-2 '>
 
                     <img className='w-[50px] h-[50px]' src={Parse} alt="" />
-                    <h1 className='text-white font-poppins text-base'>Parse</h1>
+                    <h1 className='text-white  text-base'>Parse</h1>
 
                 </div>
 
