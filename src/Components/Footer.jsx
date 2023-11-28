@@ -46,13 +46,13 @@ function Footer({container = ''}) {
                                 Company
                             </h1>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                Home
+                                <a href="/">Home</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/about">About us</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                Career
+                                <a href="/">Career</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="https://theteksol.com/blog/">Blog</a>
@@ -62,19 +62,19 @@ function Footer({container = ''}) {
                     <div className=" flex justify-center items-center antialiased select-none  ">
                         <div className=" sm:space-y-3  antialiased ">
                             <h1 className="text-white font-semibold  antialiased  cursor-pointe hover:text-whiter ">
-                                <a href="/services">Services</a>
+                                Services
                             </h1>
                             <p className="text-[#9E9E9E] text-sm antialiased cursor-pointer   hover:text-white  hidden sm:block">
-                                <a href="/services">Web Development</a>
+                                <a href="/work/web-developmen">Web Development</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/services">Mobile App Development</a>
+                                <a href="/work/react-native">Mobile App Development</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/services">Digital Marketing</a>
+                                <a href="/work/blockchain">Digital Marketing</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/services">More</a>
+                                <a href="/work/ai">AI/ML</a>
                             </p>
                         </div>
                     </div>

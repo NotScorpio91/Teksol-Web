@@ -21,7 +21,7 @@ export default function NavBAR() {
             image: navbarWeb,
         },
         {
-            title: 'React Native',
+            title: 'Mobile Apps',
             link: '/work/react-native',
             image: navbarReactNative,
         },

@@ -21,8 +21,8 @@ function HireDev() {
 
         <div className="bg-[#151515] mt-16 sm:mt-14  sm:mb-52 font-poppins ">
             <div className="bg-gradient-to-tr from-gray-800 to-slate-800 flex flex-col justify-center items-start sm:items-center px-4
-             sm:py-20 py-10    ">
-                <h2 className=" sm:text-5xl text-3xl tracking-tight font-normal sm:pr-52   text-[#FFF]  antialiased ">
+             sm:py-20 py-10   ">
+                <h2 className=" sm:text-5xl text-3xl tracking-tight font-normal sm:pr-[149px] pb-2  text-[#FFF]  antialiased ">
                 Hire Developers
                 </h2>
                 <p className=" font-light  text-gray-300 text-sm sm:text-base  w-full sm:w-[500px]  antialiased  ">

@@ -57,7 +57,7 @@ function Cards() {
             ],
         },
         {
-            title: 'React Native',
+            title: 'Mobile App Development',
             slug: '/work/react-native',
             icon: <CiMobile3 size={40} />,
 			text: 'Build apps at an affordable rate and in rapidly. (Android & IOS)',

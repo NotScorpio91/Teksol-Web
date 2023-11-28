@@ -277,8 +277,9 @@ function ServicesPage() {
                                     </div>
                                 ))}
                         </div>
-
-                        <Button title="Hire Us" className='my-10 sm:my-0' />
+                        <a href="/hire-dev">
+                        <Button title="Hire Us" className='my-10 sm:my-0'  />
+                            </a>        
                     </div>
                 </Container>
             </div>

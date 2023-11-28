@@ -30,7 +30,7 @@ function InTouch() {
                                         <input
                                             type="email"
                                             id="email"
-                                            className="shadow-sm bg-[#0A0A0A] border-gray-300 text-white sm:text-sm text-xs rounded-[5px]  block w-full sm:w-[408px] py-3 px-7 outline-[#9E9E9E] outline-1 placeholder-[#9E9E9E]  antialiased "
+                                            className="shadow-sm bg-[#0A0A0A]  text-white sm:text-sm text-xs rounded-[5px]  block w-full sm:w-[408px] py-3 px-7 outline-none focus:outline focus:outline-white focus:outline-1 placeholder-[#9E9E9E]  antialiased "
                                             placeholder="Your Email"
                                             required
                                         />
@@ -39,7 +39,7 @@ function InTouch() {
                                         <input
                                             type="text"
                                             id="subject"
-                                            className="block py-3 px-7 w-full  sm:w-[408px] sm:text-sm text-xs  text-white bg-[#0A0A0A] rounded-[5px]    placeholder-[#9E9E9E]  antialiased outline-[#9E9E9E] outline-1"
+                                            className="block py-3 px-7 w-full  sm:w-[408px] sm:text-sm text-xs  text-white bg-[#0A0A0A] rounded-[5px]    placeholder-[#9E9E9E]  antialiased outline-none focus:outline focus:outline-white focus:outline-1 "
                                             placeholder="Let us know how we can help you"
                                             required
                                         />
@@ -48,7 +48,7 @@ function InTouch() {
                                         <textarea
                                             id="message"
                                             rows="6"
-                                            className="block  py-3 px-7 h-[156px] w-full sm:w-[408px] bg-[#0A0A0A] text-white rounded-[5PX] sm:text-sm text-xs   dark:placeholder-[#9E9E9E]  antialiased outline-[#9E9E9E] outline-1 "
+                                            className="block  py-3 px-7 h-[156px] w-full sm:w-[408px] bg-[#0A0A0A] text-white rounded-[5PX] sm:text-sm text-xs   dark:placeholder-[#9E9E9E]  antialiased outline-none focus:outline focus:outline-white focus:outline-1  "
                                             placeholder="Leave a comment..."></textarea>
                                     </div>
 
