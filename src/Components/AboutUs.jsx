@@ -2,6 +2,7 @@ import React from "react";
 import About from "../assets/svg/about.svg";
 import Talking from "../assets/svg/talking.svg";
 import Accordion from "./Accordion";
+import { FaCalendarDays } from "react-icons/fa6";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { TbDeviceDesktopAnalytics } from "react-icons/tb";
 import { BiMessageDetail } from "react-icons/bi";
@@ -9,13 +10,13 @@ import { BiMessageDetail } from "react-icons/bi";
 function AboutUs() {
   return (
     <div className="flex justify-center items-center mt-16 font-poppins  ">
-      <div className=" w-[1200px] px-1 ">
+      <div className=" sm:w-[1200px] px-4  sm:px-11">
         <div className="flex  justify-center items-center">
-          <div className="LHS flex flex-col gap-7 py-4  w-[100%]">
-            <h1 className="text-white text-2xl  font-semibold">
+          <div className="LHS flex flex-col gap-7 py-4  sm:w-full">
+            <h1 className="text-white text-2xl text-center sm:text-start  font-semibold">
               ABOUT US
             </h1>
-            <p className="text-[#9E9E9E] text-lg ">
+            <p className="text-[#9E9E9E] sm:text-base text-sm ">
             We are TEKSOL, a leading IT solutions provider. With expertise in software consultancy and development, we deliver tailored solutions using Laravel, Django, React, and Vue.js. Trusted by clients worldwide, we have successfully completed 100+ projects and offer outsourcing services. Our customer-centric approach
             ensures seamless collaboration, enabling us to understand your unique needs and deliver exceptional results. Experience innovation, integrity, and excellence with TEKSOL, your partner for transformative technology solutions. Contact us today to discuss your project and unlock your business's full potential.
             </p>
@@ -25,27 +26,28 @@ function AboutUs() {
             </h2>
           </div>
 
-          <div className="RHS w-full select-none ">
+          <div className="RHS w-full select-none hidden sm:block ">
             <img src={About} alt="" />
           </div>
         </div>
         <a href="https://calendly.com/darkcoderse/30min?month=2023-11">
-          <div className="flex w-[530px] h-[140px] bg-[#0A0A0A] p-4  mb-8  outline-2 hover:outline transition-all outline-[#9E9E9E]  active:scale-95   select-none">
-            <div className="flex flex-col justify-around  ">
-              <h1 className="text-white  text-lg font-semibold cursor-pointer">
+          <div className="flex   bg-gradient-to-r from-primary-black to-black text-white w-full   border border-primary-black hover:border-gray-600 rounded-none  justify-center flex-col items-center p-10 gap-5 font-poppins text-center select-none group">
+            <div className="flex flex-col justify-center items-center  ">
+            <FaCalendarDays className="mb-7" size={100} color="white" />
+              <h1 className="text-white  text-lg  cursor-pointer">
                 Schedule a Meeting
               </h1>
-              <p className="text-[#9E9E9E] text-sm  hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] hover:text-transparent hover:bg-clip-text transition-all cursor-pointer  ">
+              <p className="text-[#9E9E9E] text-sm  group-hover:bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] group-hover:text-transparent group-hover:bg-clip-text group-transition-all cursor-pointer  ">
                 30 Mint Meeting where we disucess about your business problems
               </p>
             </div>
           </div>
         </a>
-        <div className="grid grid-cols-3 justify-around items-center select-none  ">
+        <div className="grid grid-cols-1 sm:grid-cols-3  sm:gap-3 justify-around items-center select-none  ">
           <div className="text-white my-5 transition-all    cursor-pointer">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
+            <div className=" bg-gradient-to-r from-primary-black to-black text-white w-full  border border-primary-black hover:border-gray-600 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
               <BiMessageDetail size={100} />
-              <h1 className="text-white font-semibold  antialiased ">
+              <h1 className="text-white font-semibold  antialiased "> 
                 IT Consultancy
               </h1>
 
@@ -57,7 +59,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="text-white my-5 transition-all    cursor-pointer ">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
+            <div className=" bg-gradient-to-r from-primary-black to-black text-white w-full    border border-primary-black hover:border-gray-600 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
               <TbDeviceDesktopAnalytics size={100} />
               <h1 className="text-white font-semibold  antialiased ">
                 Web Development
@@ -71,7 +73,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="text-white my-5 transition-all    cursor-pointer ">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
+            <div className=" bg-gradient-to-r from-primary-black to-black text-white w-full    border border-primary-black hover:border-gray-600 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins  ">
               <HiMiniDevicePhoneMobile size={100} />
               <h1 className="text-white font-semibold  antialiased ">
                 Mobile App
@@ -85,8 +87,8 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="flex justify-around pb-5 pt-40">
-          <div className="w-full  ">
+        <div className="flex justify-around pb-5 sm:pt-40 pt-10">
+          <div className="w-full  hidden sm:block ">
             <img src={Talking} alt="" />
           </div>
           <div className="w-full flex flex-col justify-centert gap-4 ">

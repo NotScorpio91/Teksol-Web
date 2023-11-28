@@ -20,9 +20,9 @@ const Accordion = ({
     <AppLayout>
       <div
         onClick={toggleFunction}
-        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-[#0A0A0A] relative sm:px-5 my-3 select-none font-poppins  ${bgtclassName}`}
+        className={`sm:w-[540px] w-full h-full  py-3  rounded-[5px] bg-gradient-to-r from-primary-black to-black relative sm:px-5 my-3 select-none font-poppins  ${bgtclassName}`}
       >
-        <div className="flex justify-between items-center px-[30px] relative cursor-pointer ">
+        <div className="flex justify-between items-center px-[30px] relative cursor-pointer group ">
           <h1
             className={`text-[#FFF]  font-normal leading-5 text-sm  antialiased ${titleclassName} `}
           >
@@ -33,11 +33,11 @@ const Accordion = ({
           </button>
         </div>
         <div
-          className={`  bg-[#0A0A0A] sm:w-full  flex-col justify-evenly rounded-md flex items-center   ${
+          className={`  bg-gradient-to-r from-primary-black to-black sm:w-full  flex-col justify-evenly rounded-md flex items-center   ${
             show ? "hidden" : "flex-1"
           } ${bgbclassName}`}
         >
-          <span className="border-t border-[#404047] w-[90%]   mt-5   "></span>
+          <span className="border-t border-gray-600 w-[90%]   mt-5   "></span>
           <p
             className={`  sm:text-sm text-xs leading-7  font-normal text-[#9E9E9E] mx-7  py-3 antialiased ${disclassName} `}
           >
