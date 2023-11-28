@@ -9,23 +9,15 @@ import { BiMessageDetail } from "react-icons/bi";
 function AboutUs() {
   return (
     <div className="flex justify-center items-center mt-16 font-poppins  ">
-      <div className=" w-[1200px] px-1 rounded-md">
+      <div className=" w-[1200px] px-1 ">
         <div className="flex  justify-center items-center">
           <div className="LHS flex flex-col gap-7 py-4  w-[100%]">
             <h1 className="text-white text-2xl  font-semibold">
               ABOUT US
             </h1>
             <p className="text-[#9E9E9E] text-lg ">
-              We are TEKSOL, a leading IT solutions provider. With expertise in
-              software consultancy and development, we deliver tailored
-              solutions using Laravel, Django, React, and Vue.js. Trusted by
-              clients worldwide, we have successfully completed 100+ projects
-              and offer outsourcing services. Our customer-centric approach
-              ensures seamless collaboration, enabling us to understand your
-              unique needs and deliver exceptional results. Experience
-              innovation, integrity, and excellence with TEKSOL, your partner
-              for transformative technology solutions. Contact us today to
-              discuss your project and unlock your business's full potential.
+            We are TEKSOL, a leading IT solutions provider. With expertise in software consultancy and development, we deliver tailored solutions using Laravel, Django, React, and Vue.js. Trusted by clients worldwide, we have successfully completed 100+ projects and offer outsourcing services. Our customer-centric approach
+            ensures seamless collaboration, enabling us to understand your unique needs and deliver exceptional results. Experience innovation, integrity, and excellence with TEKSOL, your partner for transformative technology solutions. Contact us today to discuss your project and unlock your business's full potential.
             </p>
             <h2 className="text-[#9E9E9E] ">
               <span className="text-white ">TEKSOL</span> -
@@ -38,7 +30,7 @@ function AboutUs() {
           </div>
         </div>
         <a href="https://calendly.com/darkcoderse/30min?month=2023-11">
-          <div className="flex w-[530px] h-[140px] bg-[#0A0A0A] p-4  mb-8 rounded-lg outline-2 hover:outline transition-all outline-[#9E9E9E]  active:scale-95  hover:scale-105 hover:transition-all select-none">
+          <div className="flex w-[530px] h-[140px] bg-[#0A0A0A] p-4  mb-8  outline-2 hover:outline transition-all outline-[#9E9E9E]  active:scale-95   select-none">
             <div className="flex flex-col justify-around  ">
               <h1 className="text-white  text-lg font-semibold cursor-pointer">
                 Schedule a Meeting
@@ -50,43 +42,43 @@ function AboutUs() {
           </div>
         </a>
         <div className="grid grid-cols-3 justify-around items-center select-none  ">
-          <div className="text-white my-5 transition-all   hover:scale-105 hover:transition-all cursor-pointer">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ">
+          <div className="text-white my-5 transition-all    cursor-pointer">
+            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
               <BiMessageDetail size={100} />
               <h1 className="text-white font-semibold  antialiased ">
                 IT Consultancy
               </h1>
 
               <div className="text-sm text-[#9E9E9E] text-left w-[320px] h-[10px]  antialiased grid grid-cols-2 justify-center items-center  ">
-                <p className=" text-center text-base rounded-md w-[320px] ">
+                <p className=" text-center text-base  w-[320px] ">
                   Available 24/7
                 </p>
               </div>
             </div>
           </div>
-          <div className="text-white my-5 transition-all   hover:scale-105 hover:transition-all cursor-pointer ">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ">
+          <div className="text-white my-5 transition-all    cursor-pointer ">
+            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
               <TbDeviceDesktopAnalytics size={100} />
               <h1 className="text-white font-semibold  antialiased ">
                 Web Development
               </h1>
 
               <div className="text-sm text-[#9E9E9E] text-left w-[320px] h-[10px]  antialiased grid grid-cols-2 justify-center items-center  ">
-                <p className=" text-center text-base rounded-md w-[320px] ">
+                <p className=" text-center text-base  w-[320px] ">
                   LAMP • MERN • Django
                 </p>
               </div>
             </div>
           </div>
-          <div className="text-white my-5 transition-all   hover:scale-105 hover:transition-all cursor-pointer ">
-            <div className=" bg-[#0A0A0A] w-[350px] h-[371px] rounded-2xl flex justify-center flex-col items-center space-y-7  ">
+          <div className="text-white my-5 transition-all    cursor-pointer ">
+            <div className=" bg-[#0A0A0A] w-[350px] h-[371px]  flex justify-center flex-col items-center space-y-7  ">
               <HiMiniDevicePhoneMobile size={100} />
               <h1 className="text-white font-semibold  antialiased ">
                 Mobile App
               </h1>
 
               <div className="text-sm text-[#9E9E9E] text-left w-[320px] h-[10px]  antialiased grid grid-cols-2 justify-center items-center  ">
-                <p className=" text-center text-base rounded-md w-[320px] ">
+                <p className=" text-center text-base  w-[320px] ">
                   React Native • Flutter
                 </p>
               </div>

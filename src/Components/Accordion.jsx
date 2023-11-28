@@ -24,16 +24,16 @@ const Accordion = ({
       >
         <div className="flex justify-between items-center px-[30px] relative cursor-pointer ">
           <h1
-            className={`text-[#FFF]  font-normal leading-5 text-sm antialiased ${titleclassName} `}
+            className={`text-[#FFF]  font-normal leading-5 text-sm  antialiased ${titleclassName} `}
           >
             How promote the product?
           </h1>
-          <button onClick={toggleFunction}>
+          <button onClick={toggleFunction}  >
             <img src={show ? plus : minus} alt="plus" />
           </button>
         </div>
         <div
-          className={` h-full bg-[#0A0A0A] sm:w-full  flex-col justify-evenly rounded-md flex items-center   ${
+          className={`  bg-[#0A0A0A] sm:w-full  flex-col justify-evenly rounded-md flex items-center   ${
             show ? "hidden" : "flex-1"
           } ${bgbclassName}`}
         >
