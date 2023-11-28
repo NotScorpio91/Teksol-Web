@@ -24,8 +24,8 @@ const services = [
         projects: [
             {
                 textColor: 'text-white',
-                class: 'col-span-2 !bg-[#242532]',
-                imageClass: 'absolute w-[400px] right-6 -bottom-12',
+                class: 'sm:col-span-2 flex flex-col   !bg-[#242532]',
+                imageClass: 'sm:absolute sm:w-[400px] sm:right-6  sm:-bottom-12 relative -bottom-20 w-fit',
                 title: 'Social Currant',
                 slug: 'social-currant',
                 image: pI_sc_image,
@@ -108,8 +108,8 @@ const services = [
             },
             {
                 textColor: 'text-white',
-                class: 'col-span-2 !bg-gray-800',
-                imageClass: 'absolute w-[230px] right-16 -bottom-36',
+                class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gray-800',
+                imageClass: 'sm:absolute sm:w-[230px] h-fit sm:right-16 sm:-bottom-36 relative sm:px-0 px-8   -bottom-12',
                 title: 'Earnfluencers',
                 slug: 'earnfluencers',
                 image: pI_ef_image,
@@ -135,9 +135,9 @@ const services = [
             },
             {
                 textColor: 'text-white',
-                class: 'col-span-3 bg-gradient-to-r from-[#302b63] to-[#24243e]',
+                class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#302b63] to-[#24243e]',
                 imageClass:
-                    'absolute w-[600px] right-16 bottom-0 !rounded-t-3xl overflow-hidden border-t-[10px] border-x-[10px] border-black',
+                    'sm:absolute sm:w-[600px] sm:right-16 sm:bottom-0 sm:!rounded-t-3xl sm:overflow-hidden sm:border-t-[10px] sm:border-x-[10px] border-black relative -bottom-10 border-t-[4px] border-x-[4px] !rounded-t-[6px]',
                 title: 'Thingtrax',
                 slug: 'thingtrax',
                 image: pI_tt_image,
@@ -183,14 +183,14 @@ const services = [
 function Card({ item }) {
     return (
         <div
-            className={`bg-primary-black overflow-hidden relative text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-row items-start p-10 gap-5 ${item.class} ${item.textColor}`}>
-            <div className="flex flex-col gap-4 w-[400px]">
+            className={`bg-primary-black overflow-hidden relative text-white w-full h-fit sm:h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-row items-start p-10  sm:gap-5 px-4 sm:px-10    ${item.class} ${item.textColor}`}>
+            <div className="flex flex-col gap-4 sm:w-[400px] w-full  "> 
                 <h1
                     className={`text-white font-bold font-poppins antialiased text-2xl ${item.textColor}`}>
                     {item.title}
                 </h1>
                 <div
-                    className={`text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3`}>
+                    className={`text-xs sm:text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3`}>
                     {item.tech &&
                         item.tech.map(tech => (
                             <div className={`bg-black/30 text-white px-4 py-2`}>
@@ -199,11 +199,11 @@ function Card({ item }) {
                         ))}
                 </div>
                 <p
-                    className={`text-white font-light font-poppins antialiased text-lg ${item.textColor}`}>
+                    className={`text-white font-light font-poppins antialiased text-sm sm:text-lg ${item.textColor}`}>
                     {item.description}
                 </p>
 
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row  gap-4">
                     {item.links &&
                         item.links.map(link => (
                             <a
@@ -238,17 +238,17 @@ function ServicesPage() {
         <AppLayout>
             <NavBar />
             <MobileNavBar />
-            <div className="w-full h-72 mt-16 bg-gray-800">
-                <Container className="h-full !justify-start">
-                    <h1 className="text-[3.5rem] text-white">
+            <div className="w-full h-fit sm:h-72 mt-16 bg-gray-800  ">
+                <Container className=" h-fit sm:h-full !justify-center sm:!justify-start">
+                    <h1 className=" text-[28px] text-center sm:text-start sm:text-[3.5rem] text-white">
                         {service.tagline}
                     </h1>
                 </Container>
             </div>
 
-            <Container className="h-full !justify-start !items-start mt-10 !flex-col gap-4">
-                <h2 className="text-3xl text-white text-left">Our Projects</h2>
-                <div className="flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer pb-10">
+            <Container className="h-full !justify-start !items-center sm:!items-start mt-10 !flex-col gap-4">
+                <h2 className="text-xl text-white text-center sm:text-left ">Our Projects</h2>
+                <div className="flex flex-col gap-y sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer pb-10">
                     {service &&
                         service.projects &&
                         service.projects.map((project, index) => (
@@ -257,18 +257,18 @@ function ServicesPage() {
                 </div>
             </Container>
 
-            <div className="w-full h-[400px] mt-16 bg-gradient-to-tr from-gray-800 to-slate-800">
+            <div className="w-full sm:h-[400px] h-fit mt-16 bg-gradient-to-tr from-gray-800 to-slate-800 ">
                 <Container className="h-full !justify-center">
                     <div className="flex flex-col gap-8 text-center items-center justify-center">
-                        <h1 className="text-[2rem] font-extralight text-white">
+                        <h1 className="sm:text-[2rem] text-[28px]  font-extralight text-white">
                             Ready to start your {service.title} project?
                         </h1>
-                        <p className="text-2xl font-extralight text-white">
+                        <p className="sm:text-2xl text-lg font-extralight text-white">
                             We can help you with:
                         </p>
 
                         <div
-                            className={`text-sm flex flex-row text-gray-700 text-center items-center justify-center w-[800px] flex-wrap font-poppins antialiased gap-3`}>
+                            className={`text-xs sm:text-sm flex flex-row text-gray-700 text-center items-center justify-center sm:w-[800px] flex-wrap font-poppins antialiased gap-3`}>
                             {service.techstacks &&
                                 service.techstacks.map(techstack => (
                                     <div
@@ -278,7 +278,7 @@ function ServicesPage() {
                                 ))}
                         </div>
 
-                        <Button title="Hire Us" />
+                        <Button title="Hire Us" className='my-10 sm:my-0' />
                     </div>
                 </Container>
             </div>
