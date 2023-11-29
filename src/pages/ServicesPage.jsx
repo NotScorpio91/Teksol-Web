@@ -16,6 +16,13 @@ import pI_dn_logo from '../assets/work-images/projects/dentinect_logo.png'
 import pI_tt_logo from '../assets/work-images/projects/thingtrax_logo.svg'
 import pI_tt_image from '../assets/work-images/projects/thingtrax_image.png'
 
+
+import Dcaa from '../assets/work-images/projects/dcaa-iian.png'
+import Edukko from '../assets/work-images/projects/edukkolearn.png'
+import SideKick from '../assets/work-images/projects/sidekick.png'
+
+
+
 const services = [
     {
         title: 'Web Development',
@@ -158,6 +165,167 @@ const services = [
                     {
                         name: 'Visit the website',
                         href: 'https://thingtrax.com/',
+                    },
+                ],
+            },
+        ],
+        techstacks: [
+            'NextJS',
+            'ReactJS',
+            'VueJS',
+            'ExpressJS',
+            'Django',
+            'Laravel',
+            'Bootstrap',
+            'jQuery',
+            'Docusign',
+            'AWS',
+            'Netlify',
+            'Vercel',
+            'TailwindCSS',
+        ],
+    },
+    {
+        title: 'App Development',
+        slug: 'app-development',
+        tagline: 'We are Mobile App Development Experts.',
+        projects: [
+            {
+                textColor: 'text-white',
+                class: 'sm:col-span-2 flex flex-col  !bg-[#242532]',
+                imageClass: 'sm:absolute  sm:right-0 sm:h-full  sm:top-0 relative h-72 -bottom-7 ',
+                title: 'DCAA IIAN',
+                slug: 'dcaa-iian',
+                image: Dcaa,
+                logo: '',
+                description: 'investigates Accidents & Incidents related to civil aviation within the Emirate of Dubai',
+                tech: [
+                    {
+                        name: 'VueJS',
+                        icon: '',
+                    },
+                    {
+                        name: 'Django',
+                        icon: '',
+                    },
+                    {
+                        name: 'Docusign',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the App',
+                        href: 'https://apps.apple.com/us/app/dcaa-iian/id1466031139',
+                    },
+                ],
+            },
+            {
+                textColor: '!text-black',
+                class: '!bg-blue-100',
+                imageClass: 'absolute w-[400px] right-6 -bottom-12',
+                title: 'Niceonesa',
+                slug: 'Niceonesa',
+                image: '',
+                logo: '',
+                description:
+                    'niceonesa app is an online store with nationally-focused sales..',
+                tech: [
+                    {
+                        name: 'Laravel',
+                        icon: '',
+                    },
+                    {
+                        name: 'jQuery',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the App',
+                        href: 'https://apps.apple.com/fm/app/nice-one-%D9%86%D8%A7%D9%8A%D8%B3-%D9%88%D9%86/id1271754138',
+                    },
+                ],
+            },
+            {
+                textColor: 'text-white',
+                class: '',
+                imageClass: 'absolute w-[230px] right-10 -bottom-20',
+                title: 'AlMawashi ',
+                slug: 'almawashi ',
+                image: '',
+                logo: '',
+                description:
+                    'AlMawashi provides all kinds of fresh, chilled, frozen, and processed halal meat.',
+                tech: [
+                    {
+                        name: 'ExpressJS',
+                        icon: '',
+                    },
+                    {
+                        name: 'Bootstrap',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the App',
+                        href: 'https://apps.apple.com/us/app/almawashi/id1146151226',
+                    },
+                ],
+            },
+            {
+                textColor: 'text-white',
+                class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gray-800',
+                imageClass: 'sm:absolute  h-fit sm:right-10 sm:-bottom-11 relative sm:px-0 px-8   -bottom-12',
+                title: 'Edukko Learn',
+                slug: 'edukko-learn',
+                image: Edukko,
+                logo: '',
+                description:
+                    "Edukko is a learning platform intended to give educators parents and students a single robust secure integrated     framework to establish customized learning environments.",
+                tech: [
+                    {
+                        name: 'React',
+                        icon: '',
+                    },
+                    {
+                        name: 'Laravel',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the App',
+                        href: 'https://apps.apple.com/us/app/edukko-learn/id6443897514?platform=ipad',
+                    },
+                ],
+            },
+            {
+                textColor: 'text-white',
+                class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#302b63] to-[#24243e]',
+                imageClass:
+                    'sm:absolute sm:w-[550px] sm:right-16 sm:-bottom-1   ',
+                title: 'Sidekick',
+                slug: 'thingtrax',
+                image: SideKick,
+                logo: '',
+                description:
+                    'The Leadership Dashboard is a control panel for CEOs that shows organisational effectiveness. It provides real-time visibility of the organisation’s progress against key metrics such as OEE, quality, and safety. ',
+                tech: [
+                    {
+                        name: 'Django',
+                        icon: '',
+                    },
+                    {
+                        name: 'Python',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the App',
+                        href: 'https://apps.apple.com/us/app/sidekick-meet-train-play/id1626421655',
                     },
                 ],
             },

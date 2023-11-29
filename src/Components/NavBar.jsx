@@ -22,7 +22,7 @@ export default function NavBAR() {
         },
         {
             title: 'Mobile Apps',
-            link: '/work/react-native',
+            link: '/work/app-development',
             image: navbarReactNative,
         },
         {
