@@ -7,9 +7,9 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const ourwork = [
     { name: 'Web Development ', href: '/work/web-development' },
-    { name: 'Mobile App Development', href: '/work/react-native' },
+    { name: 'App Development', href: '/work/app-development' },
     { name: 'Product Design', href: '/work/product-design' },
-    { name: 'Blockchain', href: '/work/blockchain' },
+    { name: 'Digital-Marketing', href: '/work/digital-marketing' },
     { name: 'AI/ML', href: '/work/ai' },
     { name: 'Custom Solutions', href: '/work/custom-solutions' },
 ]

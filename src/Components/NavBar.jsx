@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Logo from '../Components/Logo'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 import navbarWeb from '../assets/work-images/multimedia.jpg'
 import navbarReactNative from '../assets/work-images/react-native.jpg'
@@ -31,8 +32,8 @@ export default function NavBAR() {
             image: navbarProductDesign,
         },
         {
-            title: 'Blockchain',
-            link: '/work/blockchain',
+            title: 'Digital Marketing',
+            link: '/work/digital-marketing',
             image: navbarBlockchain,
         },
         {
@@ -46,9 +47,16 @@ export default function NavBAR() {
             image: navbarCustom,
         },
     ])
+    const navigate = useNavigate()
 
     const handleOcModal = () => {
         setOcModal(!ocModal)
+    }
+
+    const handleWorkNavigation = (route) => {
+        setOcModal(false)
+        // window.location = route
+        navigate(route)
     }
 
     return (
@@ -109,14 +117,14 @@ export default function NavBAR() {
                     <div className="relative w-full bg-primary-black opacity-80 text-white">
                         <div className="flex flex-row gap-1 sm:max-w-screen-xl mx-auto py-6">
                             {featuredWork.map(item => (
-                                <Link to={item.link} className="flex flex-col w-full text-center gap-3 items-center justify-center hover:bg-gray-800 p-4">
+                                <div onClick={() => handleWorkNavigation(item.link)} className="flex flex-col w-full text-center gap-3 items-center justify-center hover:bg-gray-800 p-4">
                                     <p>{item.title}</p>
                                     <img
                                         src={item.image}
                                         alt=""
                                         className="w-full"
                                     />
-                                </Link>
+                                </div>
                             ))}
                         </div>
                     </div>

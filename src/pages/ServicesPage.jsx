@@ -21,6 +21,11 @@ import Dcaa from '../assets/work-images/projects/dcaa-iian.png'
 import Edukko from '../assets/work-images/projects/edukkolearn.png'
 import SideKick from '../assets/work-images/projects/sidekick.png'
 
+import senpai from '../assets/work-images/projects/senpaii.png'
+import theseus from '../assets/work-images/projects/theseus.png'
+
+
+
 
 
 const services = [
@@ -31,7 +36,7 @@ const services = [
         projects: [
             {
                 textColor: 'text-white',
-                class: 'sm:col-span-2 flex flex-col   !bg-[#242532]',
+                class: 'sm:col-span-2 flex flex-col   !bg-gradient-to-br from-[#30104C] to-[#2565F4]',
                 imageClass: 'sm:absolute sm:w-[400px] sm:right-6  sm:-bottom-12 relative -bottom-20 w-fit',
                 title: 'Social Currant',
                 slug: 'social-currant',
@@ -60,8 +65,8 @@ const services = [
                 ],
             },
             {
-                textColor: '!text-black',
-                class: '!bg-blue-100',
+                textColor: '!text-white',
+                class: '!bg-gradient-to-tl from-black to-[#3F51B5]',
                 imageClass: 'absolute w-[400px] right-6 -bottom-12',
                 title: 'Kikboss',
                 slug: 'kikboss',
@@ -87,8 +92,8 @@ const services = [
                 ],
             },
             {
-                textColor: 'text-white',
-                class: '',
+                textColor: '!text-black',
+                class: '!bg-gradient-to-r from-white to-[#71569C]',
                 imageClass: 'absolute w-[230px] right-10 -bottom-20',
                 title: 'DentiNect',
                 slug: 'dentinect',
@@ -114,8 +119,8 @@ const services = [
                 ],
             },
             {
-                textColor: 'text-white',
-                class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gray-800',
+                textColor: '!text-black',
+                class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gradient-to-r from-[#9333EA] to-gray-300',
                 imageClass: 'sm:absolute sm:w-[230px] h-fit sm:right-16 sm:bottom-0 relative sm:px-0 px-16   -bottom-12',
                 title: 'Earnfluencers',
                 slug: 'earnfluencers',
@@ -142,7 +147,7 @@ const services = [
             },
             {
                 textColor: 'text-white',
-                class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#302b63] to-[#24243e]',
+                class: 'sm:col-span-3 flex flex-col !bg-gradient-to-br from-[#E94B48] to-[#02C25F]',
                 imageClass:
                     'sm:absolute sm:w-[600px] sm:right-16 sm:bottom-0 sm:!rounded-t-3xl sm:overflow-hidden sm:border-t-[10px] sm:border-x-[10px] border-black relative -bottom-10 border-t-[4px] border-x-[4px] !rounded-t-[6px]',
                 title: 'Thingtrax',
@@ -192,7 +197,7 @@ const services = [
         projects: [
             {
                 textColor: 'text-white',
-                class: 'sm:col-span-2 flex flex-col  !bg-[#242532]',
+                class: 'sm:col-span-2 flex flex-col  !bg-gradient-to-r from-[#282828] to-[#171717]',
                 imageClass: 'sm:relative  sm:left-[480px]  sm:bottom-[230px]    w-full sm:w-fit   relative  px-16 sm:px-0 -bottom-10 ',
                 title: 'DCAA IIAN',
                 slug: 'dcaa-iian',
@@ -257,7 +262,7 @@ const services = [
             },
             {
                 textColor: 'text-white',
-                class: '',
+                class: 'bg-[#AF1F24]',
                 imageClass: 'absolute  w-[230px] right-10 -bottom-20',
                 title: 'AlMawashi ',
                 slug: 'almawashi ',
@@ -288,7 +293,7 @@ const services = [
             },
             {
                 textColor: 'text-white',
-                class: 'sm:col-span-2 flex flex-col  !bg-gray-800',
+                class: 'sm:col-span-2 flex flex-col  !bg-gradient-to-br from-[#122047] to-[#254499]',
                 imageClass: 'sm:absolute  sm:h-fit sm:right-10 sm:-bottom-11 w-full sm:w-fit px-8 sm:px-0 relative  -bottom-9  ',
                 title: 'Edukko Learn',
                 slug: 'edukko-learn',
@@ -318,8 +323,8 @@ const services = [
                 ],
             },
             {
-                textColor: 'text-white',
-                class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#302b63] to-[#24243e]',
+                textColor: '!text-black',
+                class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#FFD701] to-[#EAECED]',
                 imageClass:
                     'sm:absolute sm:w-[320px] sm:right-16 sm:-bottom-1 sm:px-2 px-8  relative -bottom-10 ',
                 title: 'Sidekick',
@@ -351,19 +356,114 @@ const services = [
             },
         ],
         techstacks: [
-            'NextJS',
-            'ReactJS',
-            'VueJS',
-            'ExpressJS',
-            'Django',
-            'Laravel',
+            'Android',
+            'IOS',
+            'Flutter',
+            'React Native',
+            'Kotlin',
+            'Ionic',
             'Bootstrap',
-            'jQuery',
-            'Docusign',
-            'AWS',
-            'Netlify',
-            'Vercel',
+            'Swift',
+            'Beacon',
+            'PhoneGap',
+            'Wearables',
             'TailwindCSS',
+        ],
+    },
+    {
+        title: 'Prouct Design',
+        slug: 'product-design',
+        tagline: 'We are Prouct Design Development Experts.',
+        projects: [
+            {
+                textColor: 'text-white',
+                class: 'sm:col-span-3 flex flex-col   !bg-gradient-to-br from-[#DE0BC9] to-[#1286F0]',
+                imageClass: 'sm:absolute  sm:right-0  sm:bottom-0    w-full sm:w-[550px]   relative right-2   sm:px-0 -bottom-10 ',
+                title: 'Senpai',
+                slug: 'senpai',
+                image: senpai,
+                logo: '',
+                description: 'Senpai: Figma mobile app with a charming anime theme. Vibrant, playful, and user-friendly for an enchanting experience',
+                tech: [
+                    {
+                        name: 'Figma',
+                        icon: '',
+                    },
+                    {
+                        name: 'TailwindCss',
+                        icon: '',
+                    },
+                    {
+                        name: 'Bootstrap',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the Design',
+                        href: 'https://www.figma.com/file/vCpL0L7tEJ0dxJPMTjz243/Senpai-prod.?type=design&node-id=0-1&mode=design',
+                    },
+                ],
+            },           
+        ],
+        techstacks: [
+            'Adobe Photoshop',
+            'Adobe Illustrator',
+            'Canva',
+            'InDesign',        
+           'WordPress',
+           'Figma',
+           'Bootstrap',
+           'GIMP',
+            'Bootstrap',
+            'TailwindCSS',
+        ],
+    },
+    {
+        title: ' Ai',
+        slug: 'ai',
+        tagline: 'We are Ai Development Experts.',
+        projects: [
+            {
+                textColor: '!text-black',
+                class: 'sm:col-span-3 flex flex-col   !bg-gradient-to-br from-white to-[#156AD6]',
+                imageClass: 'sm:absolute  sm:right-20  sm:bottom-0    w-full sm:w-[550px]   relative    sm:px-0 -bottom-10 m:!rounded-t-3xl sm:overflow-hidden sm:border-t-[10px] sm:border-x-[4px] border-black  border-t-[4px] border-x-[4px] !rounded-t-[6px] ',
+                title: 'Theseus Ai',
+                slug: 'theseusai',
+                image: theseus,
+                logo: '',
+                description: 'SpineAI uses AI-driven analysis with the help of top neurosurgeons and orthopedic surgeons. Hundreds of imaging data points analyzed.',
+                tech: [
+                    {
+                        name: 'Python',
+                        icon: '',
+                    },
+                    {
+                        name: 'Scala',
+                        icon: '',
+                    },
+                    {
+                        name: 'JavaScript',
+                        icon: '',
+                    },
+                ],
+                links: [
+                    {
+                        name: 'Visit the Website',
+                        href: 'https://www.theseusai.com/',
+                    },
+                ],
+            },           
+        ],
+        techstacks: [
+            'Python',
+            'C++',
+            'JavaScript',
+            'Julia',        
+           'Scala',
+           'Java',
+           'R',
+           'Go',
         ],
     },
 ]

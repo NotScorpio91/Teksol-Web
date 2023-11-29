@@ -71,7 +71,7 @@ function Footer({container = ''}) {
                                 <a href="/work/react-native">Mobile App Development</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/work/blockchain">Digital Marketing</a>
+                                <a href="/work/digital-marketing">Digital Marketing</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/ai">AI/ML</a>
