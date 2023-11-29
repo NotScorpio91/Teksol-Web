@@ -116,7 +116,7 @@ const services = [
             {
                 textColor: 'text-white',
                 class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gray-800',
-                imageClass: 'sm:absolute sm:w-[230px] h-fit sm:right-16 sm:-bottom-36 relative sm:px-0 px-8   -bottom-12',
+                imageClass: 'sm:absolute sm:w-[230px] h-fit sm:right-16 sm:bottom-0 relative sm:px-0 px-16   -bottom-12',
                 title: 'Earnfluencers',
                 slug: 'earnfluencers',
                 image: pI_ef_image,
@@ -193,7 +193,7 @@ const services = [
             {
                 textColor: 'text-white',
                 class: 'sm:col-span-2 flex flex-col  !bg-[#242532]',
-                imageClass: 'sm:absolute  sm:right-0 sm:h-full  sm:top-0 relative h-72 -bottom-7 ',
+                imageClass: 'sm:relative  sm:left-[480px]  sm:bottom-[230px]    w-full sm:w-fit   relative  px-16 sm:px-0 -bottom-10 ',
                 title: 'DCAA IIAN',
                 slug: 'dcaa-iian',
                 image: Dcaa,
@@ -215,8 +215,12 @@ const services = [
                 ],
                 links: [
                     {
-                        name: 'Visit the App',
+                        name: 'App Store',
                         href: 'https://apps.apple.com/us/app/dcaa-iian/id1466031139',
+                    },
+                    {
+                        name: 'Play Store',
+                        href: 'https://play.google.com/store/apps/details?id=com.iian.dcaa&hl=en&gl=US',
                     },
                 ],
             },
@@ -242,15 +246,19 @@ const services = [
                 ],
                 links: [
                     {
-                        name: 'Visit the App',
+                        name: 'App Store',
                         href: 'https://apps.apple.com/fm/app/nice-one-%D9%86%D8%A7%D9%8A%D8%B3-%D9%88%D9%86/id1271754138',
+                    },
+                    {
+                        name: 'Play Store',
+                        href: 'https://play.google.com/store/apps/details?id=com.NiceOne.App&hl=en&gl=US',
                     },
                 ],
             },
             {
                 textColor: 'text-white',
                 class: '',
-                imageClass: 'absolute w-[230px] right-10 -bottom-20',
+                imageClass: 'absolute  w-[230px] right-10 -bottom-20',
                 title: 'AlMawashi ',
                 slug: 'almawashi ',
                 image: '',
@@ -269,15 +277,19 @@ const services = [
                 ],
                 links: [
                     {
-                        name: 'Visit the App',
+                        name: 'App Store',
                         href: 'https://apps.apple.com/us/app/almawashi/id1146151226',
+                    },
+                    {
+                        name: 'Play Store',
+                        href: 'https://play.google.com/store/search?q=AlMawashi&c=apps&hl=en&gl=US',
                     },
                 ],
             },
             {
                 textColor: 'text-white',
-                class: 'sm:col-span-2 flex flex-col h-[601px] !bg-gray-800',
-                imageClass: 'sm:absolute  h-fit sm:right-10 sm:-bottom-11 relative sm:px-0 px-8   -bottom-12',
+                class: 'sm:col-span-2 flex flex-col  !bg-gray-800',
+                imageClass: 'sm:absolute  sm:h-fit sm:right-10 sm:-bottom-11 w-full sm:w-fit px-8 sm:px-0 relative  -bottom-9  ',
                 title: 'Edukko Learn',
                 slug: 'edukko-learn',
                 image: Edukko,
@@ -296,8 +308,12 @@ const services = [
                 ],
                 links: [
                     {
-                        name: 'Visit the App',
-                        href: 'https://apps.apple.com/us/app/edukko-learn/id6443897514?platform=ipad',
+                        name: 'App Store',
+                        href: 'https://apps.apple.com/us/app/edukko-learn/id6443897514?platform=iphone',
+                    },
+                    {
+                        name: 'Play Store',
+                        href: 'https://play.google.com/store/apps/details?id=com.edukkostudent.android&hl=en_US',
                     },
                 ],
             },
@@ -305,7 +321,7 @@ const services = [
                 textColor: 'text-white',
                 class: 'sm:col-span-3 flex flex-col bg-gradient-to-r from-[#302b63] to-[#24243e]',
                 imageClass:
-                    'sm:absolute sm:w-[550px] sm:right-16 sm:-bottom-1   ',
+                    'sm:absolute sm:w-[320px] sm:right-16 sm:-bottom-1 sm:px-2 px-8  relative -bottom-10 ',
                 title: 'Sidekick',
                 slug: 'thingtrax',
                 image: SideKick,
@@ -324,8 +340,12 @@ const services = [
                 ],
                 links: [
                     {
-                        name: 'Visit the App',
+                        name: 'App Store',
                         href: 'https://apps.apple.com/us/app/sidekick-meet-train-play/id1626421655',
+                    },
+                    {
+                        name: 'Play Store',
+                        href: 'https://play.google.com/store/apps/details?id=com.app.sidekick&hl=en&gl=US',
                     },
                 ],
             },
