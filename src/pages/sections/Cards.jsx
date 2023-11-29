@@ -58,7 +58,7 @@ function Cards() {
         },
         {
             title: 'Mobile App Development',
-            slug: '/work/react-native',
+            slug: '/work/app-development',
             icon: <CiMobile3 size={40} />,
 			text: 'Build apps at an affordable rate and in rapidly. (Android & IOS)',
             items: [
@@ -145,8 +145,8 @@ function Cards() {
             ],
         },
         {
-            title: 'UI/UX',
-            slug: '/work/ui-ux',
+            title: 'Product Design',
+            slug: '/work/product-design',
             icon: <FaPenFancy size={40} />,
 			text: 'Re-brand your website with the on-the-edge design with the latest UX-UI to improve your brand...',
             items: [

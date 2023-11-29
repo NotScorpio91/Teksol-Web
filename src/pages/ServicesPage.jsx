@@ -393,10 +393,6 @@ const services = [
                         name: 'TailwindCss',
                         icon: '',
                     },
-                    {
-                        name: 'Bootstrap',
-                        icon: '',
-                    },
                 ],
                 links: [
                     {
@@ -481,7 +477,7 @@ function Card({ item }) {
                     className={`text-xs sm:text-sm flex flex-row text-gray-700 text-left w-full font-poppins antialiased gap-3`}>
                     {item.tech &&
                         item.tech.map(tech => (
-                            <div className={`bg-black/30 text-white px-4 py-2`}>
+                            <div  className={`bg-black/30 text-white px-4 py-2`}>
                                 {tech.name}
                             </div>
                         ))}
@@ -521,6 +517,11 @@ function ServicesPage() {
             setService(selectedService)
         }
     }, [slug])
+
+    useEffect(() => {
+        document.body.scrollTo(0, 0)
+
+    }, [])
 
     return (
         <AppLayout>

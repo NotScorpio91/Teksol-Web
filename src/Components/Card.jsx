@@ -1,8 +1,21 @@
 import React from 'react'
 import { MdArrowForward } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
+    const navigate = useNavigate()
+
+    const handleOcModal = () => {
+        setOcModal(!ocModal)
+    }
+
+    const handleWorkNavigation = (route) => {
+        // setOcModal(false)
+        document.body.scrollTo(0, 0)
+        // window.location = route
+        navigate(route)
+    }
     return (
         <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins ">
             {png}
@@ -21,13 +34,12 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
                     ))}
             </div>
 
-            <Link
-                to={slug}
-                target="_blank"
+            <div
+                onClick={() => handleWorkNavigation(slug)}
                 className={`underline text-white underline-offset-[5px] flex flex-row gap-2 items-center`}
                 rel="noreferrer">
                 More <MdArrowForward />
-            </Link>
+            </div>
         </div>
     )
 }
