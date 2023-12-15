@@ -7,6 +7,7 @@ import {
     Project,
     ServicesPage,
     AboutPage,
+    Career,
     PageNotfound,
 } from './pages/Index'
 
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/project" element={<Project />} />
                     <Route path="/work/:slug" element={<ServicesPage />} />
                     <Route path="/about" element={<AboutPage />} />
+                    <Route path="/career" element={<Career />} />
                     <Route path="*" exact element={<PageNotfound />} />
                 </Routes>
             </Router>
