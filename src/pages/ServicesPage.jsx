@@ -468,6 +468,7 @@ function Card({ item }) {
     return (
         <div
             className={`bg-primary-black overflow-hidden relative text-white w-full h-fit sm:h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-row items-start p-10  sm:gap-5 px-4 sm:px-10    ${item.class} ${item.textColor}`}>
+                
             <div className="flex flex-col gap-4 sm:w-[400px] w-full  "> 
                 <h1
                     className={`text-white font-bold font-poppins antialiased text-2xl ${item.textColor}`}>
@@ -528,6 +529,12 @@ function ServicesPage() {
             <NavBar />
             <MobileNavBar />
             <div className="w-full h-fit sm:h-72 mt-16 bg-gray-800  ">
+            <div
+                aria-hidden="true"
+                class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+                <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+            </div>
                 <Container className=" h-fit sm:h-full !justify-center sm:!justify-start">
                     <h1 className=" text-[28px] text-center sm:text-start sm:text-[3.5rem] text-white">
                         {service.tagline}

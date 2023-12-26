@@ -5,4 +5,5 @@ export { default as Project } from './Project';
 export { default as ServicesPage } from './ServicesPage'; 
 export { default as AboutPage } from './Aboutpage'; 
 export { default as Career } from './Career'; 
+export { default as CareerForm } from './CareerForm'; 
 export { default as PageNotfound } from './Pnf';

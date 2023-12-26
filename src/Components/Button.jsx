@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button({ title = 'Text', className, props }) {
+function Button({ title = 'Text', className = '', props }) {
     return (
         <div className="flex font-poppins ">
             <button

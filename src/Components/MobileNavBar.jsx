@@ -106,7 +106,7 @@ export default function MobileNavBar() {
                                         Hire developers
                                     </a>
                                     <a
-                                        href="/"
+                                        href="/career"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white  focus:bg-[#0A0A0A] antialiased">
                                         Career
                                     </a>

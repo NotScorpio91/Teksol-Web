@@ -40,7 +40,7 @@ function Quote() {
                             <input
                                 type="text"
                                 id="name"
-                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
+                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[14px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
                                 placeholder="Your name"
                                 required
                             />
@@ -52,7 +52,7 @@ function Quote() {
                             <input
                                 type="email"
                                 id="email"
-                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
+                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[14px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
                                 placeholder="Your email"
                                 required
                             />
@@ -64,7 +64,7 @@ function Quote() {
                             <input
                                 type="search"
                                 id="phone"
-                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[28px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
+                                className="shadow-sm bg-[#0A0A0A]  text-white text-sm rounded-[5px]  block w-full sm:w-[500px] py-[12px] px-[14px] placeholder-[#9E9E9E] focus:outline focus:outline-1 focus:outline-white outline-none  antialiased "
                                 placeholder="Your phone"
                                 required
                             />
@@ -206,12 +206,12 @@ function Quote() {
                         </div>
                         <div className="sm:col-span-2 mb-9">
                             <div className="text-white py-3 text-base]  antialiased ">
-                                <label htmlFor="">Description </label>
+                                <label htmlFor="">Description</label>
                             </div>
                             <textarea
                                 id="message"
                                 rows="6"
-                                className="block  py-[12px] px-[28px] h-[120px] w-full sm:w-[500px] bg-[#0A0A0A] text-white rounded-[5PX]  placeholder-[#9E9E9E]  antialiased text-sm outline-none focus:outline focus:outline-1 focus:outline-white "
+                                className="block  py-[12px] px-[14px] h-[120px] w-full sm:w-[500px] bg-[#0A0A0A] text-white rounded-[5PX]  placeholder-[#9E9E9E]  antialiased text-sm outline-none focus:outline focus:outline-1 focus:outline-white "
                                 placeholder="Write a quick overview of your project"></textarea>
                         </div>
 

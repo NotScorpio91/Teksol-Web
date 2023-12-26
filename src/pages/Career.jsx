@@ -2,7 +2,6 @@ import React from 'react'
 import { MdArrowForward } from 'react-icons/md'
 import NavBar from '../Components/NavBar'
 import MobileNavBar from '../Components/MobileNavBar'
-
 import Footer from '../Components/Footer'
 
 function Career() {
@@ -18,6 +17,12 @@ function Career() {
             <NavBar />
             <MobileNavBar />
             <div className="flex justify-center items-center antialiased px-4 sm:px-0">
+            <div
+                aria-hidden="true"
+                class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+                <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+            </div>
                 <div className="flex flex-col  w-[1200px]">
                     <div>
                         <div className="flex flex-col justify-center items-center sm:pt-80 pt-28 sm:mx-0 mx-4 max-w-screen-xl">
@@ -54,6 +59,7 @@ function Career() {
                                         {item.title}
                                     </h1>
                                   </div>
+                                    <a href="/career/form">
                                     <div className="flex justify-start items-center pt-4 ">
 
                                     <p className="text-white font-light  antialiased text-sm sm:text-base">
@@ -61,6 +67,7 @@ function Career() {
                                     </p>
                                         <MdArrowForward className='sm:ml-1' size={18} />
                                     </div>
+                                    </a>
                                 </div>
                                 </div>
                             </div>
