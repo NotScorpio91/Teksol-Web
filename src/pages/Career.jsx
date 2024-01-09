@@ -8,7 +8,7 @@ function Career() {
     const Cards = [
         {
             title: 'Senior Software Engineer  Developer Environments',
-            text: 'San Francisco, CA or Remote (U.S.)',
+            text: 'Dera Ghazi Khan, Pakistan',
         },
   
     ]
@@ -50,7 +50,8 @@ function Career() {
                         </div>
                         <div className='flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer sm:pb-10'>
                         {Cards.map(item => (
-                          <div key={Cards} className='w-full'>
+                            <div key={Cards} className='w-full'>
+                              <a href="/career/form">
                                 <div className="bg-gradient-to-r from-primary-black to-black text-white w-full sm:h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-center flex-col items-center py-10 sm:py-0  gap-5 font-poppins sm:px-7 px-3">
                                   <div className="flex flex-col sm:justify-between justify-around">
 
@@ -59,17 +60,16 @@ function Career() {
                                         {item.title}
                                     </h1>
                                   </div>
-                                    <a href="/career/form">
                                     <div className="flex justify-start items-center pt-4 ">
 
-                                    <p className="text-white font-light  antialiased text-sm sm:text-base">
+                                    <p className="text-white font-light  antialiased text-sm sm:text-lg">
                                         {item.text}
                                     </p>
-                                        <MdArrowForward className='sm:ml-1' size={18} />
+                                        <MdArrowForward className='relative left-3' size={18} />
                                     </div>
-                                    </a>
                                 </div>
                                 </div>
+                            </a>
                             </div>
                         ))}
                     </div>

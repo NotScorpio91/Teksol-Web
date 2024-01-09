@@ -49,13 +49,16 @@ function Footer({container = ''}) {
                                 <a href="/">Home</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/about">About us</a>
-                            </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
-                                <a href="/">Career</a>
-                            </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="https://theteksol.com/blog/">Blog</a>
+                            </p>
+                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                                <a href="/career">Career</a>
+                            </p>
+                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                                <a href="/contact">Contact</a>
+                            </p>
+                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                                <a href="/about">About us</a>
                             </p>
                         </div>
                     </div>
@@ -72,6 +75,9 @@ function Footer({container = ''}) {
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/digital-marketing">Digital Marketing</a>
+                            </p>
+                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                                <a href="/work/product-design">Product Design</a>
                             </p>
                             <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/ai">AI/ML</a>

@@ -81,12 +81,12 @@ export default function NavBAR() {
                             aria-hidden="true"
                         />
                     </span>
-
-                    <Link
+                    
+                    <a href="https://theteksol.com/blog/"
                         className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        to="/blog">
+                       >
                         Blog
-                    </Link>
+                    </a>
                     <Link
                         className="text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
                         to="/hire-dev">

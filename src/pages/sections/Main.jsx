@@ -29,7 +29,7 @@ function Main() {
                     up their businesses online.
                 </p>
 
-                <LinkButton href="/quote">Get Free Quote</LinkButton>
+                <LinkButton href="/quote" className='z-[1]'>Get Free Quote</LinkButton>
             </div>
         </div>
     )
