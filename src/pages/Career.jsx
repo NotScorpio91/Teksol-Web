@@ -7,7 +7,15 @@ import Footer from '../Components/Footer'
 function Career() {
     const Cards = [
         {
-            title: 'Senior Software Engineer  Developer Environments',
+            title: 'Senior Software Engineer - Developer Environments Laravel',
+            text: 'Dera Ghazi Khan, Pakistan',
+        },
+        {
+            title: 'Senior Software Engineer - Developer Environments Laravel',
+            text: 'Dera Ghazi Khan, Pakistan',
+        },
+        {
+            title: 'Senior Software Engineer - Developer Environments Laravel',
             text: 'Dera Ghazi Khan, Pakistan',
         },
   
@@ -56,7 +64,7 @@ function Career() {
                                   <div className="flex flex-col sm:justify-between justify-around">
 
                                   <div className="">
-                                    <h1 className="text-white  font-semibold  antialiased text-3xl sm:text-5xl">
+                                    <h1 className="text-white  font-semibold  antialiased text-3xl leading-9 sm:text-5xl  sm:leading-[45px]">
                                         {item.title}
                                     </h1>
                                   </div>
