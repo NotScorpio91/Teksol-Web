@@ -6,7 +6,7 @@ function InTouch() {
     return (
         <div className="mt-20 mx-4 sm:mx-0 font-poppins ">
             <div className="flex flex-col sm:flex-row  justify-center sm:space-x-24 ">
-                <div className="lhs select-none w-full ">
+                <div className="lhs w-full pointer-events-none select-none">
                     <img
                         className="select-none w-full pb-20 sm:pb-0"
                         src={earth}
@@ -17,10 +17,10 @@ function InTouch() {
                     <section className="">
                         <div className=" flex ">
                             <div className="">
-                                <h2 className="mb-4 sm:text-5xl text-4xl tracking-tight font-normal  text-[#FFF]  antialiased ">
+                                <h2 className="mb-4 sm:text-5xl text-4xl tracking-tight font-normal  text-black dark:text-[#FFF]  antialiased ">
                                     Get In Touch
                                 </h2>
-                                <p className="mb-8 lg:mb-10 font-light sm:text-base text-sm  text-[#9E9E9E]  sm:w-[503px]  antialiased ">
+                                <p className="mb-8 lg:mb-10 font-light sm:text-base text-sm  dark:text-[#9E9E9E] text-gray-500  sm:w-[503px]  antialiased ">
                                     A good design is not only aesthetically
                                     pleasing, but also functional. It should be
                                     able to solve the problem{' '}
@@ -30,7 +30,7 @@ function InTouch() {
                                         <input
                                             type="email"
                                             id="email"
-                                            className="shadow-sm bg-[#0A0A0A]  text-white sm:text-sm text-xs rounded-[5px]  block w-full sm:w-[408px] py-3 px-7 outline-none focus:outline focus:outline-white focus:outline-1 placeholder-[#9E9E9E]  antialiased "
+                                            className="dark:bg-[#0A0A0A] bg-gray-50  dark:text-white text-black sm:text-sm text-xs rounded-[5px]  block w-full sm:w-[408px] py-3 px-7 outline-none focus:outline dark:focus:outline-white focus:outline-1 focus:outline-gray-500 placeholder-[#9E9E9E] outline-gray-300 outline-1 dark:outline-none antialiased "
                                             placeholder="Your Email"
                                             required
                                         />
@@ -39,7 +39,7 @@ function InTouch() {
                                         <input
                                             type="text"
                                             id="subject"
-                                            className="block py-3 px-7 w-full  sm:w-[408px] sm:text-sm text-xs  text-white bg-[#0A0A0A] rounded-[5px]    placeholder-[#9E9E9E]  antialiased outline-none focus:outline focus:outline-white focus:outline-1 "
+                                            className="block py-3 px-7 w-full  sm:w-[408px] dark:bg-[#0A0A0A] bg-gray-50  dark:text-white text-black sm:text-sm text-xs rounded-[5px] outline-none focus:outline dark:focus:outline-white focus:outline-1 focus:outline-gray-500 placeholder-[#9E9E9E] outline-gray-300 outline-1 dark:outline-none antialiased"
                                             placeholder="Let us know how we can help you"
                                             required
                                         />
@@ -48,7 +48,7 @@ function InTouch() {
                                         <textarea
                                             id="message"
                                             rows="6"
-                                            className="block  py-3 px-7 h-[156px] w-full sm:w-[408px] bg-[#0A0A0A] text-white rounded-[5PX] sm:text-sm text-xs   dark:placeholder-[#9E9E9E]  antialiased outline-none focus:outline focus:outline-white focus:outline-1  "
+                                            className="block  py-3 px-7 h-[156px] w-full sm:w-[408px] dark:bg-[#0A0A0A] bg-gray-50  dark:text-white text-black sm:text-sm text-xs rounded-[5px]  outline-none focus:outline dark:focus:outline-white focus:outline-1 focus:outline-gray-500 placeholder-[#9E9E9E] outline-gray-300 outline-1 dark:outline-none antialiased "
                                             placeholder="Leave a comment..."></textarea>
                                     </div>
 

@@ -188,10 +188,10 @@ function Cards() {
         <div className="flex justify-center items-center sm:pt-24 mx-4 sm:px-4">
             <div className="sm:w-[1280px]  space-y-8">
                 <div className=" pb-6  text-left">
-                    <h1 className="text-[#FFF] uppercase font-poppins sm:text-3xl text-lg sm:w-fit cursor-text antialiased bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text hover: ">
+                    <h1 className="text-[#FFF] uppercase font-poppins sm:text-3xl text-lg sm:w-fit cursor-text antialiased dark:bg-gradient-to-r dark:from-[#00c6ff] dark:to-[#92EFFD] text-transparent bg-clip-text bg-gradient-to-t from-black to-[#383838]  ">
                         What we do
                     </h1>
-                    <p className="text-white font-poppins text-xs sm:text-[18px] font-extralight sm:leading-[28px] sm:w-[980px] mt-6 sm:h-[66px] cursor-text antialiased">
+                    <p className="dark:text-white text-gray-500 font-poppins text-xs sm:text-[18px] font-extralight sm:leading-[28px] sm:w-[980px] mt-6 sm:h-[66px] cursor-text antialiased">
                         <span className="sm:font-semibold font-medium font-poppins">
                             At TEKSOL,
                         </span>{' '}

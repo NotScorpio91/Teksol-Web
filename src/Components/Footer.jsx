@@ -1,36 +1,43 @@
 import React from 'react'
-import logo from '../assets/png/logo.png'
-import facebook from '../assets/svg/facebook.svg'
-import linkedin from '../assets/svg/linkedin.svg'
-import github from '../assets/svg/github.svg'
-import discord from '../assets/svg/discord.svg'
+import logo1 from '../assets/png/logo.png'
+import logo2 from '../assets/png/logodark.png'
+import { FaFacebookSquare } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { FaGithubSquare } from "react-icons/fa"
+import discord from '../assets/png/discord.png'
 
-function Footer({container = ''}) {
+function Footer({ container = '' }) {
     return (
-        <div className={`flex flex-col justify-center items-center select-none bg-primary-black w-full mt-20 font-poppins  ${container}`}>
-            <div className="top w-full h-full sm:max-w-screen-xl sm:h-[268px] flex justify-center py-5">
-                <div className="lhs w-full flex flex-col sm:justify-around justify-center sm:mt-[60px] space-y-4 pb-10 px-4 sm:px-0">
+        <div className={`flex flex-col justify-center items-center select-none dark:bg-primary-black bg-gray-50 w-full mt-20 font-poppins border-t border-1 border-gray-200 dark:border-none  ${container}`}>
+            <div className="top w-full h-full sm:max-w-screen-xl sm:h-[268px] flex justify-center py-5 ">
+                <div className="lhs w-full flex flex-col sm:justify-around justify-center sm:mt-[60px] space-y-4 pb-10 px-4 sm:px-0 pointer-events-none select-none">
                     <img
-                        className="sm:w-[134px] w-[70px] pb-5 "
-                        src={logo}
+                        className="sm:w-[134px] w-[70px] pb-5 hidden dark:block  "
+                        src={logo1}
+                        alt="logo"
+                    />
+
+                    <img
+                        className="sm:w-[134px] w-[70px] pb-5 block dark:hidden "
+                        src={logo2}
                         alt="logo"
                     />
                     <div className="sm:mb-[42px] space-y-1 ">
-                        <h1 className="text-[#9E9E9E]  antialiased text-xs sm:text-base">
-                            <span className="text-[#FFF]  antialiased ">
+                        <h1 className="dark:text-[#9E9E9E] text-gray-500  antialiased text-xs sm:text-base">
+                            <span className="dark:text-[#FFF] text-black antialiased ">
                                 Address:{' '}
                             </span>{' '}
                             JH6X+FJ8, Jampur Road, Dera Ghazi Khan, Pakistan
                         </h1>
 
-                        <h1 className="text-[#9E9E9E]  antialiased text-xs sm:text-base">
-                            <span className="text-[#FFF]  antialiased ">
+                        <h1 className="dark:text-[#9E9E9E] text-gray-500  antialiased text-xs sm:text-base">
+                            <span className="dark:text-[#FFF] text-black  antialiased ">
                                 Ph:{' '}
                             </span>
                             +1 (609) 631-3330 / +92 304-2823804
                         </h1>
 
-                        <h1 className=" text-[#FFF]  antialiased  text-xs sm:text-base">
+                        <h1 className=" dark:text-[#FFF] text-black  antialiased  text-xs sm:text-base">
                             {' '}
                             © 2023 Teksol |{' '}
                             <span className="bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text antialiased">
@@ -42,83 +49,68 @@ function Footer({container = ''}) {
                 <div className="rhs  flex-col sm:flex-row justify-center items-center sm:space-x-32 hidden sm:flex w-full">
                     <div className=" flex justify-center items-center antialiased select-none ">
                         <div className=" space-y-3  antialiased ">
-                            <h1 className="text-white font-semibold  antialiased cursor-pointer ">
+                            <h1 className="dark:text-[#FFF] text-black font-semibold  antialiased cursor-pointer ">
                                 Company
                             </h1>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/">Home</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="https://theteksol.com/blog/">Blog</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/career">Career</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/contact">Contact</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/about">About us</a>
                             </p>
                         </div>
                     </div>
                     <div className=" flex justify-center items-center antialiased select-none  ">
                         <div className=" sm:space-y-3  antialiased ">
-                            <h1 className="text-white font-semibold  antialiased  cursor-pointe hover:text-whiter ">
+                            <h1 className="dark:text-[#FFF] text-black font-semibold  antialiased  cursor-pointe hover:text-whiter ">
                                 Services
                             </h1>
-                            <p className="text-[#9E9E9E] text-sm antialiased cursor-pointer   hover:text-white  hidden sm:block">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm antialiased cursor-pointer   hover:text-white  hidden sm:block">
                                 <a href="/work/web-developmen">Web Development</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/react-native">Mobile App Development</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/digital-marketing">Digital Marketing</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/product-design">Product Design</a>
                             </p>
-                            <p className="text-[#9E9E9E] text-sm  antialiased cursor-pointer  hover:text-white   ">
+                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  hover:text-white   ">
                                 <a href="/work/ai">AI/ML</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="bottom w-full h-full sm:h-[92px] flex sm:flex-row flex-col justify-center bg-black select-none ">
-                <div className="lhs flex justify-center items-center space-x-4 sm:py-0 py-4 ">
+            <div className="bottom w-full h-full sm:h-[92px] flex sm:flex-row flex-col justify-center bg-gray-50 dark:bg-primary-black border-t dark:border-none  ">
+                <div className="lhs flex justify-center items-center space-x-4 sm:py-0 py-4">
                     <a
                         href="https://www.facebook.com/theteksol/"
                         target="_blank">
-                        <img
-                            className=" sm:w-[40px] sm:h-[40px]  w-9 transition-all active:scale-95"
-                            src={facebook}
-                            alt="logo"
-                        />
+                        <FaFacebookSquare className=" sm:text-4xl text-[35px]  text-black" />
                     </a>
                     <a
                         href="https://pk.linkedin.com/company/theteksol"
                         target="_blank">
-                        <img
-                            className=" sm:w-[40px] sm:h-[40px]  w-9 transition-all active:scale-95"
-                            src={linkedin}
-                            alt="logo"
-                        />
+                        <FaLinkedin className=" sm:text-4xl text-[35px]  text-black" />
                     </a>
                     <a href="https://github.com/TekSol" target="_blank">
-                        <img
-                            className=" sm:w-[40px] sm:h-[40px]  w-9 transition-all active:scale-95"
-                            src={github}
-                            alt="logo"
-                        />
+                        <FaGithubSquare className=" sm:text-4xl text-[35px]  text-black" />
                     </a>
                     <a href="https://discord.gg/B4QvhanbMM" target="_blank">
-                        <img
-                            className=" sm:w-[40px] sm:h-[40px]  w-9 transition-all active:scale-95"
-                            src={discord}
-                            alt="logo"
-                        />
+                        <img src={discord} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
+
                     </a>
                 </div>
             </div>

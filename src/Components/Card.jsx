@@ -17,12 +17,12 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
         navigate(route)
     }
     return (
-        <div className="bg-gradient-to-r from-primary-black to-black text-white w-full h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins ">
+        <div className="dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white w-full h-[350px] border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins text-gray-500 bg-gray-50 border-gray-100 hover:border-gray-400 shadow-xl dark:shadow-none ">
             {png}
-            <h1 className="text-white font-light  antialiased text-xl">
+            <h1 className="dark:text-white text-black font-light  antialiased text-xl">
                 {title}
             </h1>
-            <p className="text-white font-light  antialiased text-base">
+            <p className="dark:text-white text-gray-500 font-light  antialiased text-base">
                 {text}
             </p>
 
@@ -36,7 +36,7 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
 
             <div
                 onClick={() => handleWorkNavigation(slug)}
-                className={`underline text-white underline-offset-[5px] flex flex-row gap-2 items-center`}
+                className={`underline text-black dark:text-white underline-offset-[5px] flex flex-row gap-2 items-center`}
                 rel="noreferrer">
                 More <MdArrowForward />
             </div>
