@@ -34,10 +34,10 @@ function Career() {
                 <div className="flex flex-col  w-[1200px]">
                     <div>
                         <div className="flex flex-col justify-center items-center sm:pt-80 pt-28 sm:mx-0 mx-4 max-w-screen-xl">
-                            <h1 className="text-[#FFF] font-poppins sm:text-8xl text-4xl leading-[80px] font-black cursor-text sm:pb-20 text-center antialiased">
+                            <h1 className="dark:text-[#FFF] text-black font-poppins sm:text-8xl text-4xl leading-[80px] font-black cursor-text sm:pb-20 text-center antialiased">
                                 Scale up online.
                             </h1>
-                            <p className="text-gray-100 font-poppins text-sm sm:text-xl font-medium sm:leading-7 sm:w-[577px] pb-14 text-center antialiased">
+                            <p className="dark:text-gray-100 text-gray-500 font-poppins text-sm sm:text-xl font-medium sm:leading-7 sm:w-[577px] pb-14 text-center antialiased">
                                 We're a team of professionals supporting
                                 startups to scale up their businesses online.
                             </p>
@@ -52,7 +52,7 @@ function Career() {
                     </div>
                     <div className="sm:pt-52 pt-20">
                         <div>
-                            <h1 className="text-[#FFF] font-poppins sm:text-4xl text-2xl sm:leading-[80px] font-semibold cursor-text sm:pb-20 pb-12 text-center antialiased">
+                            <h1 className="dark:text-[#FFF] text-black font-poppins sm:text-4xl text-2xl sm:leading-[80px] font-semibold cursor-text sm:pb-20 pb-12 text-center antialiased">
                                 We'd love to work with someone like you.
                             </h1>
                         </div>
@@ -60,20 +60,20 @@ function Career() {
                         {Cards.map(item => (
                             <div key={Cards} className='w-full'>
                               <a href="/career/form">
-                                <div className="bg-gradient-to-r from-primary-black to-black text-white w-full sm:h-[350px] border border-primary-black hover:border-gray-600 rounded-none flex justify-center flex-col items-center py-10 sm:py-0  gap-5 font-poppins sm:px-7 px-3">
+                                <div className="dark:bg-gradient-to-r from-primary-black to-black text-white w-full sm:h-[350px] border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-center flex-col items-center py-10 sm:py-0  gap-5 font-poppins sm:px-7 px-3 bg-white shadow-xl border-gray-100 hover:border-gray-400">
                                   <div className="flex flex-col sm:justify-between justify-around">
 
                                   <div className="">
-                                    <h1 className="text-white  font-semibold  antialiased text-3xl leading-9 sm:text-5xl  sm:leading-[45px]">
+                                    <h1 className="dark:text-white text-black  font-semibold  antialiased text-3xl leading-9 sm:text-5xl  sm:leading-[45px]">
                                         {item.title}
                                     </h1>
                                   </div>
                                     <div className="flex justify-start items-center pt-4 ">
 
-                                    <p className="text-white font-light  antialiased text-sm sm:text-lg">
+                                    <p className="dark:text-white text-black font-light  antialiased text-sm sm:text-lg">
                                         {item.text}
                                     </p>
-                                        <MdArrowForward className='relative left-3' size={18} />
+                                        <MdArrowForward className='relative left-3 text-black dark:text-white' size={18} />
                                     </div>
                                 </div>
                                 </div>
