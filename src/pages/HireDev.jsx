@@ -81,8 +81,8 @@ function HireDev() {
                                             className="peer sr-only"
                                             name="size-choice"
                                         />
-                                        <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-3 pl-4 antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center ">
+                                        <div className=" rounded-[5px]  shadow-xl   ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
+                                            <div className="my-3 pl-4 antialiased border border-gray-300 dark:border-none dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] text-white flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <PiPlanetLight />
                                                 </i>
@@ -102,7 +102,7 @@ function HireDev() {
                                             name="size-choice"
                                         />
                                         <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-3 pl-4 antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
+                                            <div className="my-3 pl-4 antialiased border border-gray-300 dark:border-none dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <PiTestTubeBold />
                                                 </i>
@@ -122,7 +122,7 @@ function HireDev() {
                                             name="size-choice"
                                         />
                                         <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-2 pl-4  antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
+                                            <div className="my-2 pl-4  antialiased border border-gray-300 dark:border-none dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <FaRobot />
                                                 </i>
@@ -145,7 +145,7 @@ function HireDev() {
                                             name="size-choice"
                                         />
                                         <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-3 pl-4 antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
+                                            <div className="my-3 pl-4 antialiased border border-gray-300 dark:border-none dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <CiMobile3 />
                                                 </i>
@@ -165,7 +165,7 @@ function HireDev() {
                                             name="size-choice"
                                             />
                                         <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-3 pl-4 antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
+                                            <div className="my-3 pl-4 antialiased border border-gray-300 dark:border-none dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <BiSolidPen />
                                                 </i>
@@ -185,7 +185,7 @@ function HireDev() {
                                             name="size-choice"
                                         />
                                         <div className=" rounded-[5px]  shadow-xl ring ring-transparent grayscale transition-all sm:active:scale-95 peer-checked:ring-blue-500 peer-checked:grayscale-0">
-                                            <div className="my-2 pl-4 antialiased dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
+                                            <div className="my-2 pl-4 antialiased border border-gray-300 dark:border-none  dark:bg-[#0A0A0A] bg-gray-50 rounded-[5px] w-full sm:w-[245px] py-[12px] dark:text-white text-black flex items-center ">
                                                 <i className="dark:text-white text-black antialiased mx-[6px]">
                                                     <FaWandMagicSparkles />
                                                 </i>
