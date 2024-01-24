@@ -15,8 +15,8 @@ function Main() {
             <div 
                 aria-hidden="true"
                 className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40  ">
-                <div className="blur-[106px] h-56 bg-gradient-to-t from-gray-500 to-gray-600 "></div>
-                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-600 "></div>
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
             </div>
             <div className="T.S flex flex-col justify-center items-center space-y-1 max-w-screen-xl">
                 <h1 className="dark:text-[#FFF] font-poppins sm:text-8xl text-4xl leading-[80px] font-black cursor-text sm:pb-20 text-center antialiased bg-gradient-to-t from-black to-[#383838] bg-clip-text text-transparent">

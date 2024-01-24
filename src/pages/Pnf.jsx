@@ -2,11 +2,17 @@ export default function Pnf() {
   return (
     <>
       <main className="grid min-h-full place-items-center bg-black px-6 py-24 sm:py-32 lg:px-8 h-[100vh]">
-      <div
+      <div 
                 aria-hidden="true"
-                class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
-                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+                className="absolute inset-0 dark:grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20 hidden">
+                <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+            </div>
+            <div 
+                aria-hidden="true"
+                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40  ">
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
             </div>
         <div className="text-center">
           <p className="bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text antialiased font-poppins text-8xl">404</p>
