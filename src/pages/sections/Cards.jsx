@@ -217,8 +217,9 @@ function Cards() {
                     </p>
                 </div>
                 <div className="flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer sm:pb-10">
-                    {cards.map(card => (
-                        <Card
+                    {cards.map((card, index) => (
+                        <Card 
+                            key={index}
                             title={card.title}
                             png={card.icon}
                             items={card.items}

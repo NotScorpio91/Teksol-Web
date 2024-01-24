@@ -102,14 +102,12 @@ export default function NavBAR() {
                     </Link>
                     <Link
                         className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        to="/career">
+                        to="/">
                         Career
                     </Link>
-                    <Link
-                        className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        to="/contact">
-                        Contact
-                    </Link>
+                    <a className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"  href="#contact">
+                    Contact
+                    </a>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end transition-all active:scale-95">
                     <LinkButton href="https://calendly.com/darkcoderse/30min?month=2023-11">Schedule Meeting</LinkButton>

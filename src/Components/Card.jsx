@@ -26,11 +26,11 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
                 {text}
             </p>
 
-            <div
+            <div 
                 className={`text-sm flex flex-row text-gray-700 text-left w-full  antialiased gap-3 ${classNameForText}`}>
                 {items &&
-                    items.map(item => (
-                        <div className={`${item?.iconClass}`}>{item.icon}</div>
+                    items.map((item,index) => (
+                        <div key={index} className={`${item?.iconClass}`}>{item.icon}</div>
                     ))}
             </div>
 
