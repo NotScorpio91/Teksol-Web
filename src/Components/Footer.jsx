@@ -42,7 +42,7 @@ function Footer({ container = '' }) {
                         <h1 className=" dark:text-[#FFF] text-black  antialiased  text-xs sm:text-base">
                             {' '}
                             © 2023 Teksol |{' '}
-                            <span className="bg-gradient-to-r from-[#00c6ff] to-[#92EFFD] text-transparent bg-clip-text antialiased">
+                            <span className="dark:bg-gradient-to-r dark:from-[#00c6ff] dark:to-[#92EFFD] bg-gradient-to-t from-black to-[#383838] text-transparent bg-clip-text antialiased">
                                 Sitemap
                             </span>
                         </h1>

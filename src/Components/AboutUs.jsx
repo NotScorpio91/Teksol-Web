@@ -43,7 +43,7 @@ function AboutUs() {
           </div>
         </div>
         <a href="https://calendly.com/darkcoderse/30min?month=2023-11">
-          <div className="flex shadow-xl bg-gray-50 text-black w-full   border dark:border-primary-black dark:hover:border-gray-600 rounded-none border-gray-100 hover:border-gray-400 justify-center flex-col items-center p-10 gap-5 font-poppins text-center select-none group dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white">
+          <div className="flex shadow-xl bg-gray-50 text-black w-full   border dark:border-primary-black dark:hover:border-gray-600 rounded-none border-gray-300 hover:border-gray-400 justify-center flex-col items-center p-10 gap-5 font-poppins text-center select-none group dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white">
             <div className="flex flex-col justify-center items-center  ">
             <FaCalendarDays className="mb-7 text-black dark:text-white" size={100} />
               <h1 className="dark:text-white text-black  text-lg  cursor-pointer">
@@ -57,7 +57,7 @@ function AboutUs() {
         </a>
         <div className="grid grid-cols-1 sm:grid-cols-3  sm:gap-3 justify-around items-center select-none  ">
           <div className="text-white my-5 transition-all    cursor-pointer">
-            <div className=" shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full  dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-100 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
+            <div className=" shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full  dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-300 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
               <BiMessageDetail size={100} className="dark:text-white text-black" />
               <h1 className="dark:text-white text-black font-semibold  antialiased "> 
                 IT Consultancy
@@ -71,7 +71,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="text-white my-5 transition-all    cursor-pointer ">
-            <div className="shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-100 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
+            <div className="shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-300 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins   ">
               <TbDeviceDesktopAnalytics size={100} className="dark:text-white text-black" />
               <h1 className="dark:text-white text-black font-semibold  antialiased ">
                 Web Development
@@ -85,7 +85,7 @@ function AboutUs() {
             </div>
           </div>
           <div className="text-white my-5 transition-all    cursor-pointer ">
-            <div className=" shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-100 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins  ">
+            <div className=" shadow-xl dark:bg-gradient-to-r from-primary-black to-black text-white w-full dark:border dark:border-primary-black dark:hover:border-gray-600 border border-gray-300 hover:border-gray-400 rounded-none flex justify-center flex-col items-center p-10 gap-5 font-poppins  ">
               <HiMiniDevicePhoneMobile size={100} className="dark:text-white text-black" />
               <h1 className="dark:text-white text-black font-semibold  antialiased ">
                 Mobile App

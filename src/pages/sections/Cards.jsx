@@ -36,22 +36,26 @@ function Cards() {
             items: [
                 {
                     title: 'REACT',
-                    icon: <FaReact size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <FaReact size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'VUE',
-                    icon: <BiLogoVuejs size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <BiLogoVuejs size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'DJANGO',
-                    icon: <SiDjango size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiDjango size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'NODE.JS',
-                    icon: <TbBrandNodejs size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <TbBrandNodejs size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
             ],
@@ -64,22 +68,26 @@ function Cards() {
             items: [
                 {
                     title: 'REACT NATIVE',
-                    icon: <FaReact size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <FaReact size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'FLUTTER',
-                    icon: <SiFlutter size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiFlutter size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'KOTLIN',
-                    icon: <TbBrandKotlin size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <TbBrandKotlin size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'SWIFT',
-                    icon: <SiSwift size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiSwift size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
             ],
@@ -92,21 +100,25 @@ function Cards() {
             items: [
                 {
                     title: 'PYTHON ',
-                    icon: <SiPython size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiPython size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'JavaScript',
-                    icon: <IoLogoJavascript size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <IoLogoJavascript size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                 },
                 {
                     title: 'JAVA',
-                    icon: <FaJava size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <FaJava size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'C++',
-                    icon: <SiCplusplus size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiCplusplus size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
             ],
@@ -122,24 +134,28 @@ function Cards() {
                     icon: (
                         <MdOutlineScreenSearchDesktop
                             size={tkIconSize}
-                            className='hover:fill-white fill-gray-400'
+                            className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+'
                         />
                     ),
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'Data analysis',
-                    icon: <MdAnalytics size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <MdAnalytics size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'Web design',
-                    icon: <SiVorondesign size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiVorondesign size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'CMS',
-                    icon: <TbEdit size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <TbEdit size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black
+' />,
                     iconClass: 'pb-1',
                 },
             ],
@@ -152,22 +168,22 @@ function Cards() {
             items: [
                 {
                     title: 'FIGMA',
-                    icon: <FiFigma size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <FiFigma size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'PHOTOSHOP',
-                    icon: <SiAdobephotoshop size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiAdobephotoshop size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'INDESIGN',
-                    icon: <SiAdobeindesign size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiAdobeindesign size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black' />,
                     iconClass: 'pb-1',
                 },
                 {
                     title: 'ILLUSTRATOR',
-                    icon: <SiAdobeillustrator size={tkIconSize} className='hover:fill-white fill-gray-400' />,
+                    icon: <SiAdobeillustrator size={tkIconSize} className='dark:hover:fill-white  dark:fill-gray-400 hover:fill-black' />,
                     iconClass: 'pb-1',
                 },
             ],

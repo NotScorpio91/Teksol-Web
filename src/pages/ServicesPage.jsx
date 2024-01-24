@@ -565,7 +565,7 @@ function ServicesPage() {
                         <h1 className="sm:text-[2rem] text-[28px]  font-extralight dark:text-white text-black">
                             Ready to start your {service.title} project?
                         </h1>
-                        <p className="sm:text-2xl text-lg font-extralight dark:text-white text-gray-500">
+                        <p className="sm:text-2xl text-lg font-extralight dark:text-white text-black">
                             We can help you with:
                         </p>
 
@@ -574,7 +574,7 @@ function ServicesPage() {
                             {service.techstacks &&
                                 service.techstacks.map(techstack => (
                                     <div
-                                        className={`bg-black/30 text-white px-4 py-2`}>
+                                        className={`dark:bg-black/30  dark:text-white text-white bg-black px-4 py-2`}>
                                         {techstack}
                                     </div>
                                 ))}
