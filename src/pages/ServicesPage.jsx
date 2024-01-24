@@ -528,22 +528,28 @@ function ServicesPage() {
         <AppLayout>
             <NavBar />
             <MobileNavBar />
-            <div className="w-full h-fit sm:h-72 mt-16 bg-gray-800  ">
-            <div
+            <div className="w-full h-fit sm:h-72 mt-16 dark:bg-gray-800 bg-white  ">
+            <div 
                 aria-hidden="true"
-                class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
-                <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+                className="absolute inset-0 dark:grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20 hidden">
+                <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+            </div>
+            <div 
+                aria-hidden="true"
+                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40  ">
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
+                <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
             </div>
                 <Container className=" h-fit sm:h-full !justify-center sm:!justify-start">
-                    <h1 className=" text-[28px] text-center sm:text-start sm:text-[3.5rem] text-white">
+                    <h1 className=" text-[28px] text-center sm:text-start sm:text-[3.5rem] dark:text-white text-black">
                         {service.tagline}
                     </h1>
                 </Container>
             </div>
 
             <Container className="h-full !justify-start !items-center sm:!items-start mt-10 !flex-col gap-4">
-                <h2 className="text-xl text-white text-center sm:text-left ">Our Projects</h2>
+                <h2 className="text-xl dark:text-white text-gray-500 text-center sm:text-left ">Our Projects</h2>
                 <div className="flex flex-col gap-y sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer pb-10">
                     {service &&
                         service.projects &&
@@ -553,13 +559,13 @@ function ServicesPage() {
                 </div>
             </Container>
 
-            <div className="w-full sm:h-[400px] h-fit mt-16 bg-gradient-to-tr from-gray-800 to-slate-800 ">
+            <div className="w-full sm:h-[400px] h-fit mt-16 dark:bg-gradient-to-tr dark:from-gray-800 dark:to-slate-800 bg-gradient-to-t from-gray-50 to-gray-300 ">
                 <Container className="h-full !justify-center">
                     <div className="flex flex-col gap-8 text-center items-center justify-center">
-                        <h1 className="sm:text-[2rem] text-[28px]  font-extralight text-white">
+                        <h1 className="sm:text-[2rem] text-[28px]  font-extralight dark:text-white text-black">
                             Ready to start your {service.title} project?
                         </h1>
-                        <p className="sm:text-2xl text-lg font-extralight text-white">
+                        <p className="sm:text-2xl text-lg font-extralight dark:text-white text-gray-500">
                             We can help you with:
                         </p>
 
