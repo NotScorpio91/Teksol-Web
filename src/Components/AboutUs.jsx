@@ -18,7 +18,7 @@ function AboutUs() {
             </div>
             <div 
                 aria-hidden="true"
-                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40  ">
+                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:hidden ">
                 <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
                 <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
             </div>

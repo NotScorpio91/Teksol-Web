@@ -5,7 +5,11 @@ import { FaFacebookSquare } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithubSquare } from "react-icons/fa"
 import discord from '../assets/png/discord.png'
-import discord1 from '../assets/png/discorddark.png'
+import discord1 from '../assets/svg/discord.svg'
+import facebook from '../assets/svg/facebook.svg'
+import linkedin from '../assets/svg/linkedin.svg'
+import github from '../assets/svg/github.svg'
+
 
 
 function Footer({ container = '' }) {
@@ -100,23 +104,39 @@ function Footer({ container = '' }) {
                     <a
                         href="https://www.facebook.com/theteksol/"
                         target="_blank">
-                        <FaFacebookSquare className=" sm:text-4xl text-[35px]  text-black dark:text-white" />
+                        <FaFacebookSquare className=" sm:text-4xl text-[35px]  text-black dark:hidden block " />
                     </a>
                     <a
                         href="https://pk.linkedin.com/company/theteksol"
                         target="_blank">
-                        <FaLinkedin className=" sm:text-4xl text-[35px]  text-black dark:text-white" />
+                        <FaLinkedin className=" sm:text-4xl text-[35px]  text-black dark:hidden block " />
                     </a>
                     <a href="https://github.com/TekSol" target="_blank">
-                        <FaGithubSquare className=" sm:text-4xl text-[35px]  text-black dark:text-white" />
+                        <FaGithubSquare className=" sm:text-4xl text-[35px]  text-black dark:hidden block"  />
                     </a>
                     <a href="https://discord.gg/B4QvhanbMM" target="_blank" className='dark:hidden block'>
                         <img src={discord} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
-
+                        
                     </a>
-                    <a href="https://discord.gg/B4QvhanbMM" target="_blank" className='hidden dark:block'>
+                    <a
+                        href="https://www.facebook.com/theteksol/"
+                        target="_blank "className='dark:block hidden'>
+                        <img src={facebook} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
+                        
+                    </a>
+                    <a
+                        href="https://pk.linkedin.com/company/theteksol"
+                        target="_blank "className='dark:block hidden'>
+                        <img src={linkedin} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
+                        
+                    </a>
+                    <a href="https://github.com/TekSol" target="_blank" className='dark:block hidden'>
+                    <img src={github} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
+                        
+                    </a>
+                    <a href="https://discord.gg/B4QvhanbMM" target="_blank" className='dark:block hidden'>
                         <img src={discord1} alt="Discord" className='sm:w-[41px] sm:h-[41px]  w-9 h-[38px] text-black' />
-
+                        
                     </a>
                 </div>
             </div>

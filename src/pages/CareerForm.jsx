@@ -25,7 +25,7 @@ function CareerForm() {
             </div>
             <div 
                 aria-hidden="true"
-                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40  ">
+                className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:hidden ">
                 <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
                 <div className="blur-[106px] h-36 bg-gradient-to-t from-gray-500 to-gray-50 "></div>
             </div>
@@ -65,7 +65,7 @@ function CareerForm() {
                                 <p className="dark:text-gray-100 font-poppins text-sm sm:text-sm sm:leading-7 list-item ml-5  pb-14 text-start antialiased">
                                     {item.list}
                                 </p>
-                                <p className="tdark:text-gray-100 font-poppins text-sm sm:text-sm sm:leading-7  pb-14 text-start antialiased">
+                                <p className="dark:text-gray-100 font-poppins text-sm sm:text-sm sm:leading-7  pb-14 text-start antialiased">
                                     {item.des}
                                 </p>
                             </div>
