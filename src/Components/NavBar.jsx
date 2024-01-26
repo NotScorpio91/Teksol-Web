@@ -102,7 +102,7 @@ export default function NavBAR() {
                     </Link>
                     <Link
                         className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        to="/">
+                        to="/career">
                         Career
                     </Link>
                     <a className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"  href="#contact">
