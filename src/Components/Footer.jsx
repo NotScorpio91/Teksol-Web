@@ -100,7 +100,7 @@ function Footer({ container = '' }) {
                 </div>
             </div>
             <div className="bottom w-full h-full sm:h-[92px] flex sm:flex-row flex-col justify-center  bg-gray-50 dark:bg-black border-t dark:border-none  ">
-                <div className="lhs flex justify-center items-center space-x-4 sm:py-0 py-4">
+                <div className="lhs flex justify-center items-center gap-4 dark:pr-12 dark:sm:pr-0 sm:py-0 py-4">
                     <a
                         href="https://www.facebook.com/theteksol/"
                         target="_blank">

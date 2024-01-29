@@ -141,22 +141,7 @@ function CareerForm() {
                                             className=" text-sm rounded-[5px]  block w-full  py-[10px] px-[14px] shadow-sm dark:bg-[#0A0A0A]  dark:text-white bg-gray-50 text-black  placeholder-[#9E9E9E] outline outline-1 dark:focus:outline-white outline-gray-300 dark:focus:outline-1 dark:outline-none  antialiased 
                                             
 
-                                            file:text-white file:bg-black font-medium file:rounded-md file:sm:text-sm file:text-xs     file:antialiased file:px-[30px] file:py-1 transition-all file:dark:text-white file:dark:bg-gradient-to-r file:from-blue-light file:to-blue-dark file:cursor-pointer 
-                                           
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
+                                            file:text-white file:bg-black font-medium file:rounded-md file:sm:text-sm file:text-xs     file:antialiased file:px-[30px] file:py-2 transition-all file:dark:text-white file:dark:bg-gradient-to-r file:from-blue-light file:to-blue-dark file:cursor-pointer file:border-none file:mr-2 sm:file:mr-3 
                                             
                                             "
                                             placeholder="First Name"
