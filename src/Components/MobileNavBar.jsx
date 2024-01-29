@@ -118,7 +118,8 @@ export default function MobileNavBar() {
                                         Career
                                     </a>
                                     <a
-                                        href="/"
+                                        href="#contact"
+                                        onClick={() => setMobileMenuOpen(false)}
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 dark:text-white  dark:focus:bg-[#0A0A0A]  text-black  focus:bg-gray-100 antialiased">
                                         Contact
                                     </a>
