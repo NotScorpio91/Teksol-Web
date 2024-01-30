@@ -17,7 +17,7 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
         navigate(route)
     }
     return (
-        <div className="dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white w-full h-[350px] border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins text-gray-500 bg-gray-50 border-gray-300 hover:border-gray-400 shadow-xl dark:shadow-none ">
+        <div className="dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white w-full sm:h-[350px] h-full border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins text-gray-500 bg-gray-50 border-gray-300 hover:border-gray-400 shadow-xl dark:shadow-none ">
             {png}
             <h1 className="dark:text-white text-black font-light  antialiased text-xl">
                 {title}
