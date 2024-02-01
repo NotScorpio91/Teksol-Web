@@ -15,6 +15,7 @@ function Card({ png, title, text, items, classNameForText = '', slug = '' }) {
         document.body.scrollTo(0, 0)
         // window.location = route
         navigate(route)
+        window.scrollTo(0, 0);
     }
     return (
         <div className="dark:bg-gradient-to-r dark:from-primary-black dark:to-black dark:text-white w-full sm:h-[350px] h-full border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-start flex-col items-start p-10 gap-5 font-poppins text-gray-500 bg-gray-50 border-gray-300 hover:border-gray-400 shadow-xl dark:shadow-none ">

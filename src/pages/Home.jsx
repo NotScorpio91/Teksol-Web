@@ -8,7 +8,8 @@ import AppLayout from '../Components/AppLayout'
 import NavBar from '../Components/NavBar'
 import MobileNavBar from '../Components/MobileNavBar'
 import Testimonails from './sections/Testimonails'
-import Meeting from './sections/Meeting'
+// import Meeting from './sections/Meeting'
+
 
 
 
@@ -21,7 +22,7 @@ function Home() {
             <Main />
            <SecHeading />
             <Cards />
-            <Meeting />
+            {/* <Meeting /> */}
             <Testimonails />
             <InTouch />
             <Footer />

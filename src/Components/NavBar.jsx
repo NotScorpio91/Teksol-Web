@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Logo from '../Components/Logo'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
@@ -62,18 +62,23 @@ export default function NavBAR() {
         setOcModal(false)
         // window.location = route
         navigate(route)
-    }
+        window.scrollTo(0, 0);
+    };
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
 
     return (
         <header className="sm:flex hidden justify-center items-center select-none bg-white dark:bg-primary-black bg-opacity-90 fixed top-0 z-10 w-full font-poppins ">
             <nav className="flex flex-row justify-between sm:justify-between items-center w-full sm:max-w-screen-xl h-[64px] backdrop-blur-[12px]">
                 <div className="flex lg:flex-1 z-50">
-                    <a href="/">
+                    <Link to='/'>
                         <Logo className="w-20 sm:w-[110px] hidden dark:block" logo={logo1} />
                         <Logo className="w-20 sm:w-[110px] block dark:hidden overflow-hidden" logo={logo2} />
 
 
-                    </a>
+                    </Link>
                 </div>
             
                 <div className="hidden sm:flex lg:gap-x-12">
@@ -97,7 +102,7 @@ export default function NavBAR() {
                     </a>
                     <Link
                         className="text-black dark:text-white  leading-[28px] text-sm cursor-pointer text-center hover:font-semibold antialiased"
-                        to="/hire-dev">
+                        to="/hire-dev" >
                         Hire developers
                     </Link>
                     <Link

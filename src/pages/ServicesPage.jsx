@@ -4,7 +4,7 @@ import MobileNavBar from '../Components/MobileNavBar'
 import Footer from '../Components/Footer'
 import AppLayout from '../Components/AppLayout'
 import Container from '../Components/Container'
-import { useParams } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom'
 import { MdArrowForward } from 'react-icons/md'
 import Button from '../Components/Button'
 
@@ -519,10 +519,13 @@ function ServicesPage() {
         }
     }, [slug])
 
-    useEffect(() => {
-        document.body.scrollTo(0, 0)
+    // useEffect(() => {
+    //     document.body.scrollTo(0, 0)
 
-    }, [])
+    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return (
         <AppLayout>
@@ -579,9 +582,9 @@ function ServicesPage() {
                                     </div>
                                 ))}
                         </div>
-                        <a href="/hire-dev">
+                        <Link to="/hire-dev">
                         <Button title="Hire Us" className='my-10 sm:my-0'  />
-                            </a>        
+                            </Link>        
                     </div>
                 </Container>
             </div>

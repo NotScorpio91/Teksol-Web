@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Card from '../../Components/Card'
 import { IoEarth } from 'react-icons/io5'
 import { CiMobile3 } from 'react-icons/ci'
@@ -26,6 +26,9 @@ import { TbEdit } from 'react-icons/tb'
 import { TbBrandKotlin } from 'react-icons/tb'
 import { SiSwift } from 'react-icons/si'
 function Cards() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 	const tkIconSize = 20;
     const cards = [
         {

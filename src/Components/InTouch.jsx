@@ -4,7 +4,7 @@ import earth from '../assets/svg/earth.svg'
 
 function InTouch() {
     return (
-        <div id='contact' className="mt-20 mx-4 sm:mx-0 font-poppins sm:scroll-mt-32 scroll-mt-20 ">
+        <div id='contact' className="sm:mt-60 mt-20 mx-4 sm:mx-0 font-poppins sm:scroll-mt-32 scroll-mt-20 ">
             <div className="flex flex-col sm:flex-row  justify-center sm:space-x-24 ">
                 <div className="lhs w-full pointer-events-none select-none">
                     <img

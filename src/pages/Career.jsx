@@ -3,6 +3,7 @@ import { MdArrowForward } from 'react-icons/md'
 import NavBar from '../Components/NavBar'
 import MobileNavBar from '../Components/MobileNavBar'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 
 function Career() {
     const Cards = [
@@ -65,7 +66,7 @@ function Career() {
                         <div className='flex flex-col sm:grid sm:grid-cols-3 gap-8 justify-center items-center container cursor-pointer sm:pb-10'>
                         {Cards.map(item => (
                             <div key={Cards} className='w-full'>
-                              <a href="/career/form">
+                              <Link to="/career/form">
                                 <div className="dark:bg-gradient-to-r from-primary-black to-black text-white w-full sm:h-[350px] border dark:border-primary-black dark:hover:border-gray-600 rounded-none flex justify-center flex-col items-center py-10 sm:py-0  gap-5 font-poppins sm:px-7 px-3 bg-white shadow-xl border-gray-300 hover:border-gray-400">
                                   <div className="flex flex-col sm:justify-between justify-around">
 
@@ -83,7 +84,7 @@ function Career() {
                                     </div>
                                 </div>
                                 </div>
-                            </a>
+                            </Link>
                             </div>
                         ))}
                     </div>

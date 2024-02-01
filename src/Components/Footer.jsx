@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import logo1 from '../assets/png/logo.png'
 import logo2 from '../assets/png/logodark.png'
 import { FaFacebookSquare } from "react-icons/fa"
@@ -13,6 +14,11 @@ import github from '../assets/svg/github.svg'
 
 
 function Footer({ container = '' }) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className={`flex flex-col justify-center items-center select-none dark:bg-primary-black bg-gray-50 w-full mt-20 font-poppins border-t border-1 border-gray-200 dark:border-none  ${container}`}>
             <div className="top w-full h-full sm:max-w-screen-xl sm:h-[268px] flex justify-center py-5 ">
@@ -54,47 +60,47 @@ function Footer({ container = '' }) {
                 </div>
                 <div className="rhs  flex-col sm:flex-row justify-center items-center sm:space-x-32 hidden sm:flex w-full">
                     <div className=" flex justify-center items-center antialiased select-none ">
-                        <div className=" space-y-3  antialiased ">
+                        <div className=" space-y-3 flex flex-col antialiased ">
                             <h1 className="dark:text-[#FFF] text-black font-semibold  antialiased cursor-pointer ">
                                 Company
                             </h1>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/">Home</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="https://theteksol.com/blog/">Blog</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/career">Career</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/contact">Contact</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/about">About us</a>
-                            </p>
+                            <a href="/" className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Home
+                            </a>
+                            <a href="https://theteksol.com/blog/" className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Blog
+                            </a>
+                            <Link className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black" to='/career'>
+                                Career
+                            </Link>
+                            <a href="/#contact" className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Contact
+                            </a>
+                            <Link className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black" to="/about">
+                                About us
+                            </Link>
                         </div>
                     </div>
                     <div className=" flex justify-center items-center antialiased select-none  ">
-                        <div className=" sm:space-y-3  antialiased ">
+                        <div className=" sm:space-y-3 flex flex-col  antialiased ">
                             <h1 className="dark:text-[#FFF] text-black font-semibold  antialiased  cursor-pointe dark:hover:text-white hover:text-black">
                                 Services
                             </h1>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm antialiased cursor-pointer   dark:hover:text-white hover:text-blackhidden sm:block">
-                                <a href="/work/web-developmen">Web Development</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/work/react-native">Mobile App Development</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/work/digital-marketing">Digital Marketing</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/work/product-design">Product Design</a>
-                            </p>
-                            <p className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
-                                <a href="/work/ai">AI/ML</a>
-                            </p>
+                            <Link to='/work/web-development' className="dark:text-[#9E9E9E] text-gray-500 text-sm antialiased cursor-pointer   dark:hover:text-white hover:text-blackhidden sm:block">
+                                Web Development
+                            </Link>
+                            <Link to='/work/app-development' className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Mobile App Development
+                            </Link>
+                            <Link to='/work/product-design' className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Product Design
+                            </Link>
+                            <Link to='/work/digital-marketing' className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                                Digital Marketing
+                            </Link>
+                            <Link to='/work/ai' className="dark:text-[#9E9E9E] text-gray-500 text-sm  antialiased cursor-pointer  dark:hover:text-white hover:text-black ">
+                            AI/ML
+                            </Link>
                         </div>
                     </div>
                 </div>
